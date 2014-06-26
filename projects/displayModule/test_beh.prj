@@ -1,0 +1,2 @@
+vhdl work "vectorRegister.vhd"
+vhdl work "test.vhd"

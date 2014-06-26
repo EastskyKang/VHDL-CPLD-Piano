@@ -1,0 +1,2078 @@
+NDS Database:  version P.49d
+
+NDS_INFO | xc9500xl | 9536XL44PC | XC9536XL-10-PC44
+
+DEVICE | 9536XL | 9536XL44PC | 
+
+NETWORK | melody | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | CLK_IBUF | melody_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | CLK | 2661 | PI | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | PLAY_IBUF | melody_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | PLAY | 2662 | PI | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | ADDR<2> | melody_COPY_0_COPY_0 | 2155877376 | 22 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | ADDR<2>.SI | ADDR<2> | 0 | 21 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ADDR<2>.D1 | 2664 | ? | 0 | 4096 | ADDR<2> | NULL | NULL | ADDR<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ADDR<2>.D2 | 2665 | ? | 0 | 4096 | ADDR<2> | NULL | NULL | ADDR<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | ADDR<1> | IV_TRUE | ADDR<0>
+SPPTERM | 5 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<3> | IV_TRUE | ADDR<5>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | ADDR<2>.RSTF | 2666 | ? | 0 | 4096 | ADDR<2> | NULL | NULL | ADDR<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | ADDR<2>.CE | 2667 | ? | 0 | 4096 | ADDR<2> | NULL | NULL | ADDR<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+
+SRFF_INSTANCE | ADDR<2>.REG | ADDR<2> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ADDR<2>.D | 2663 | ? | 0 | 0 | ADDR<2> | NULL | NULL | ADDR<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | ADDR<2>.RSTF | 2666 | ? | 0 | 4096 | ADDR<2> | NULL | NULL | ADDR<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | ADDR<2>.CE | 2667 | ? | 0 | 4096 | ADDR<2> | NULL | NULL | ADDR<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ADDR<2>.Q | 2668 | ? | 0 | 0 | ADDR<2> | NULL | NULL | ADDR<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | ADDR<1> | melody_COPY_0_COPY_0 | 2155877376 | 22 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | ADDR<1>.EXP | 2806 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.EXP | ADDR<1> | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | ADDR<1>.SI | ADDR<1> | 0 | 21 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ADDR<1>.D1 | 2670 | ? | 0 | 4096 | ADDR<1> | NULL | NULL | ADDR<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ADDR<1>.D2 | 2671 | ? | 0 | 4096 | ADDR<1> | NULL | NULL | ADDR<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | ADDR<0>
+SPPTERM | 5 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<3> | IV_TRUE | ADDR<5>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | ADDR<1>.RSTF | 2672 | ? | 0 | 4096 | ADDR<1> | NULL | NULL | ADDR<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | ADDR<1>.EXP | 2803 | ? | 0 | 0 | ADDR<1> | NULL | NULL | ADDR<1>.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 10 | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | ADDR<1>.CE | 2673 | ? | 0 | 4096 | ADDR<1> | NULL | NULL | ADDR<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+
+SRFF_INSTANCE | ADDR<1>.REG | ADDR<1> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ADDR<1>.D | 2669 | ? | 0 | 0 | ADDR<1> | NULL | NULL | ADDR<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | ADDR<1>.RSTF | 2672 | ? | 0 | 4096 | ADDR<1> | NULL | NULL | ADDR<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | ADDR<1>.CE | 2673 | ? | 0 | 4096 | ADDR<1> | NULL | NULL | ADDR<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ADDR<1>.Q | 2674 | ? | 0 | 0 | ADDR<1> | NULL | NULL | ADDR<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | ADDR<4> | melody_COPY_0_COPY_0 | 2155877376 | 22 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | ADDR<4>.EXP | 2805 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.EXP | ADDR<4> | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | ADDR<4>.SI | ADDR<4> | 0 | 21 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ADDR<4>.D1 | 2676 | ? | 0 | 0 | ADDR<4> | NULL | NULL | ADDR<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ADDR<4>.D2 | 2677 | ? | 0 | 4096 | ADDR<4> | NULL | NULL | ADDR<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_TRUE | ADDR<0> | IV_TRUE | ADDR<3>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | ADDR<4>.RSTF | 2678 | ? | 0 | 4096 | ADDR<4> | NULL | NULL | ADDR<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | ADDR<4>.EXP | 2802 | ? | 0 | 0 | ADDR<4> | NULL | NULL | ADDR<4>.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | ADDR<4>.CE | 2679 | ? | 0 | 4096 | ADDR<4> | NULL | NULL | ADDR<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+
+SRFF_INSTANCE | ADDR<4>.REG | ADDR<4> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ADDR<4>.D | 2675 | ? | 0 | 0 | ADDR<4> | NULL | NULL | ADDR<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | ADDR<4>.RSTF | 2678 | ? | 0 | 4096 | ADDR<4> | NULL | NULL | ADDR<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | ADDR<4>.CE | 2679 | ? | 0 | 4096 | ADDR<4> | NULL | NULL | ADDR<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ADDR<4>.Q | 2680 | ? | 0 | 0 | ADDR<4> | NULL | NULL | ADDR<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | ADDR<0> | melody_COPY_0_COPY_0 | 2155877632 | 22 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | ADDR<0>.SI | ADDR<0> | 0 | 21 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ADDR<0>.D1 | 2682 | ? | 0 | 4096 | ADDR<0> | NULL | NULL | ADDR<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ADDR<0>.D2 | 2683 | ? | 0 | 4096 | ADDR<0> | NULL | NULL | ADDR<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<0> | IV_TRUE | ADDR<3> | IV_TRUE | ADDR<5>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | ADDR<0>.RSTF | 2684 | ? | 0 | 4096 | ADDR<0> | NULL | NULL | ADDR<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | ADDR<0>.CE | 2685 | ? | 0 | 4096 | ADDR<0> | NULL | NULL | ADDR<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+
+SRFF_INSTANCE | ADDR<0>.REG | ADDR<0> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ADDR<0>.D | 2681 | ? | 0 | 0 | ADDR<0> | NULL | NULL | ADDR<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | ADDR<0>.RSTF | 2684 | ? | 0 | 4096 | ADDR<0> | NULL | NULL | ADDR<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | ADDR<0>.CE | 2685 | ? | 0 | 4096 | ADDR<0> | NULL | NULL | ADDR<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ADDR<0>.Q | 2686 | ? | 0 | 0 | ADDR<0> | NULL | NULL | ADDR<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | ADDR<3> | melody_COPY_0_COPY_0 | 2155877376 | 22 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | ADDR<3>.SI | ADDR<3> | 0 | 21 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ADDR<3>.D1 | 2688 | ? | 0 | 4096 | ADDR<3> | NULL | NULL | ADDR<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ADDR<3>.D2 | 2689 | ? | 0 | 4096 | ADDR<3> | NULL | NULL | ADDR<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_TRUE | ADDR<0>
+SPPTERM | 5 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<3> | IV_TRUE | ADDR<5>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | ADDR<3>.RSTF | 2690 | ? | 0 | 4096 | ADDR<3> | NULL | NULL | ADDR<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | ADDR<3>.CE | 2691 | ? | 0 | 4096 | ADDR<3> | NULL | NULL | ADDR<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+
+SRFF_INSTANCE | ADDR<3>.REG | ADDR<3> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ADDR<3>.D | 2687 | ? | 0 | 0 | ADDR<3> | NULL | NULL | ADDR<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | ADDR<3>.RSTF | 2690 | ? | 0 | 4096 | ADDR<3> | NULL | NULL | ADDR<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | ADDR<3>.CE | 2691 | ? | 0 | 4096 | ADDR<3> | NULL | NULL | ADDR<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ADDR<3>.Q | 2692 | ? | 0 | 0 | ADDR<3> | NULL | NULL | ADDR<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | ADDR<5> | melody_COPY_0_COPY_0 | 2155877376 | 22 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | ADDR<5>.SI | ADDR<5> | 0 | 21 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ADDR<5>.D1 | 2694 | ? | 0 | 4096 | ADDR<5> | NULL | NULL | ADDR<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ADDR<5>.D2 | 2695 | ? | 0 | 4096 | ADDR<5> | NULL | NULL | ADDR<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_TRUE | ADDR<4> | IV_TRUE | ADDR<0> | IV_TRUE | ADDR<3>
+SPPTERM | 6 | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<0> | IV_TRUE | ADDR<3> | IV_TRUE | ADDR<5>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | ADDR<5>.RSTF | 2696 | ? | 0 | 4096 | ADDR<5> | NULL | NULL | ADDR<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | ADDR<5>.CE | 2697 | ? | 0 | 4096 | ADDR<5> | NULL | NULL | ADDR<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+
+SRFF_INSTANCE | ADDR<5>.REG | ADDR<5> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ADDR<5>.D | 2693 | ? | 0 | 0 | ADDR<5> | NULL | NULL | ADDR<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | ADDR<5>.RSTF | 2696 | ? | 0 | 4096 | ADDR<5> | NULL | NULL | ADDR<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | PLAY_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | ADDR<5>.CE | 2697 | ? | 0 | 4096 | ADDR<5> | NULL | NULL | ADDR<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ADDR<5>.Q | 2698 | ? | 0 | 0 | ADDR<5> | NULL | NULL | ADDR<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<0> | melody_COPY_0_COPY_0 | 2155877376 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<0>.SI | counter<0> | 0 | 1 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<0>.D1 | 2700 | ? | 0 | 4096 | counter<0> | NULL | NULL | counter<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<0>.D2 | 2701 | ? | 0 | 4096 | counter<0> | NULL | NULL | counter<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<0>.CE | 2702 | ? | 0 | 4096 | counter<0> | NULL | NULL | counter<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<0>.REG | counter<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<0>.D | 2699 | ? | 0 | 0 | counter<0> | NULL | NULL | counter<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<0>.CE | 2702 | ? | 0 | 4096 | counter<0> | NULL | NULL | counter<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<0>.Q | 2703 | ? | 0 | 0 | counter<0> | NULL | NULL | counter<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<10> | melody_COPY_0_COPY_0 | 2155877376 | 16 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<10>.SI | counter<10> | 0 | 15 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<10>.D1 | 2705 | ? | 0 | 4096 | counter<10> | NULL | NULL | counter<10>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<10>.D2 | 2706 | ? | 0 | 4096 | counter<10> | NULL | NULL | counter<10>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 10 | IV_TRUE | counter<0> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5> | IV_TRUE | counter<6> | IV_TRUE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9>
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<10>.CE | 2707 | ? | 0 | 4096 | counter<10> | NULL | NULL | counter<10>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<10>.REG | counter<10> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<10>.D | 2704 | ? | 0 | 0 | counter<10> | NULL | NULL | counter<10>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<10>.CE | 2707 | ? | 0 | 4096 | counter<10> | NULL | NULL | counter<10>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<10>.Q | 2708 | ? | 0 | 0 | counter<10> | NULL | NULL | counter<10>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<11> | melody_COPY_0_COPY_0 | 2155877376 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<11>.SI | counter<11> | 0 | 12 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<11>.D1 | 2710 | ? | 0 | 0 | counter<11> | NULL | NULL | counter<11>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<11>.D2 | 2711 | ? | 0 | 4096 | counter<11> | NULL | NULL | counter<11>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 11 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5> | IV_TRUE | counter<6> | IV_TRUE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<11>.CE | 2712 | ? | 0 | 4096 | counter<11> | NULL | NULL | counter<11>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<11>.REG | counter<11> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<11>.D | 2709 | ? | 0 | 0 | counter<11> | NULL | NULL | counter<11>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<11>.CE | 2712 | ? | 0 | 4096 | counter<11> | NULL | NULL | counter<11>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<11>.Q | 2713 | ? | 0 | 0 | counter<11> | NULL | NULL | counter<11>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<12> | melody_COPY_0_COPY_0 | 2155877376 | 14 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<12>.SI | counter<12> | 0 | 13 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<12>.D1 | 2715 | ? | 0 | 0 | counter<12> | NULL | NULL | counter<12>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<12>.D2 | 2716 | ? | 0 | 4096 | counter<12> | NULL | NULL | counter<12>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 12 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_TRUE | counter<11> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5> | IV_TRUE | counter<6> | IV_TRUE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<12>.CE | 2717 | ? | 0 | 4096 | counter<12> | NULL | NULL | counter<12>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<12>.REG | counter<12> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<12>.D | 2714 | ? | 0 | 0 | counter<12> | NULL | NULL | counter<12>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<12>.CE | 2717 | ? | 0 | 4096 | counter<12> | NULL | NULL | counter<12>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<12>.Q | 2718 | ? | 0 | 0 | counter<12> | NULL | NULL | counter<12>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<1> | melody_COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<1>.SI | counter<1> | 0 | 2 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<1>.D1 | 2720 | ? | 0 | 0 | counter<1> | NULL | NULL | counter<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<1>.D2 | 2721 | ? | 0 | 4096 | counter<1> | NULL | NULL | counter<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | counter<0>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<1>.CE | 2722 | ? | 0 | 4096 | counter<1> | NULL | NULL | counter<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<1>.REG | counter<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<1>.D | 2719 | ? | 0 | 0 | counter<1> | NULL | NULL | counter<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<1>.CE | 2722 | ? | 0 | 4096 | counter<1> | NULL | NULL | counter<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<1>.Q | 2723 | ? | 0 | 0 | counter<1> | NULL | NULL | counter<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<2> | melody_COPY_0_COPY_0 | 2155877376 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<2>.SI | counter<2> | 0 | 3 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<2>.D1 | 2725 | ? | 0 | 0 | counter<2> | NULL | NULL | counter<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<2>.D2 | 2726 | ? | 0 | 4096 | counter<2> | NULL | NULL | counter<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | counter<0> | IV_TRUE | counter<1>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<2>.CE | 2727 | ? | 0 | 4096 | counter<2> | NULL | NULL | counter<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<2>.REG | counter<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<2>.D | 2724 | ? | 0 | 0 | counter<2> | NULL | NULL | counter<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<2>.CE | 2727 | ? | 0 | 4096 | counter<2> | NULL | NULL | counter<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<2>.Q | 2728 | ? | 0 | 0 | counter<2> | NULL | NULL | counter<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<3> | melody_COPY_0_COPY_0 | 2155877376 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<3>.SI | counter<3> | 0 | 4 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<3>.D1 | 2730 | ? | 0 | 0 | counter<3> | NULL | NULL | counter<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<3>.D2 | 2731 | ? | 0 | 4096 | counter<3> | NULL | NULL | counter<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | counter<0> | IV_TRUE | counter<1> | IV_TRUE | counter<2>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<3>.CE | 2732 | ? | 0 | 4096 | counter<3> | NULL | NULL | counter<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<3>.REG | counter<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<3>.D | 2729 | ? | 0 | 0 | counter<3> | NULL | NULL | counter<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<3>.CE | 2732 | ? | 0 | 4096 | counter<3> | NULL | NULL | counter<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<3>.Q | 2733 | ? | 0 | 0 | counter<3> | NULL | NULL | counter<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | counter<4> | melody_COPY_0_COPY_0 | 2155877632 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1>.EXP | 2806 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.EXP | ADDR<1> | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<4>.SI | counter<4> | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1>.EXP | 2806 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.EXP | ADDR<1> | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<4>.D1 | 2735 | ? | 0 | 4096 | counter<4> | NULL | NULL | counter<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<4>.D2 | 2736 | ? | 0 | 4096 | counter<4> | NULL | NULL | counter<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | counter<0>
+SPPTERM | 1 | IV_FALSE | counter<1>
+SPPTERM | 1 | IV_FALSE | counter<2>
+SPPTERM | 1 | IV_FALSE | counter<3>
+SPPTERM | 1 | IV_TRUE | ADDR<1>.EXP
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<4>.CE | 2737 | ? | 0 | 4096 | counter<4> | NULL | NULL | counter<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<4>.REG | counter<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<4>.D | 2734 | ? | 0 | 0 | counter<4> | NULL | NULL | counter<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<4>.CE | 2737 | ? | 0 | 4096 | counter<4> | NULL | NULL | counter<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<4>.Q | 2738 | ? | 0 | 0 | counter<4> | NULL | NULL | counter<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<5> | melody_COPY_0_COPY_0 | 2155877376 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<5>.SI | counter<5> | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<5>.D1 | 2740 | ? | 0 | 0 | counter<5> | NULL | NULL | counter<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<5>.D2 | 2741 | ? | 0 | 4096 | counter<5> | NULL | NULL | counter<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | counter<0> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<5>.CE | 2742 | ? | 0 | 4096 | counter<5> | NULL | NULL | counter<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<5>.REG | counter<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<5>.D | 2739 | ? | 0 | 0 | counter<5> | NULL | NULL | counter<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<5>.CE | 2742 | ? | 0 | 4096 | counter<5> | NULL | NULL | counter<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<5>.Q | 2743 | ? | 0 | 0 | counter<5> | NULL | NULL | counter<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<6> | melody_COPY_0_COPY_0 | 2155877376 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<6>.SI | counter<6> | 0 | 7 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<6>.D1 | 2745 | ? | 0 | 0 | counter<6> | NULL | NULL | counter<6>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<6>.D2 | 2746 | ? | 0 | 4096 | counter<6> | NULL | NULL | counter<6>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | counter<0> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<6>.CE | 2747 | ? | 0 | 4096 | counter<6> | NULL | NULL | counter<6>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<6>.REG | counter<6> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<6>.D | 2744 | ? | 0 | 0 | counter<6> | NULL | NULL | counter<6>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<6>.CE | 2747 | ? | 0 | 4096 | counter<6> | NULL | NULL | counter<6>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<6>.Q | 2748 | ? | 0 | 0 | counter<6> | NULL | NULL | counter<6>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<7> | melody_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<7>.SI | counter<7> | 0 | 8 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<7>.D1 | 2750 | ? | 0 | 0 | counter<7> | NULL | NULL | counter<7>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<7>.D2 | 2751 | ? | 0 | 4096 | counter<7> | NULL | NULL | counter<7>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 7 | IV_TRUE | counter<0> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5> | IV_TRUE | counter<6>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<7>.CE | 2752 | ? | 0 | 4096 | counter<7> | NULL | NULL | counter<7>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<7>.REG | counter<7> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<7>.D | 2749 | ? | 0 | 0 | counter<7> | NULL | NULL | counter<7>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<7>.CE | 2752 | ? | 0 | 4096 | counter<7> | NULL | NULL | counter<7>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<7>.Q | 2753 | ? | 0 | 0 | counter<7> | NULL | NULL | counter<7>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<8> | melody_COPY_0_COPY_0 | 2155877376 | 16 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<8>.SI | counter<8> | 0 | 15 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<8>.D1 | 2755 | ? | 0 | 4096 | counter<8> | NULL | NULL | counter<8>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<8>.D2 | 2756 | ? | 0 | 4096 | counter<8> | NULL | NULL | counter<8>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 8 | IV_TRUE | counter<0> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5> | IV_TRUE | counter<6> | IV_TRUE | counter<7>
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<8>.CE | 2757 | ? | 0 | 4096 | counter<8> | NULL | NULL | counter<8>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<8>.REG | counter<8> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<8>.D | 2754 | ? | 0 | 0 | counter<8> | NULL | NULL | counter<8>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<8>.CE | 2757 | ? | 0 | 4096 | counter<8> | NULL | NULL | counter<8>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<8>.Q | 2758 | ? | 0 | 0 | counter<8> | NULL | NULL | counter<8>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<9> | melody_COPY_0_COPY_0 | 2155877376 | 16 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<9>.SI | counter<9> | 0 | 15 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<9>.D1 | 2760 | ? | 0 | 4096 | counter<9> | NULL | NULL | counter<9>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<9>.D2 | 2761 | ? | 0 | 4096 | counter<9> | NULL | NULL | counter<9>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 9 | IV_TRUE | counter<0> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5> | IV_TRUE | counter<6> | IV_TRUE | counter<7> | IV_TRUE | counter<8>
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<9>.CE | 2762 | ? | 0 | 4096 | counter<9> | NULL | NULL | counter<9>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<9>.REG | counter<9> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<9>.D | 2759 | ? | 0 | 0 | counter<9> | NULL | NULL | counter<9>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<9>.CE | 2762 | ? | 0 | 4096 | counter<9> | NULL | NULL | counter<9>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<9>.Q | 2763 | ? | 0 | 0 | counter<9> | NULL | NULL | counter<9>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | counter<13> | melody_COPY_0_COPY_0 | 2155877376 | 16 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | counter<13>.SI | counter<13> | 0 | 15 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<0> | 2631 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<0>.Q | counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<10> | 2632 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<10>.Q | counter<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<11> | 2633 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<11>.Q | counter<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<12> | 2634 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<12>.Q | counter<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<1> | 2635 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<1>.Q | counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<2> | 2636 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<2>.Q | counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<3> | 2637 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<3>.Q | counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<4> | 2638 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<4>.Q | counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<5> | 2639 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<5>.Q | counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<6> | 2640 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<6>.Q | counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<7> | 2641 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<7>.Q | counter<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<8> | 2642 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<8>.Q | counter<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<9> | 2643 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<9>.Q | counter<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | counter<13> | 2644 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | counter<13>.Q | counter<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | counter<13>.D1 | 2765 | ? | 0 | 4096 | counter<13> | NULL | NULL | counter<13>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | counter<13>.D2 | 2766 | ? | 0 | 4096 | counter<13> | NULL | NULL | counter<13>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 13 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_TRUE | counter<11> | IV_TRUE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_TRUE | counter<4> | IV_TRUE | counter<5> | IV_TRUE | counter<6> | IV_TRUE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9>
+SPPTERM | 14 | IV_TRUE | counter<0> | IV_TRUE | counter<10> | IV_FALSE | counter<11> | IV_FALSE | counter<12> | IV_TRUE | counter<1> | IV_TRUE | counter<2> | IV_TRUE | counter<3> | IV_FALSE | counter<4> | IV_FALSE | counter<5> | IV_FALSE | counter<6> | IV_FALSE | counter<7> | IV_TRUE | counter<8> | IV_TRUE | counter<9> | IV_TRUE | counter<13>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | counter<13>.CE | 2767 | ? | 0 | 4096 | counter<13> | NULL | NULL | counter<13>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+
+SRFF_INSTANCE | counter<13>.REG | counter<13> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | counter<13>.D | 2764 | ? | 0 | 0 | counter<13> | NULL | NULL | counter<13>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_IBUF/FCLK | 2623 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | CLK_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | counter<13>.CE | 2767 | ? | 0 | 4096 | counter<13> | NULL | NULL | counter<13>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | PLAY_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | counter<13>.Q | 2768 | ? | 0 | 0 | counter<13> | NULL | NULL | counter<13>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | DATA_0_OBUF | melody_COPY_0_COPY_0 | 2155872256 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_0_OBUF | 2645 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_0_OBUF.Q | DATA_0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | DATA_0_OBUF.SI | DATA_0_OBUF | 0 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_0_OBUF.D1 | 2770 | ? | 0 | 4096 | DATA_0_OBUF | NULL | NULL | DATA_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_0_OBUF.D2 | 2771 | ? | 0 | 4096 | DATA_0_OBUF | NULL | NULL | DATA_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_FALSE | ADDR<1> | IV_FALSE | ADDR<0> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<4> | IV_FALSE | ADDR<0> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_TRUE | ADDR<1> | IV_TRUE | ADDR<4> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<0> | IV_FALSE | ADDR<3>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_FALSE | ADDR<1> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+
+SRFF_INSTANCE | DATA_0_OBUF.REG | DATA_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_0_OBUF.D | 2769 | ? | 0 | 0 | DATA_0_OBUF | NULL | NULL | DATA_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_0_OBUF.Q | 2772 | ? | 0 | 0 | DATA_0_OBUF | NULL | NULL | DATA_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | DATA_5_OBUF | melody_COPY_0_COPY_0 | 2155872256 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_5_OBUF | 2646 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_5_OBUF.Q | DATA_5_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | DATA_5_OBUF.SI | DATA_5_OBUF | 0 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_5_OBUF.D1 | 2774 | ? | 0 | 4096 | DATA_5_OBUF | NULL | NULL | DATA_5_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_5_OBUF.D2 | 2775 | ? | 0 | 4096 | DATA_5_OBUF | NULL | NULL | DATA_5_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_FALSE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 7 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_TRUE | ADDR<4> | IV_FALSE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+
+SRFF_INSTANCE | DATA_5_OBUF.REG | DATA_5_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_5_OBUF.D | 2773 | ? | 0 | 0 | DATA_5_OBUF | NULL | NULL | DATA_5_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_5_OBUF.Q | 2776 | ? | 0 | 0 | DATA_5_OBUF | NULL | NULL | DATA_5_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | DATA_1_OBUF | melody_COPY_0_COPY_0 | 2155872256 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_1_OBUF | 2647 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_1_OBUF.Q | DATA_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | DATA_1_OBUF.SI | DATA_1_OBUF | 0 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_1_OBUF.D1 | 2778 | ? | 0 | 4096 | DATA_1_OBUF | NULL | NULL | DATA_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_1_OBUF.D2 | 2779 | ? | 0 | 4096 | DATA_1_OBUF | NULL | NULL | DATA_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_FALSE | ADDR<1> | IV_TRUE | ADDR<0> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<4> | IV_TRUE | ADDR<0> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<0> | IV_FALSE | ADDR<3>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<0> | IV_FALSE | ADDR<3> | IV_TRUE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<1> | IV_TRUE | ADDR<4> | IV_TRUE | ADDR<0> | IV_FALSE | ADDR<3> | IV_FALSE | ADDR<5>
+
+SRFF_INSTANCE | DATA_1_OBUF.REG | DATA_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_1_OBUF.D | 2777 | ? | 0 | 0 | DATA_1_OBUF | NULL | NULL | DATA_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_1_OBUF.Q | 2780 | ? | 0 | 0 | DATA_1_OBUF | NULL | NULL | DATA_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | DATA_3_OBUF | melody_COPY_0_COPY_0 | 2155872256 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | DATA_2_OBUF$BUF1.EXP | 2804 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF$BUF1.EXP | DATA_2_OBUF$BUF1 | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4>.EXP | 2805 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.EXP | ADDR<4> | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_3_OBUF | 2648 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_3_OBUF.Q | DATA_3_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | DATA_3_OBUF.SI | DATA_3_OBUF | 0 | 9 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | DATA_2_OBUF$BUF1.EXP | 2804 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF$BUF1.EXP | DATA_2_OBUF$BUF1 | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4>.EXP | 2805 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.EXP | ADDR<4> | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_3_OBUF.D1 | 2782 | ? | 0 | 4096 | DATA_3_OBUF | NULL | NULL | DATA_3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_3_OBUF.D2 | 2783 | ? | 0 | 4096 | DATA_3_OBUF | NULL | NULL | DATA_3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | DATA_2_OBUF$BUF1.EXP
+SPPTERM | 1 | IV_TRUE | ADDR<4>.EXP
+SPPTERM | 5 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_FALSE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<5>
+SPPTERM | 5 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_FALSE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 5 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<1> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<0> | IV_TRUE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<0> | IV_FALSE | ADDR<3> | IV_TRUE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<3> | IV_TRUE | ADDR<5>
+
+SRFF_INSTANCE | DATA_3_OBUF.REG | DATA_3_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_3_OBUF.D | 2781 | ? | 0 | 0 | DATA_3_OBUF | NULL | NULL | DATA_3_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_3_OBUF.Q | 2784 | ? | 0 | 0 | DATA_3_OBUF | NULL | NULL | DATA_3_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | DATA_4_OBUF | melody_COPY_0_COPY_0 | 2155872256 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_4_OBUF | 2649 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_4_OBUF.Q | DATA_4_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | DATA_4_OBUF.SI | DATA_4_OBUF | 0 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_4_OBUF.D1 | 2786 | ? | 0 | 4096 | DATA_4_OBUF | NULL | NULL | DATA_4_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_4_OBUF.D2 | 2787 | ? | 0 | 4096 | DATA_4_OBUF | NULL | NULL | DATA_4_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<4> | IV_TRUE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_TRUE | ADDR<1> | IV_TRUE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 7 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_TRUE | ADDR<0> | IV_FALSE | ADDR<3> | IV_TRUE | ADDR<5>
+SPPTERM | 7 | IV_TRUE | PLAY_IBUF | IV_TRUE | ADDR<2> | IV_TRUE | ADDR<1> | IV_FALSE | ADDR<4> | IV_FALSE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+
+SRFF_INSTANCE | DATA_4_OBUF.REG | DATA_4_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_4_OBUF.D | 2785 | ? | 0 | 0 | DATA_4_OBUF | NULL | NULL | DATA_4_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_4_OBUF.Q | 2788 | ? | 0 | 0 | DATA_4_OBUF | NULL | NULL | DATA_4_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | FbkInv+Merge+OptxMapped | DATA_2_OBUF | melody_COPY_0_COPY_0 | 2155907072 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_2_OBUF$Q | 2650 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF.Q | DATA_2_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | DATA_2_OBUF.SI | DATA_2_OBUF | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_2_OBUF.D1 | 2790 | ? | 0 | 4096 | DATA_2_OBUF | NULL | NULL | DATA_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_2_OBUF.D2 | 2791 | ? | 0 | 4096 | DATA_2_OBUF | NULL | NULL | DATA_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | DATA_2_OBUF.REG | DATA_2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_2_OBUF.D | 2789 | ? | 0 | 0 | DATA_2_OBUF | NULL | NULL | DATA_2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_2_OBUF.Q | 2792 | ? | 0 | 0 | DATA_2_OBUF | NULL | NULL | DATA_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | DATA_2_OBUF$BUF0 | melody_COPY_0_COPY_0 | 2155872256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_2_OBUF$BUF0 | 2651 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF$BUF0.Q | DATA_2_OBUF$BUF0 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | DATA_2_OBUF$BUF0.SI | DATA_2_OBUF$BUF0 | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_2_OBUF$BUF0.D1 | 2794 | ? | 0 | 4096 | DATA_2_OBUF$BUF0 | NULL | NULL | DATA_2_OBUF$BUF0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_2_OBUF$BUF0.D2 | 2795 | ? | 0 | 6144 | DATA_2_OBUF$BUF0 | NULL | NULL | DATA_2_OBUF$BUF0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | DATA_2_OBUF$BUF0.REG | DATA_2_OBUF$BUF0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_2_OBUF$BUF0.D | 2793 | ? | 0 | 0 | DATA_2_OBUF$BUF0 | NULL | NULL | DATA_2_OBUF$BUF0.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_2_OBUF$BUF0.Q | 2796 | ? | 0 | 0 | DATA_2_OBUF$BUF0 | NULL | NULL | DATA_2_OBUF$BUF0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | DATA_2_OBUF$BUF1 | melody_COPY_0_COPY_0 | 2155872256 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | DATA_2_OBUF$BUF1 | 2652 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF$BUF1.Q | DATA_2_OBUF$BUF1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | DATA_2_OBUF$BUF1.EXP | 2804 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF$BUF1.EXP | DATA_2_OBUF$BUF1 | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | DATA_2_OBUF$BUF1.SI | DATA_2_OBUF$BUF1 | 0 | 7 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | PLAY_IBUF | 2624 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | PLAY_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<2> | 2625 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<2>.Q | ADDR<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<1> | 2626 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<1>.Q | ADDR<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<4> | 2627 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<4>.Q | ADDR<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<0> | 2628 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<0>.Q | ADDR<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<5> | 2630 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<5>.Q | ADDR<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ADDR<3> | 2629 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | ADDR<3>.Q | ADDR<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | DATA_2_OBUF$BUF1.D1 | 2798 | ? | 0 | 4096 | DATA_2_OBUF$BUF1 | NULL | NULL | DATA_2_OBUF$BUF1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | DATA_2_OBUF$BUF1.D2 | 2799 | ? | 0 | 6144 | DATA_2_OBUF$BUF1 | NULL | NULL | DATA_2_OBUF$BUF1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | DATA_2_OBUF$BUF1.EXP | 2801 | ? | 0 | 0 | DATA_2_OBUF$BUF1 | NULL | NULL | DATA_2_OBUF$BUF1.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_FALSE | ADDR<1> | IV_TRUE | ADDR<4> | IV_FALSE | ADDR<0> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<2> | IV_FALSE | ADDR<1> | IV_TRUE | ADDR<4> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+SPPTERM | 6 | IV_TRUE | PLAY_IBUF | IV_FALSE | ADDR<1> | IV_TRUE | ADDR<4> | IV_FALSE | ADDR<0> | IV_TRUE | ADDR<3> | IV_FALSE | ADDR<5>
+
+SRFF_INSTANCE | DATA_2_OBUF$BUF1.REG | DATA_2_OBUF$BUF1 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | DATA_2_OBUF$BUF1.D | 2797 | ? | 0 | 0 | DATA_2_OBUF$BUF1 | NULL | NULL | DATA_2_OBUF$BUF1.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | DATA_2_OBUF$BUF1.Q | 2800 | ? | 0 | 0 | DATA_2_OBUF$BUF1 | NULL | NULL | DATA_2_OBUF$BUF1.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | DATA<0> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_0_OBUF | 2645 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_0_OBUF.Q | DATA_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<0> | 2653 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | DATA<5> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_5_OBUF | 2646 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_5_OBUF.Q | DATA_5_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<5> | 2654 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<5> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | DATA<1> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_1_OBUF | 2647 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_1_OBUF.Q | DATA_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<1> | 2655 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | DATA<3> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_3_OBUF | 2648 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_3_OBUF.Q | DATA_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<3> | 2656 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<3> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | DATA<4> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_4_OBUF | 2649 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_4_OBUF.Q | DATA_4_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<4> | 2657 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<4> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | DATA<7> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_2_OBUF$Q | 2650 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF.Q | DATA_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<7> | 2658 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<7> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | DATA<6> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_2_OBUF$BUF0 | 2651 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF$BUF0.Q | DATA_2_OBUF$BUF0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<6> | 2659 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<6> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | DATA<2> | melody_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | DATA_2_OBUF$BUF1 | 2652 | ? | 0 | 0 | melody_COPY_0_COPY_0 | NULL | DATA_2_OBUF$BUF1.Q | DATA_2_OBUF$BUF1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | DATA<2> | 2660 | PO | 0 | 0 | melody_COPY_0_COPY_0 | NULL | NULL | DATA<2> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | melody_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | counter<7> | 1 | NULL | 0 | NULL | 0 | 2 | 49152
+FBPIN | 2 | counter<12> | 1 | NULL | 0 | NULL | 0 | 3 | 49152
+FBPIN | 3 | counter<11> | 1 | NULL | 0 | NULL | 0 | 5 | 57344
+FBPIN | 4 | counter<9> | 1 | NULL | 0 | NULL | 0 | 4 | 49152
+FBPIN | 5 | counter<8> | 1 | CLK_IBUF | 0 | NULL | 0 | 6 | 57344
+FBPIN | 6 | counter<13> | 1 | NULL | 0 | NULL | 0 | 8 | 49152
+FBPIN | 7 | counter<10> | 1 | NULL | 0 | NULL | 0 | 7 | 57344
+FBPIN | 8 | DATA_0_OBUF | 1 | NULL | 0 | DATA<0> | 1 | 9 | 49152
+FBPIN | 9 | DATA_1_OBUF | 1 | NULL | 0 | DATA<1> | 1 | 11 | 49152
+FBPIN | 10 | DATA_2_OBUF$BUF1 | 1 | NULL | 0 | DATA<2> | 1 | 12 | 49152
+FBPIN | 11 | DATA_3_OBUF | 1 | NULL | 0 | DATA<3> | 1 | 13 | 49152
+FBPIN | 12 | ADDR<4> | 1 | NULL | 0 | NULL | 0 | 14 | 49152
+FBPIN | 13 | ADDR<0> | 1 | PLAY_IBUF | 1 | NULL | 0 | 18 | 49152
+FBPIN | 14 | ADDR<5> | 1 | NULL | 0 | NULL | 0 | 19 | 49152
+FBPIN | 15 | ADDR<3> | 1 | NULL | 0 | NULL | 0 | 20 | 49152
+FBPIN | 16 | ADDR<2> | 1 | NULL | 0 | NULL | 0 | 22 | 49152
+FBPIN | 17 | ADDR<1> | 1 | NULL | 0 | NULL | 0 | 24 | 49152
+FBPIN | 18 | counter<4> | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | melody_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 7 | DATA_2_OBUF | 1 | NULL | 0 | DATA<7> | 1 | 38 | 49152
+FBPIN | 8 | DATA_2_OBUF$BUF0 | 1 | NULL | 0 | DATA<6> | 1 | 37 | 49152
+FBPIN | 10 | DATA_5_OBUF | 1 | NULL | 0 | DATA<5> | 1 | 35 | 49152
+FBPIN | 12 | DATA_4_OBUF | 1 | NULL | 0 | DATA<4> | 1 | 33 | 49152
+FBPIN | 13 | counter<0> | 1 | NULL | 0 | NULL | 0 | 29 | 49152
+FBPIN | 14 | counter<6> | 1 | NULL | 0 | NULL | 0 | 28 | 49152
+FBPIN | 15 | counter<5> | 1 | NULL | 0 | NULL | 0 | 27 | 49152
+FBPIN | 16 | counter<3> | 1 | NULL | 0 | NULL | 0 | 26 | 49152
+FBPIN | 17 | counter<2> | 1 | NULL | 0 | NULL | 0 | 25 | 49152
+FBPIN | 18 | counter<1> | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | melody_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | DATA<7:0> | 8 | 0 | 1 | DATA<0> | 7 | DATA<1> | 6 | DATA<2> | 5 | DATA<3> | 4 | DATA<4> | 3 | DATA<5> | 2 | DATA<6> | 1 | DATA<7> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | counter<12> | NULL | 2 | counter<11> | NULL | 3 | counter<9> | NULL | 4 | counter<8> | NULL | 5 | counter<13> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 11 | PLAY | 18 | 14 | counter<5> | NULL | 15 | counter<3> | NULL | 16 | ADDR<1> | NULL | 17 | counter<1> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 19 | counter<10> | NULL | 21 | counter<0> | NULL | 24 | ADDR<2> | NULL | 26 | counter<2> | NULL | 29 | counter<7> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 30 | counter<6> | NULL | 34 | ADDR<4> | NULL | 36 | ADDR<5> | NULL | 46 | counter<4> | NULL | 48 | ADDR<3> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 51 | ADDR<0> | NULL
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 1 | 2 | 3 | 4 | 5 | -1 | -1 | -1 | -1 | -1 | 65 | -1 | -1 | 32 | 33 | 16 | 35 | -1 | 6 | -1 | 30 | -1 | -1 | 15 | -1 | 34 | -1 | -1 | 0 | 31 | -1 | -1 | -1 | 11 | -1 | 13 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | 14 | -1 | -1 | 12 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 11 | PLAY | 18 | 14 | counter<5> | NULL | 15 | counter<3> | NULL | 16 | ADDR<1> | NULL | 17 | counter<1> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 21 | counter<0> | NULL | 24 | ADDR<2> | NULL | 26 | counter<2> | NULL | 34 | ADDR<4> | NULL | 36 | ADDR<5> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 46 | counter<4> | NULL | 48 | ADDR<3> | NULL | 51 | ADDR<0> | NULL
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 65 | -1 | -1 | 32 | 33 | 16 | 35 | -1 | -1 | -1 | 30 | -1 | -1 | 15 | -1 | 34 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 11 | -1 | 13 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | 14 | -1 | -1 | 12 | -1 | -1
+
+
+GLOBAL_FCLK | CLK | 1 | 1

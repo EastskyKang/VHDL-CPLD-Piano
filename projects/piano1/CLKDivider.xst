@@ -1,0 +1,5 @@
+set -tmpdir "C:/team1/piano1/xst/projnav.tmp"
+set -xsthdpdir "C:/team1/piano1/xst"
+elaborate
+-ifn CLKDivider.prj
+-ifmt mixed

@@ -1,0 +1,544 @@
+MDF Database:  version 1.0
+MDF_INFO | inputModule | XC9536XL-10-PC44
+MACROCELL | 1 | 7 | newinput_0
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 4 | 1 | 7 | 1 | 5 | 1 | 6 | 1 | 8
+INPUTS | 11 | keyinput<6>  | newinput<2>  | keyprev<3>  | keyprev<5>  | newinput<1>  | keyprev<7>  | keyinput<7>  | $OpTx$FX_DC$7  | keyprev<0>  | keyprev<1>  | EXP8_.EXP
+INPUTMC | 9 | 1 | 7 | 0 | 12 | 0 | 10 | 1 | 9 | 0 | 8 | 0 | 16 | 0 | 15 | 0 | 14 | 1 | 6
+INPUTP | 2 | 33 | 35
+EXPORTS | 1 | 1 | 8
+IMPORTS | 1 | 1 | 6
+EQ | 58 | 
+   newinput<2>.D = !keyinput<6> & newinput<2> & keyprev<3> & 
+	keyprev<5>
+;Imported pterms FB2_7
+	# !keyinput<6> & newinput<2> & !keyinput<2> & 
+	!keyinput<4>
+	# !keyinput<6> & newinput<2> & !keyinput<2> & 
+	keyprev<3>
+	# !keyinput<6> & newinput<2> & !keyinput<4> & 
+	keyprev<5>
+	# newinput<2> & !keyinput<4> & keyprev<1> & 
+	keyprev<5>
+	# newinput<2> & keyprev<1> & keyprev<3> & 
+	keyprev<5>
+;Imported pterms FB2_6
+	# keyinput<1> & !keyprev<6>
+	# keyinput<0> & !keyprev<7>
+	# keyinput<3> & !keyprev<4> & keyprev<5>
+	# newinput<2> & !keyinput<2> & !keyinput<4> & 
+	keyprev<1>
+	# newinput<2> & !keyinput<2> & keyprev<1> & 
+	keyprev<3>
+;Imported pterms FB2_5
+	# !keyinput<2> & keyinput<3> & !keyprev<4>
+	# !keyinput<2> & !keyinput<4> & keyinput<5> & 
+	!keyprev<2>
+	# !keyinput<2> & keyinput<5> & !keyprev<2> & 
+	keyprev<3>
+	# !keyinput<4> & keyinput<5> & !keyprev<2> & 
+	keyprev<5>
+	# keyinput<5> & !keyprev<2> & keyprev<3> & 
+	keyprev<5>
+;Imported pterms FB2_4
+	# !keyinput<6> & !keyinput<2> & !keyinput<4> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<6> & !keyinput<2> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<6> & !keyinput<4> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+	# !keyinput<6> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+	# keyprev<1> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+;Imported pterms FB2_3
+	# !keyinput<2> & !keyinput<4> & keyprev<1> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<2> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<4> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>;
+   newinput<2>.CLK = inputclk;	// GCK
+    newinput_0.EXP  =  !keyinput<6> & !newinput<1> & keyprev<7> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !keyinput<6> & !newinput<1> & keyprev<7> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+	# !newinput<1> & keyprev<7> & keyprev<1> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !newinput<1> & keyprev<7> & keyprev<1> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 1 | 9 | newinput_1
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 8 | 1 | 7
+INPUTS | 10 | keyinput<1>  | keyinput<0>  | keyprev<6>  | keyprev<7>  | keyinput<4>  | keyprev<3>  | $OpTx$FX_DC$7  | keyinput<5>  | keyprev<2>  | EXP9_.EXP
+INPUTMC | 6 | 0 | 9 | 0 | 8 | 0 | 12 | 0 | 16 | 0 | 13 | 1 | 8
+INPUTP | 4 | 13 | 14 | 23 | 31
+IMPORTS | 1 | 1 | 8
+EQ | 29 | 
+   !newinput<1>.D = keyinput<1> & !keyinput<0> & !keyprev<6>
+	# keyinput<1> & keyprev<7> & !keyprev<6>
+	# !keyinput<0> & keyinput<4> & !keyprev<3> & 
+	!$OpTx$FX_DC$7
+	# !keyinput<0> & keyinput<5> & !keyprev<2> & 
+	!$OpTx$FX_DC$7
+	# keyprev<7> & keyinput<4> & !keyprev<3> & 
+	!$OpTx$FX_DC$7
+;Imported pterms FB2_9
+	# keyprev<7> & keyinput<5> & !keyprev<2> & 
+	!$OpTx$FX_DC$7
+	# !keyinput<6> & !newinput<1> & !keyinput<0> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !keyinput<6> & !newinput<1> & !keyinput<0> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+	# !newinput<1> & !keyinput<0> & keyprev<1> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !newinput<1> & !keyinput<0> & keyprev<1> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+;Imported pterms FB2_8
+	# !keyinput<6> & !newinput<1> & keyprev<7> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !keyinput<6> & !newinput<1> & keyprev<7> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+	# !newinput<1> & keyprev<7> & keyprev<1> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !newinput<1> & keyprev<7> & keyprev<1> & 
+	keyprev<0> & !$OpTx$FX_DC$7;
+   newinput<1>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 1 | 11 | newinput_2
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 10 | 1 | 12
+INPUTS | 10 | keyinput<2>  | keyinput<0>  | keyprev<5>  | keyinput<3>  | keyprev<4>  | keyinput<1>  | keyprev<6>  | keyprev<7>  | EXP10_.EXP  | bttnevent_OBUF.EXP
+INPUTMC | 6 | 0 | 10 | 0 | 11 | 0 | 9 | 0 | 8 | 1 | 10 | 1 | 12
+INPUTP | 4 | 9 | 14 | 8 | 13
+IMPORTS | 2 | 1 | 10 | 1 | 12
+EQ | 25 | 
+   !newinput<0>.D = keyinput<1> & !keyinput<0> & !keyprev<6>
+	# keyinput<2> & !keyinput<0> & !keyprev<5>
+	# keyinput<2> & keyprev<7> & !keyprev<5>
+	# keyinput<3> & !keyprev<4> & !keyinput<0>
+	# keyinput<3> & !keyprev<4> & keyprev<7>
+;Imported pterms FB2_11
+	# keyinput<1> & keyprev<7> & !keyprev<6>
+	# !newinput<0> & !keyinput<0> & !keyinput<4> & 
+	!keyinput<5> & !$OpTx$FX_DC$16
+	# !newinput<0> & !keyinput<0> & !keyinput<4> & 
+	keyprev<2> & !$OpTx$FX_DC$16
+	# !newinput<0> & !keyinput<0> & !keyinput<5> & 
+	keyprev<3> & !$OpTx$FX_DC$16
+	# !newinput<0> & !keyinput<0> & keyprev<2> & 
+	keyprev<3> & !$OpTx$FX_DC$16
+;Imported pterms FB2_13
+	# !newinput<0> & keyprev<7> & !keyinput<4> & 
+	!keyinput<5> & !$OpTx$FX_DC$16
+	# !newinput<0> & keyprev<7> & !keyinput<4> & 
+	keyprev<2> & !$OpTx$FX_DC$16
+	# !newinput<0> & keyprev<7> & !keyinput<5> & 
+	keyprev<3> & !$OpTx$FX_DC$16
+	# !newinput<0> & keyprev<7> & keyprev<2> & 
+	keyprev<3> & !$OpTx$FX_DC$16;
+   newinput<0>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 11 | keyprev<4>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 5 | 1 | 5 | 1 | 11 | 1 | 12 | 0 | 16 | 1 | 4
+INPUTS | 1 | keyinput<3>
+INPUTP | 1 | 8
+EQ | 2 | 
+   keyprev<4>.D = keyinput<3>;
+   keyprev<4>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 8 | keyprev<7>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 8 | 1 | 5 | 1 | 9 | 1 | 11 | 1 | 10 | 1 | 7 | 1 | 8 | 1 | 12 | 1 | 13
+INPUTS | 1 | keyinput<0>
+INPUTP | 1 | 14
+EQ | 2 | 
+   keyprev<7>.D = keyinput<0>;
+   keyprev<7>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 13 | keyprev<2>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 1 | 4 | 1 | 9 | 1 | 10 | 1 | 8 | 1 | 12 | 1 | 13
+INPUTS | 1 | keyinput<5>
+INPUTP | 1 | 31
+EQ | 2 | 
+   keyprev<2>.D = keyinput<5>;
+   keyprev<2>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 14 | keyprev<1>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 8 | 1 | 6 | 1 | 8 | 1 | 7 | 0 | 17 | 1 | 2 | 1 | 3 | 1 | 5 | 1 | 14
+INPUTS | 1 | keyinput<6>
+INPUTP | 1 | 33
+EQ | 2 | 
+   keyprev<1>.D = keyinput<6>;
+   keyprev<1>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 15 | keyprev<0>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 1 | 3 | 1 | 8 | 1 | 7 | 0 | 17 | 1 | 2 | 1 | 13
+INPUTS | 1 | keyinput<7>
+INPUTP | 1 | 35
+EQ | 2 | 
+   keyprev<0>.D = keyinput<7>;
+   keyprev<0>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 12 | keyprev<3>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 10 | 1 | 7 | 1 | 9 | 1 | 10 | 1 | 6 | 1 | 2 | 1 | 3 | 1 | 4 | 1 | 5 | 1 | 12 | 1 | 14
+INPUTS | 1 | keyinput<4>
+INPUTP | 1 | 23
+EQ | 2 | 
+   keyprev<3>.D = keyinput<4>;
+   keyprev<3>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 10 | keyprev<5>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 1 | 7 | 1 | 11 | 1 | 6 | 0 | 16 | 1 | 2 | 1 | 3 | 1 | 4 | 1 | 5 | 1 | 13
+INPUTS | 1 | keyinput<2>
+INPUTP | 1 | 9
+EQ | 2 | 
+   keyprev<5>.D = keyinput<2>;
+   keyprev<5>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 9 | keyprev<6>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 5 | 1 | 5 | 1 | 9 | 1 | 11 | 1 | 10 | 1 | 13
+INPUTS | 1 | keyinput<1>
+INPUTP | 1 | 13
+EQ | 2 | 
+   keyprev<6>.D = keyinput<1>;
+   keyprev<6>.CLK = inputclk;	// GCK
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 1 | 12 | bttnevent_OBUF
+ATTRIBUTES | 8684290 | 0
+OUTPUTMC | 1 | 1 | 11
+INPUTS | 10 | keyinput<3>  | keyprev<4>  | newinput<0>  | keyprev<7>  | keyinput<4>  | keyinput<5>  | $OpTx$FX_DC$16  | keyprev<2>  | keyprev<3>  | EXP11_.EXP
+INPUTMC | 7 | 0 | 11 | 1 | 11 | 0 | 8 | 0 | 17 | 0 | 13 | 0 | 12 | 1 | 13
+INPUTP | 3 | 8 | 23 | 31
+EXPORTS | 1 | 1 | 11
+IMPORTS | 1 | 1 | 13
+EQ | 19 | 
+   bttnevent.D = keyinput<3> & !keyprev<4>
+;Imported pterms FB2_14
+	# keyinput<1> & !keyprev<6>
+	# keyinput<2> & !keyprev<5>
+	# keyinput<0> & !keyprev<7>
+	# keyinput<5> & !keyprev<2>
+	# keyinput<7> & !keyprev<0>
+;Imported pterms FB2_15
+	# keyinput<6> & !keyprev<1>
+	# keyinput<4> & !keyprev<3>;
+   bttnevent.CLK = inputclk;	// GCK
+    bttnevent_OBUF.EXP  =  !newinput<0> & keyprev<7> & !keyinput<4> & 
+	!keyinput<5> & !$OpTx$FX_DC$16
+	# !newinput<0> & keyprev<7> & !keyinput<4> & 
+	keyprev<2> & !$OpTx$FX_DC$16
+	# !newinput<0> & keyprev<7> & !keyinput<5> & 
+	keyprev<3> & !$OpTx$FX_DC$16
+	# !newinput<0> & keyprev<7> & keyprev<2> & 
+	keyprev<3> & !$OpTx$FX_DC$16
+GLOBALS | 1 | 2 | inputclk
+
+MACROCELL | 0 | 16 | $OpTx$FX_DC$7
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 3 | 1 | 9 | 1 | 7 | 1 | 8
+INPUTS | 4 | keyinput<2>  | keyprev<5>  | keyinput<3>  | keyprev<4>
+INPUTMC | 2 | 0 | 10 | 0 | 11
+INPUTP | 2 | 9 | 8
+EQ | 2 | 
+   $OpTx$FX_DC$7 = keyinput<2> & !keyprev<5>
+	# keyinput<3> & !keyprev<4>;
+
+MACROCELL | 0 | 17 | $OpTx$FX_DC$16
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 1 | 10 | 1 | 12
+INPUTS | 4 | keyinput<6>  | keyprev<1>  | keyinput<7>  | keyprev<0>
+INPUTMC | 2 | 0 | 14 | 0 | 15
+INPUTP | 2 | 33 | 35
+EQ | 2 | 
+   $OpTx$FX_DC$16 = keyinput<6> & !keyprev<1>
+	# keyinput<7> & !keyprev<0>;
+
+MACROCELL | 1 | 2 | EXP4_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 3
+INPUTS | 7 | keyinput<2>  | keyinput<4>  | keyprev<1>  | keyinput<7>  | keyprev<0>  | keyprev<3>  | keyprev<5>
+INPUTMC | 4 | 0 | 14 | 0 | 15 | 0 | 12 | 0 | 10
+INPUTP | 3 | 9 | 23 | 35
+EXPORTS | 1 | 1 | 3
+EQ | 6 | 
+       EXP4_.EXP  =  !keyinput<2> & !keyinput<4> & keyprev<1> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<2> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<4> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+
+MACROCELL | 1 | 3 | EXP5_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 4
+INPUTS | 9 | keyinput<6>  | keyinput<2>  | keyinput<4>  | keyinput<7>  | keyprev<0>  | keyprev<3>  | keyprev<5>  | keyprev<1>  | EXP4_.EXP
+INPUTMC | 5 | 0 | 15 | 0 | 12 | 0 | 10 | 0 | 14 | 1 | 2
+INPUTP | 4 | 33 | 9 | 23 | 35
+EXPORTS | 1 | 1 | 4
+IMPORTS | 1 | 1 | 2
+EQ | 17 | 
+       EXP5_.EXP  =  !keyinput<6> & !keyinput<2> & !keyinput<4> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<6> & !keyinput<2> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<6> & !keyinput<4> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+	# !keyinput<6> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+	# keyprev<1> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+;Imported pterms FB2_3
+	# !keyinput<2> & !keyinput<4> & keyprev<1> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<2> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<4> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+
+MACROCELL | 1 | 4 | EXP6_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 5
+INPUTS | 9 | keyinput<2>  | keyinput<3>  | keyprev<4>  | keyinput<4>  | keyinput<5>  | keyprev<2>  | keyprev<3>  | keyprev<5>  | EXP5_.EXP
+INPUTMC | 5 | 0 | 11 | 0 | 13 | 0 | 12 | 0 | 10 | 1 | 3
+INPUTP | 4 | 9 | 8 | 23 | 31
+EXPORTS | 1 | 1 | 5
+IMPORTS | 1 | 1 | 3
+EQ | 27 | 
+       EXP6_.EXP  =  !keyinput<2> & keyinput<3> & !keyprev<4>
+	# !keyinput<2> & !keyinput<4> & keyinput<5> & 
+	!keyprev<2>
+	# !keyinput<2> & keyinput<5> & !keyprev<2> & 
+	keyprev<3>
+	# !keyinput<4> & keyinput<5> & !keyprev<2> & 
+	keyprev<5>
+	# keyinput<5> & !keyprev<2> & keyprev<3> & 
+	keyprev<5>
+;Imported pterms FB2_4
+	# !keyinput<6> & !keyinput<2> & !keyinput<4> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<6> & !keyinput<2> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<6> & !keyinput<4> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+	# !keyinput<6> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+	# keyprev<1> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+;Imported pterms FB2_3
+	# !keyinput<2> & !keyinput<4> & keyprev<1> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<2> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<4> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+
+MACROCELL | 1 | 5 | EXP7_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 6
+INPUTS | 13 | keyinput<1>  | keyprev<6>  | keyinput<0>  | keyprev<7>  | keyinput<3>  | keyprev<4>  | keyprev<5>  | newinput<2>  | keyinput<2>  | keyinput<4>  | keyprev<1>  | keyprev<3>  | EXP6_.EXP
+INPUTMC | 8 | 0 | 9 | 0 | 8 | 0 | 11 | 0 | 10 | 1 | 7 | 0 | 14 | 0 | 12 | 1 | 4
+INPUTP | 5 | 13 | 14 | 8 | 9 | 23
+EXPORTS | 1 | 1 | 6
+IMPORTS | 1 | 1 | 4
+EQ | 35 | 
+       EXP7_.EXP  =  keyinput<1> & !keyprev<6>
+	# keyinput<0> & !keyprev<7>
+	# keyinput<3> & !keyprev<4> & keyprev<5>
+	# newinput<2> & !keyinput<2> & !keyinput<4> & 
+	keyprev<1>
+	# newinput<2> & !keyinput<2> & keyprev<1> & 
+	keyprev<3>
+;Imported pterms FB2_5
+	# !keyinput<2> & keyinput<3> & !keyprev<4>
+	# !keyinput<2> & !keyinput<4> & keyinput<5> & 
+	!keyprev<2>
+	# !keyinput<2> & keyinput<5> & !keyprev<2> & 
+	keyprev<3>
+	# !keyinput<4> & keyinput<5> & !keyprev<2> & 
+	keyprev<5>
+	# keyinput<5> & !keyprev<2> & keyprev<3> & 
+	keyprev<5>
+;Imported pterms FB2_4
+	# !keyinput<6> & !keyinput<2> & !keyinput<4> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<6> & !keyinput<2> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<6> & !keyinput<4> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+	# !keyinput<6> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+	# keyprev<1> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+;Imported pterms FB2_3
+	# !keyinput<2> & !keyinput<4> & keyprev<1> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<2> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<4> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+
+MACROCELL | 1 | 6 | EXP8_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 7
+INPUTS | 8 | keyinput<6>  | newinput<2>  | keyinput<2>  | keyinput<4>  | keyprev<3>  | keyprev<5>  | keyprev<1>  | EXP7_.EXP
+INPUTMC | 5 | 1 | 7 | 0 | 12 | 0 | 10 | 0 | 14 | 1 | 5
+INPUTP | 3 | 33 | 9 | 23
+EXPORTS | 1 | 1 | 7
+IMPORTS | 1 | 1 | 5
+EQ | 46 | 
+       EXP8_.EXP  =  !keyinput<6> & newinput<2> & !keyinput<2> & 
+	!keyinput<4>
+	# !keyinput<6> & newinput<2> & !keyinput<2> & 
+	keyprev<3>
+	# !keyinput<6> & newinput<2> & !keyinput<4> & 
+	keyprev<5>
+	# newinput<2> & !keyinput<4> & keyprev<1> & 
+	keyprev<5>
+	# newinput<2> & keyprev<1> & keyprev<3> & 
+	keyprev<5>
+;Imported pterms FB2_6
+	# keyinput<1> & !keyprev<6>
+	# keyinput<0> & !keyprev<7>
+	# keyinput<3> & !keyprev<4> & keyprev<5>
+	# newinput<2> & !keyinput<2> & !keyinput<4> & 
+	keyprev<1>
+	# newinput<2> & !keyinput<2> & keyprev<1> & 
+	keyprev<3>
+;Imported pterms FB2_5
+	# !keyinput<2> & keyinput<3> & !keyprev<4>
+	# !keyinput<2> & !keyinput<4> & keyinput<5> & 
+	!keyprev<2>
+	# !keyinput<2> & keyinput<5> & !keyprev<2> & 
+	keyprev<3>
+	# !keyinput<4> & keyinput<5> & !keyprev<2> & 
+	keyprev<5>
+	# keyinput<5> & !keyprev<2> & keyprev<3> & 
+	keyprev<5>
+;Imported pterms FB2_4
+	# !keyinput<6> & !keyinput<2> & !keyinput<4> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<6> & !keyinput<2> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<6> & !keyinput<4> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+	# !keyinput<6> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+	# keyprev<1> & keyinput<7> & !keyprev<0> & 
+	keyprev<3> & keyprev<5>
+;Imported pterms FB2_3
+	# !keyinput<2> & !keyinput<4> & keyprev<1> & 
+	keyinput<7> & !keyprev<0>
+	# !keyinput<2> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<3>
+	# !keyinput<4> & keyprev<1> & keyinput<7> & 
+	!keyprev<0> & keyprev<5>
+
+MACROCELL | 1 | 8 | EXP9_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 9
+INPUTS | 11 | keyprev<7>  | keyinput<5>  | keyprev<2>  | $OpTx$FX_DC$7  | keyinput<6>  | newinput<1>  | keyinput<0>  | keyinput<7>  | keyprev<0>  | keyprev<1>  | newinput_0.EXP
+INPUTMC | 7 | 0 | 8 | 0 | 13 | 0 | 16 | 1 | 9 | 0 | 15 | 0 | 14 | 1 | 7
+INPUTP | 4 | 31 | 33 | 14 | 35
+EXPORTS | 1 | 1 | 9
+IMPORTS | 1 | 1 | 7
+EQ | 19 | 
+       EXP9_.EXP  =  keyprev<7> & keyinput<5> & !keyprev<2> & 
+	!$OpTx$FX_DC$7
+	# !keyinput<6> & !newinput<1> & !keyinput<0> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !keyinput<6> & !newinput<1> & !keyinput<0> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+	# !newinput<1> & !keyinput<0> & keyprev<1> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !newinput<1> & !keyinput<0> & keyprev<1> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+;Imported pterms FB2_8
+	# !keyinput<6> & !newinput<1> & keyprev<7> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !keyinput<6> & !newinput<1> & keyprev<7> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+	# !newinput<1> & keyprev<7> & keyprev<1> & 
+	!keyinput<7> & !$OpTx$FX_DC$7
+	# !newinput<1> & keyprev<7> & keyprev<1> & 
+	keyprev<0> & !$OpTx$FX_DC$7
+
+MACROCELL | 1 | 10 | EXP10_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 11
+INPUTS | 10 | keyinput<1>  | keyprev<7>  | keyprev<6>  | newinput<0>  | keyinput<0>  | keyinput<4>  | keyinput<5>  | $OpTx$FX_DC$16  | keyprev<2>  | keyprev<3>
+INPUTMC | 6 | 0 | 8 | 0 | 9 | 1 | 11 | 0 | 17 | 0 | 13 | 0 | 12
+INPUTP | 4 | 13 | 14 | 23 | 31
+EXPORTS | 1 | 1 | 11
+EQ | 9 | 
+       EXP10_.EXP  =  keyinput<1> & keyprev<7> & !keyprev<6>
+	# !newinput<0> & !keyinput<0> & !keyinput<4> & 
+	!keyinput<5> & !$OpTx$FX_DC$16
+	# !newinput<0> & !keyinput<0> & !keyinput<4> & 
+	keyprev<2> & !$OpTx$FX_DC$16
+	# !newinput<0> & !keyinput<0> & !keyinput<5> & 
+	keyprev<3> & !$OpTx$FX_DC$16
+	# !newinput<0> & !keyinput<0> & keyprev<2> & 
+	keyprev<3> & !$OpTx$FX_DC$16
+
+MACROCELL | 1 | 13 | EXP11_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 12
+INPUTS | 11 | keyinput<1>  | keyprev<6>  | keyinput<2>  | keyprev<5>  | keyinput<0>  | keyprev<7>  | keyinput<5>  | keyprev<2>  | keyinput<7>  | keyprev<0>  | EXP12_.EXP
+INPUTMC | 6 | 0 | 9 | 0 | 10 | 0 | 8 | 0 | 13 | 0 | 15 | 1 | 14
+INPUTP | 5 | 13 | 9 | 14 | 31 | 35
+EXPORTS | 1 | 1 | 12
+IMPORTS | 1 | 1 | 14
+EQ | 8 | 
+       EXP11_.EXP  =  keyinput<1> & !keyprev<6>
+	# keyinput<2> & !keyprev<5>
+	# keyinput<0> & !keyprev<7>
+	# keyinput<5> & !keyprev<2>
+	# keyinput<7> & !keyprev<0>
+;Imported pterms FB2_15
+	# keyinput<6> & !keyprev<1>
+	# keyinput<4> & !keyprev<3>
+
+MACROCELL | 1 | 14 | EXP12_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 13
+INPUTS | 4 | keyinput<6>  | keyprev<1>  | keyinput<4>  | keyprev<3>
+INPUTMC | 2 | 0 | 14 | 0 | 12
+INPUTP | 2 | 33 | 23
+EXPORTS | 1 | 1 | 13
+EQ | 2 | 
+       EXP12_.EXP  =  keyinput<6> & !keyprev<1>
+	# keyinput<4> & !keyprev<3>
+
+PIN | keyinput<6> | 64 | 0 | N/A | 33 | 7 | 1 | 7 | 1 | 8 | 0 | 14 | 1 | 6 | 0 | 17 | 1 | 3 | 1 | 14
+PIN | inputclk | 8192 | 0 | N/A | 11 | 12 | 1 | 7 | 1 | 9 | 1 | 11 | 0 | 11 | 0 | 8 | 0 | 13 | 0 | 14 | 0 | 15 | 0 | 12 | 0 | 10 | 0 | 9 | 1 | 12
+PIN | keyinput<4> | 64 | 0 | N/A | 23 | 10 | 1 | 6 | 1 | 9 | 1 | 10 | 0 | 12 | 1 | 5 | 1 | 2 | 1 | 3 | 1 | 4 | 1 | 12 | 1 | 14
+PIN | keyinput<2> | 64 | 0 | N/A | 9 | 9 | 1 | 6 | 1 | 11 | 0 | 10 | 1 | 5 | 0 | 16 | 1 | 2 | 1 | 3 | 1 | 4 | 1 | 13
+PIN | keyinput<0> | 64 | 0 | N/A | 14 | 7 | 1 | 5 | 1 | 9 | 1 | 11 | 0 | 8 | 1 | 10 | 1 | 8 | 1 | 13
+PIN | keyinput<1> | 64 | 0 | N/A | 13 | 6 | 1 | 5 | 1 | 9 | 1 | 11 | 0 | 9 | 1 | 10 | 1 | 13
+PIN | keyinput<3> | 64 | 0 | N/A | 8 | 6 | 1 | 5 | 1 | 11 | 0 | 11 | 1 | 12 | 0 | 16 | 1 | 4
+PIN | keyinput<5> | 64 | 0 | N/A | 31 | 7 | 1 | 4 | 1 | 9 | 1 | 10 | 0 | 13 | 1 | 8 | 1 | 12 | 1 | 13
+PIN | keyinput<7> | 64 | 0 | N/A | 35 | 7 | 1 | 3 | 1 | 8 | 0 | 15 | 1 | 7 | 0 | 17 | 1 | 2 | 1 | 13
+PIN | newinput<2> | 536871040 | 0 | N/A | 45
+PIN | newinput<1> | 536871040 | 0 | N/A | 43
+PIN | newinput<0> | 536871040 | 0 | N/A | 41
+PIN | bttnevent | 536871040 | 0 | N/A | 37

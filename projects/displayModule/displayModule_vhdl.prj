@@ -1,0 +1,3 @@
+vhdl work "C:\team1\displayModule\vectorRegister.vhd"
+vhdl work "C:\team1\displayModule\decoder.vhd"
+vhdl work "C:\team1\displayModule\displayModule.vhd"

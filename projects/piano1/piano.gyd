@@ -1,0 +1,36 @@
+Pin Freeze File:  version P.49d
+
+9536XL44PC XC9536XL-10-PC44
+autokey<0> S:PIN14
+autokey<1> S:PIN13
+autokey<2> S:PIN12
+autokey<3> S:PIN11
+key<0> S:PIN24
+key<1> S:PIN22
+key<2> S:PIN28
+key<3> S:PIN26
+pianoclk S:PIN5
+keyout<0> S:PIN38
+keyout<1> S:PIN37
+keyout<2> S:PIN35
+keyout<3> S:PIN33
+op<0> S:PIN4
+op<1> S:PIN2
+op<2> S:PIN44
+op<3> S:PIN43
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 op_1_OBUF CD4/counter<0> CD3/counter<0> op_0_OBUF
+		 CD2/counter<0> CD1/counter<0> CD2/counter<5> CD2/counter<4>
+		 CD2/counter<2> CD1/counter<5> CD1/counter<3> CD1/counter<1>
+		 CD2/counter<6> CD2/counter<3> CD2/counter<1> CD1/counter<6>
+		 CD1/counter<4> CD1/counter<2>
+PARTITION FB2_1 CD4/counter<6> op_2_OBUF CD3/counter<5> op_3_OBUF
+		 CD3/counter<4> CD3/counter<3> keyout_0_OBUF keyout_1_OBUF
+		 CD3/counter<2> keyout_2_OBUF CD4/counter<5> keyout_3_OBUF
+		 CD4/counter<4> CD4/counter<3> CD4/counter<2> CD4/counter<1>
+		 CD3/counter<6> CD3/counter<1>
+

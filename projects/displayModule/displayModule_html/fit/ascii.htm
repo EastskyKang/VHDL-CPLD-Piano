@@ -1,0 +1,429 @@
+<html><body>
+<pre>
+ 
+cpldfit:  version P.49d                             Xilinx Inc.
+                                  Fitter Report
+Design Name: displayModule                       Date:  6-24-2014,  7:56PM
+Device Used: XC9536XL-10-PC44
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+28 /36  ( 78%) 53  /180  ( 29%) 33 /108 ( 31%)   21 /36  ( 58%) 17 /34  ( 50%)
+
+** Function Block Resources **
+
+Function    Mcells      FB Inps     Pterms      IO          
+Block       Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+FB1          10/18       14/54       16/90       9/17
+FB2          18/18*      19/54       37/90       8/17
+             -----       -----       -----      -----    
+             28/36       33/108      53/180     17/34 
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+Signal 'clk' mapped onto global clock net GCK2.
+Global output enable net(s) unused.
+Global set/reset net(s) unused.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    5           5    |  I/O              :    16      28
+Output        :   11          11    |  GCK/IO           :     1       3
+Bidirectional :    0           0    |  GTS/IO           :     0       2
+GCK           :    1           1    |  GSR/IO           :     0       1
+GTS           :    0           0    |
+GSR           :    0           0    |
+                 ----        ----
+        Total     17          17
+
+** Power Data **
+
+There are 28 macrocells in high performance mode (MCHP).
+There are 0 macrocells in low power mode (MCLP).
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'displayModule.ise'.
+INFO:Cpld - Inferring BUFG constraint for signal 'clk' based upon the LOC
+   constraint 'P6'. It is recommended that you declare this BUFG explicitedly in
+   your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+*************************  Summary of Mapped Logic  ************************
+
+** 11 Outputs **
+
+Signal              Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
+Name                Pts   Inps          No.  Type    Use     Mode Rate State
+dpoutput<2>         2     3     FB1_1   2    I/O     O       STD  FAST 
+dpoutput<1>         2     3     FB1_2   3    I/O     O       STD  FAST 
+dpoutput<0>         1     3     FB1_4   4    I/O     O       STD  FAST 
+dpoutput<3>         3     3     FB2_1   1    I/O     O       STD  FAST 
+dpoutput<4>         1     3     FB2_2   44   I/O     O       STD  FAST 
+dpoutput<5>         1     3     FB2_4   43   I/O     O       STD  FAST 
+dpoutput<6>         2     3     FB2_8   37   I/O     O       STD  FAST 
+digit<3>            1     2     FB2_10  35   I/O     O       STD  FAST RESET
+digit<2>            1     2     FB2_12  33   I/O     O       STD  FAST RESET
+digit<1>            1     2     FB2_13  29   I/O     O       STD  FAST RESET
+digit<0>            1     2     FB2_14  28   I/O     O       STD  FAST RESET
+
+** 17 Buried Nodes **
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+reg/n<1>            1     1     FB1_12  STD  RESET
+reg/n<0>            0     0     FB1_13  STD  RESET
+reg/temp_3_2        2     4     FB1_14  STD  RESET
+reg/temp_3_1        2     4     FB1_15  STD  RESET
+reg/temp_3_0        2     4     FB1_16  STD  RESET
+reg/temp_2_2        2     4     FB1_17  STD  RESET
+reg/temp_2_1        2     4     FB1_18  STD  RESET
+reg/temp_2_0        2     4     FB2_3   STD  RESET
+reg/temp_1_2        2     4     FB2_5   STD  RESET
+reg/temp_1_1        2     4     FB2_6   STD  RESET
+reg/temp_1_0        2     4     FB2_7   STD  RESET
+reg/temp_0_2        2     4     FB2_9   STD  RESET
+reg/temp_0_1        2     4     FB2_11  STD  RESET
+reg/temp_0_0        2     4     FB2_15  STD  RESET
+code<2>             4     6     FB2_16  STD  RESET
+code<1>             4     6     FB2_17  STD  RESET
+code<0>             4     6     FB2_18  STD  RESET
+
+** 6 Inputs **
+
+Signal              Loc     Pin  Pin     Pin     
+Name                        No.  Type    Use     
+clk                 FB1_5   6    GCK/I/O GCK
+newinput<2>         FB1_8   9    I/O     I
+newinput<1>         FB1_9   11   I/O     I
+newinput<0>         FB1_11  13   I/O     I
+clear               FB1_13  18   I/O     I
+bttnevent           FB1_14  19   I/O     I
+
+Legend:
+Pin No. - ~ - User Assigned
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Imp Pt       - Product terms imported from other macrocells
+Exp Pt       - Product terms exported to other macrocells
+               in direction shown
+Unused Pt    - Unused local product terms remaining in macrocell
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input             GCK - Global Clock
+               O  - Output            GTS - Global Output Enable
+              (b) - Buried macrocell  GSR - Global Set/Reset
+X            - Signal used as input to the macrocell logic.
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+Number of function block inputs used/remaining:               14/40
+Number of signals used by logic mapping into function block:  14
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+dpoutput<2>           2       0     0   3     FB1_1   2     I/O     O
+dpoutput<1>           2       0     0   3     FB1_2   3     I/O     O
+(unused)              0       0     0   5     FB1_3   5     GCK/I/O 
+dpoutput<0>           1       0     0   4     FB1_4   4     I/O     O
+(unused)              0       0     0   5     FB1_5   6     GCK/I/O GCK
+(unused)              0       0     0   5     FB1_6   8     I/O     
+(unused)              0       0     0   5     FB1_7   7     GCK/I/O 
+(unused)              0       0     0   5     FB1_8   9     I/O     I
+(unused)              0       0     0   5     FB1_9   11    I/O     I
+(unused)              0       0     0   5     FB1_10  12    I/O     
+(unused)              0       0     0   5     FB1_11  13    I/O     I
+reg/n<1>              1       0     0   4     FB1_12  14    I/O     (b)
+reg/n<0>              0       0     0   5     FB1_13  18    I/O     I
+reg/temp_3_2          2       0     0   3     FB1_14  19    I/O     I
+reg/temp_3_1          2       0     0   3     FB1_15  20    I/O     (b)
+reg/temp_3_0          2       0     0   3     FB1_16  22    I/O     (b)
+reg/temp_2_2          2       0     0   3     FB1_17  24    I/O     (b)
+reg/temp_2_1          2       0     0   3     FB1_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: bttnevent          6: newinput<0>       11: reg/temp_2_2 
+  2: clear              7: newinput<1>       12: reg/temp_3_0 
+  3: code<0>            8: newinput<2>       13: reg/temp_3_1 
+  4: code<1>            9: reg/n<0>          14: reg/temp_3_2 
+  5: code<2>           10: reg/temp_2_1     
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+dpoutput<2>          ..XXX................................... 3
+dpoutput<1>          ..XXX................................... 3
+dpoutput<0>          ..XXX................................... 3
+reg/n<1>             ........X............................... 1
+reg/n<0>             ........................................ 0
+reg/temp_3_2         XX...X.......X.......................... 4
+reg/temp_3_1         XX....X.....X........................... 4
+reg/temp_3_0         XX.....X...X............................ 4
+reg/temp_2_2         XX........X..X.......................... 4
+reg/temp_2_1         XX.......X..X........................... 4
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB2  ***********************************
+Number of function block inputs used/remaining:               19/35
+Number of signals used by logic mapping into function block:  19
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+dpoutput<3>           3       0     0   2     FB2_1   1     I/O     O
+dpoutput<4>           1       0     0   4     FB2_2   44    I/O     O
+reg/temp_2_0          2       0     0   3     FB2_3   42    GTS/I/O (b)
+dpoutput<5>           1       0     0   4     FB2_4   43    I/O     O
+reg/temp_1_2          2       0     0   3     FB2_5   40    GTS/I/O (b)
+reg/temp_1_1          2       0     0   3     FB2_6   39    GSR/I/O (b)
+reg/temp_1_0          2       0     0   3     FB2_7   38    I/O     (b)
+dpoutput<6>           2       0     0   3     FB2_8   37    I/O     O
+reg/temp_0_2          2       0     0   3     FB2_9   36    I/O     (b)
+digit<3>              1       0     0   4     FB2_10  35    I/O     O
+reg/temp_0_1          2       0     0   3     FB2_11  34    I/O     (b)
+digit<2>              1       0     0   4     FB2_12  33    I/O     O
+digit<1>              1       0     0   4     FB2_13  29    I/O     O
+digit<0>              1       0     0   4     FB2_14  28    I/O     O
+reg/temp_0_0          2       0     0   3     FB2_15  27    I/O     (b)
+code<2>               4       0     0   1     FB2_16  26    I/O     (b)
+code<1>               4       0     0   1     FB2_17  25    I/O     (b)
+code<0>               4       0     0   1     FB2_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: bttnevent          8: reg/temp_0_0      14: reg/temp_2_0 
+  2: clear              9: reg/temp_0_1      15: reg/temp_2_1 
+  3: code<0>           10: reg/temp_0_2      16: reg/temp_2_2 
+  4: code<1>           11: reg/temp_1_0      17: reg/temp_3_0 
+  5: code<2>           12: reg/temp_1_1      18: reg/temp_3_1 
+  6: reg/n<0>          13: reg/temp_1_2      19: reg/temp_3_2 
+  7: reg/n<1>         
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+dpoutput<3>          ..XXX................................... 3
+dpoutput<4>          ..XXX................................... 3
+reg/temp_2_0         XX...........X..X....................... 4
+dpoutput<5>          ..XXX................................... 3
+reg/temp_1_2         XX..........X..X........................ 4
+reg/temp_1_1         XX.........X..X......................... 4
+reg/temp_1_0         XX........X..X.......................... 4
+dpoutput<6>          ..XXX................................... 3
+reg/temp_0_2         XX.......X..X........................... 4
+digit<3>             .....XX................................. 2
+reg/temp_0_1         XX......X..X............................ 4
+digit<2>             .....XX................................. 2
+digit<1>             .....XX................................. 2
+digit<0>             .....XX................................. 2
+reg/temp_0_0         XX.....X..X............................. 4
+code<2>              .....XXX..X..X..X....................... 6
+code<1>              .....XX.X..X..X..X...................... 6
+code<0>              .....XX..X..X..X..X..................... 6
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+FDCPE_code0: FDCPE port map (code(0),code_D(0),clk,'0','0');
+code_D(0) <= ((reg/temp_1_2 AND NOT reg/n(1) AND reg/n(0))
+	OR (reg/temp_2_2 AND reg/n(1) AND NOT reg/n(0))
+	OR (reg/temp_3_2 AND reg/n(1) AND reg/n(0))
+	OR (reg/temp_0_2 AND NOT reg/n(1) AND NOT reg/n(0)));
+
+FDCPE_code1: FDCPE port map (code(1),code_D(1),clk,'0','0');
+code_D(1) <= ((reg/temp_1_1 AND NOT reg/n(1) AND reg/n(0))
+	OR (reg/temp_2_1 AND reg/n(1) AND NOT reg/n(0))
+	OR (reg/temp_3_1 AND reg/n(1) AND reg/n(0))
+	OR (reg/temp_0_1 AND NOT reg/n(1) AND NOT reg/n(0)));
+
+FDCPE_code2: FDCPE port map (code(2),code_D(2),clk,'0','0');
+code_D(2) <= ((reg/temp_1_0 AND NOT reg/n(1) AND reg/n(0))
+	OR (reg/temp_2_0 AND reg/n(1) AND NOT reg/n(0))
+	OR (reg/temp_3_0 AND reg/n(1) AND reg/n(0))
+	OR (reg/temp_0_0 AND NOT reg/n(1) AND NOT reg/n(0)));
+
+FDCPE_digit0: FDCPE port map (digit(0),digit_D(0),clk,'0','0');
+digit_D(0) <= (NOT reg/n(1) AND NOT reg/n(0));
+
+FDCPE_digit1: FDCPE port map (digit(1),digit_D(1),clk,'0','0');
+digit_D(1) <= (NOT reg/n(1) AND reg/n(0));
+
+FDCPE_digit2: FDCPE port map (digit(2),digit_D(2),clk,'0','0');
+digit_D(2) <= (reg/n(1) AND NOT reg/n(0));
+
+FDCPE_digit3: FDCPE port map (digit(3),digit_D(3),clk,'0','0');
+digit_D(3) <= (reg/n(1) AND reg/n(0));
+
+
+dpoutput(0) <= NOT ((NOT code(1) AND NOT code(2) AND NOT code(0)));
+
+
+dpoutput(1) <= ((NOT code(1) AND code(2))
+	OR (code(1) AND NOT code(2) AND code(0)));
+
+
+dpoutput(2) <= NOT (((code(1) AND code(2))
+	OR (NOT code(2) AND NOT code(0))));
+
+
+dpoutput(3) <= NOT (((code(1) AND code(2) AND NOT code(0))
+	OR (NOT code(1) AND code(2) AND code(0))
+	OR (NOT code(1) AND NOT code(2) AND NOT code(0))));
+
+
+dpoutput(4) <= NOT ((NOT code(1) AND NOT code(2) AND NOT code(0)));
+
+
+dpoutput(5) <= NOT ((NOT code(1) AND NOT code(2) AND NOT code(0)));
+
+
+dpoutput(6) <= NOT (((NOT code(1) AND NOT code(0))
+	OR (code(1) AND code(2) AND code(0))));
+
+FTCPE_reg/n0: FTCPE port map (reg/n(0),'1',clk,'0','0');
+
+FTCPE_reg/n1: FTCPE port map (reg/n(1),reg/n(0),clk,'0','0');
+
+FDCPE_reg/temp_0_0: FDCPE port map (reg/temp_0_0,reg/temp_0_0_D,clk,'0','0');
+reg/temp_0_0_D <= ((reg/temp_1_0 AND NOT clear AND bttnevent)
+	OR (reg/temp_0_0 AND NOT clear AND NOT bttnevent));
+
+FDCPE_reg/temp_0_1: FDCPE port map (reg/temp_0_1,reg/temp_0_1_D,clk,'0','0');
+reg/temp_0_1_D <= ((reg/temp_1_1 AND NOT clear AND bttnevent)
+	OR (reg/temp_0_1 AND NOT clear AND NOT bttnevent));
+
+FDCPE_reg/temp_0_2: FDCPE port map (reg/temp_0_2,reg/temp_0_2_D,clk,'0','0');
+reg/temp_0_2_D <= ((reg/temp_1_2 AND NOT clear AND bttnevent)
+	OR (reg/temp_0_2 AND NOT clear AND NOT bttnevent));
+
+FDCPE_reg/temp_1_0: FDCPE port map (reg/temp_1_0,reg/temp_1_0_D,clk,'0','0');
+reg/temp_1_0_D <= ((reg/temp_1_0 AND NOT clear AND NOT bttnevent)
+	OR (reg/temp_2_0 AND NOT clear AND bttnevent));
+
+FDCPE_reg/temp_1_1: FDCPE port map (reg/temp_1_1,reg/temp_1_1_D,clk,'0','0');
+reg/temp_1_1_D <= ((reg/temp_1_1 AND NOT clear AND NOT bttnevent)
+	OR (reg/temp_2_1 AND NOT clear AND bttnevent));
+
+FDCPE_reg/temp_1_2: FDCPE port map (reg/temp_1_2,reg/temp_1_2_D,clk,'0','0');
+reg/temp_1_2_D <= ((reg/temp_1_2 AND NOT clear AND NOT bttnevent)
+	OR (reg/temp_2_2 AND NOT clear AND bttnevent));
+
+FDCPE_reg/temp_2_0: FDCPE port map (reg/temp_2_0,reg/temp_2_0_D,clk,'0','0');
+reg/temp_2_0_D <= ((reg/temp_2_0 AND NOT clear AND NOT bttnevent)
+	OR (reg/temp_3_0 AND NOT clear AND bttnevent));
+
+FDCPE_reg/temp_2_1: FDCPE port map (reg/temp_2_1,reg/temp_2_1_D,clk,'0','0');
+reg/temp_2_1_D <= ((reg/temp_2_1 AND NOT clear AND NOT bttnevent)
+	OR (reg/temp_3_1 AND NOT clear AND bttnevent));
+
+FDCPE_reg/temp_2_2: FDCPE port map (reg/temp_2_2,reg/temp_2_2_D,clk,'0','0');
+reg/temp_2_2_D <= ((reg/temp_2_2 AND NOT clear AND NOT bttnevent)
+	OR (reg/temp_3_2 AND NOT clear AND bttnevent));
+
+FDCPE_reg/temp_3_0: FDCPE port map (reg/temp_3_0,reg/temp_3_0_D,clk,'0','0');
+reg/temp_3_0_D <= ((reg/temp_3_0 AND NOT clear AND NOT bttnevent)
+	OR (NOT clear AND bttnevent AND newinput(2)));
+
+FDCPE_reg/temp_3_1: FDCPE port map (reg/temp_3_1,reg/temp_3_1_D,clk,'0','0');
+reg/temp_3_1_D <= ((reg/temp_3_1 AND NOT clear AND NOT bttnevent)
+	OR (NOT clear AND bttnevent AND newinput(1)));
+
+FDCPE_reg/temp_3_2: FDCPE port map (reg/temp_3_2,reg/temp_3_2_D,clk,'0','0');
+reg/temp_3_2_D <= ((reg/temp_3_2 AND NOT clear AND NOT bttnevent)
+	OR (NOT clear AND bttnevent AND newinput(0)));
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+******************************  Device Pin Out *****************************
+
+Device : XC9536XL-10-PC44
+
+
+   --------------------------------  
+  /6  5  4  3  2  1  44 43 42 41 40 \
+ | 7                             39 | 
+ | 8                             38 | 
+ | 9                             37 | 
+ | 10                            36 | 
+ | 11       XC9536XL-10-PC44     35 | 
+ | 12                            34 | 
+ | 13                            33 | 
+ | 14                            32 | 
+ | 15                            31 | 
+ | 16                            30 | 
+ | 17                            29 | 
+ \ 18 19 20 21 22 23 24 25 26 27 28 /
+   --------------------------------  
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 dpoutput<3>                      23 GND                           
+  2 dpoutput<2>                      24 KPR                           
+  3 dpoutput<1>                      25 KPR                           
+  4 dpoutput<0>                      26 KPR                           
+  5 KPR                              27 KPR                           
+  6 clk                              28 digit<0>                      
+  7 KPR                              29 digit<1>                      
+  8 KPR                              30 TDO                           
+  9 newinput<2>                      31 GND                           
+ 10 GND                              32 VCC                           
+ 11 newinput<1>                      33 digit<2>                      
+ 12 KPR                              34 KPR                           
+ 13 newinput<0>                      35 digit<3>                      
+ 14 KPR                              36 KPR                           
+ 15 TDI                              37 dpoutput<6>                   
+ 16 TMS                              38 KPR                           
+ 17 TCK                              39 KPR                           
+ 18 clear                            40 KPR                           
+ 19 bttnevent                        41 VCC                           
+ 20 KPR                              42 KPR                           
+ 21 VCC                              43 dpoutput<5>                   
+ 22 KPR                              44 dpoutput<4>                   
+
+
+Legend :  NC  = Not Connected, unbonded pin
+         PGND = Unused I/O configured as additional Ground pin
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         KPR  = Unused I/O with weak keeper (leave unconnected)
+         VCC  = Dedicated Power Pin
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc9536xl-10-PC44
+Optimization Method                         : SPEED
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Power Mode                                  : STD
+Ground on Unused IOs                        : OFF
+Set I/O Pin Termination                     : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Input Limit                                 : 54
+Pterm Limit                                 : 25
+</pre>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

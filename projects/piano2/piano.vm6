@@ -1,0 +1,2095 @@
+NDS Database:  version P.49d
+
+NDS_INFO | xc9500xl | 9536XL44PC | XC9536XL-10-PC44
+
+DEVICE | 9536XL | 9536XL44PC | 
+
+NETWORK | piano | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | pianoclk_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | pianoclk | 3308 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | autokey_0_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | autokey<0> | 3310 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | key_0_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | key<0> | 3309 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | op_0_OBUF | piano_COPY_0_COPY_0 | 2155877376 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_0_OBUF | 3253 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_0_OBUF.Q | op_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | op_0_OBUF$Q | 3252 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_0_OBUF.Q | op_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | op_0_OBUF | 3253 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_0_OBUF.Q | op_0_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | op_0_OBUF.SI | op_0_OBUF | 0 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_0_OBUF | 3253 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_0_OBUF.Q | op_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | op_0_OBUF.D1 | 3318 | ? | 0 | 4096 | op_0_OBUF | NULL | NULL | op_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | op_0_OBUF.D2 | 3319 | ? | 0 | 4096 | op_0_OBUF | NULL | NULL | op_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 8 | IV_TRUE | op_0_OBUF | IV_TRUE | CD1/counter<0> | IV_FALSE | CD1/counter<2> | IV_TRUE | CD1/counter<3> | IV_FALSE | CD1/counter<5> | IV_TRUE | CD1/counter<1> | IV_TRUE | CD1/counter<4> | IV_FALSE | CD1/counter<6>
+SPPTERM | 8 | IV_FALSE | op_0_OBUF | IV_TRUE | CD1/counter<0> | IV_TRUE | CD1/counter<2> | IV_FALSE | CD1/counter<3> | IV_TRUE | CD1/counter<5> | IV_TRUE | CD1/counter<1> | IV_TRUE | CD1/counter<4> | IV_FALSE | CD1/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | op_0_OBUF.RSTF | 3320 | ? | 0 | 4096 | op_0_OBUF | NULL | NULL | op_0_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | op_0_OBUF.REG | op_0_OBUF | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | op_0_OBUF.D | 3317 | ? | 0 | 0 | op_0_OBUF | NULL | NULL | op_0_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | op_0_OBUF.RSTF | 3320 | ? | 0 | 4096 | op_0_OBUF | NULL | NULL | op_0_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | op_0_OBUF.Q | 3321 | ? | 0 | 0 | op_0_OBUF | NULL | NULL | op_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | autokey_1_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | autokey<1> | 3312 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | key_1_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | key<1> | 3311 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | op_1_OBUF | piano_COPY_0_COPY_0 | 2155877376 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_1_OBUF | 3255 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_1_OBUF.Q | op_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | op_1_OBUF$Q | 3254 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_1_OBUF.Q | op_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | op_1_OBUF | 3255 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_1_OBUF.Q | op_1_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | op_1_OBUF.SI | op_1_OBUF | 0 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_1_OBUF | 3255 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_1_OBUF.Q | op_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | op_1_OBUF.D1 | 3323 | ? | 0 | 4096 | op_1_OBUF | NULL | NULL | op_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | op_1_OBUF.D2 | 3324 | ? | 0 | 4096 | op_1_OBUF | NULL | NULL | op_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 8 | IV_TRUE | op_1_OBUF | IV_FALSE | CD2/counter<0> | IV_TRUE | CD2/counter<3> | IV_FALSE | CD2/counter<5> | IV_FALSE | CD2/counter<1> | IV_FALSE | CD2/counter<2> | IV_TRUE | CD2/counter<4> | IV_FALSE | CD2/counter<6>
+SPPTERM | 8 | IV_FALSE | op_1_OBUF | IV_TRUE | CD2/counter<0> | IV_FALSE | CD2/counter<3> | IV_TRUE | CD2/counter<5> | IV_FALSE | CD2/counter<1> | IV_FALSE | CD2/counter<2> | IV_TRUE | CD2/counter<4> | IV_FALSE | CD2/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | op_1_OBUF.RSTF | 3325 | ? | 0 | 4096 | op_1_OBUF | NULL | NULL | op_1_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | op_1_OBUF.REG | op_1_OBUF | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | op_1_OBUF.D | 3322 | ? | 0 | 0 | op_1_OBUF | NULL | NULL | op_1_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | op_1_OBUF.RSTF | 3325 | ? | 0 | 4096 | op_1_OBUF | NULL | NULL | op_1_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | op_1_OBUF.Q | 3326 | ? | 0 | 0 | op_1_OBUF | NULL | NULL | op_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | autokey_2_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | autokey<2> | 3314 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | key_2_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | key<2> | 3313 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | op_2_OBUF | piano_COPY_0_COPY_0 | 2155877376 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_2_OBUF | 3257 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_2_OBUF.Q | op_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | op_2_OBUF$Q | 3256 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_2_OBUF.Q | op_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | op_2_OBUF | 3257 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_2_OBUF.Q | op_2_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | op_2_OBUF.SI | op_2_OBUF | 0 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_2_OBUF | 3257 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_2_OBUF.Q | op_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | op_2_OBUF.D1 | 3328 | ? | 0 | 4096 | op_2_OBUF | NULL | NULL | op_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | op_2_OBUF.D2 | 3329 | ? | 0 | 4096 | op_2_OBUF | NULL | NULL | op_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 8 | IV_TRUE | op_2_OBUF | IV_TRUE | CD3/counter<0> | IV_FALSE | CD3/counter<1> | IV_TRUE | CD3/counter<2> | IV_FALSE | CD3/counter<3> | IV_TRUE | CD3/counter<4> | IV_FALSE | CD3/counter<5> | IV_FALSE | CD3/counter<6>
+SPPTERM | 8 | IV_FALSE | op_2_OBUF | IV_TRUE | CD3/counter<0> | IV_TRUE | CD3/counter<1> | IV_FALSE | CD3/counter<2> | IV_TRUE | CD3/counter<3> | IV_FALSE | CD3/counter<4> | IV_TRUE | CD3/counter<5> | IV_FALSE | CD3/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | op_2_OBUF.RSTF | 3330 | ? | 0 | 4096 | op_2_OBUF | NULL | NULL | op_2_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | op_2_OBUF.REG | op_2_OBUF | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | op_2_OBUF.D | 3327 | ? | 0 | 0 | op_2_OBUF | NULL | NULL | op_2_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | op_2_OBUF.RSTF | 3330 | ? | 0 | 4096 | op_2_OBUF | NULL | NULL | op_2_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | op_2_OBUF.Q | 3331 | ? | 0 | 0 | op_2_OBUF | NULL | NULL | op_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | autokey_3_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | autokey<3> | 3316 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | key_3_IBUF | piano_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | key<3> | 3315 | PI | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | op_3_OBUF | piano_COPY_0_COPY_0 | 2155877376 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_3_OBUF | 3259 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_3_OBUF.Q | op_3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | op_3_OBUF$Q | 3258 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_3_OBUF.Q | op_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | op_3_OBUF | 3259 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_3_OBUF.Q | op_3_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | op_3_OBUF.SI | op_3_OBUF | 0 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | op_3_OBUF | 3259 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_3_OBUF.Q | op_3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | op_3_OBUF.D1 | 3333 | ? | 0 | 4096 | op_3_OBUF | NULL | NULL | op_3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | op_3_OBUF.D2 | 3334 | ? | 0 | 4096 | op_3_OBUF | NULL | NULL | op_3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 8 | IV_TRUE | op_3_OBUF | IV_FALSE | CD4/counter<0> | IV_TRUE | CD4/counter<2> | IV_FALSE | CD4/counter<3> | IV_TRUE | CD4/counter<4> | IV_FALSE | CD4/counter<5> | IV_FALSE | CD4/counter<1> | IV_FALSE | CD4/counter<6>
+SPPTERM | 8 | IV_FALSE | op_3_OBUF | IV_TRUE | CD4/counter<0> | IV_FALSE | CD4/counter<2> | IV_TRUE | CD4/counter<3> | IV_FALSE | CD4/counter<4> | IV_TRUE | CD4/counter<5> | IV_FALSE | CD4/counter<1> | IV_FALSE | CD4/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | op_3_OBUF.RSTF | 3335 | ? | 0 | 4096 | op_3_OBUF | NULL | NULL | op_3_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | op_3_OBUF.REG | op_3_OBUF | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | op_3_OBUF.D | 3332 | ? | 0 | 0 | op_3_OBUF | NULL | NULL | op_3_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | op_3_OBUF.RSTF | 3335 | ? | 0 | 4096 | op_3_OBUF | NULL | NULL | op_3_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | op_3_OBUF.Q | 3336 | ? | 0 | 0 | op_3_OBUF | NULL | NULL | op_3_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD2/counter<0> | piano_COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD2/counter<0>.SI | CD2/counter<0> | 0 | 2 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD2/counter<0>.D1 | 3338 | ? | 0 | 4096 | CD2/counter<0> | NULL | NULL | CD2/counter<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD2/counter<0>.D2 | 3339 | ? | 0 | 4096 | CD2/counter<0> | NULL | NULL | CD2/counter<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD2/counter<0>.RSTF | 3340 | ? | 0 | 4096 | CD2/counter<0> | NULL | NULL | CD2/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | CD2/counter<0>.REG | CD2/counter<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD2/counter<0>.D | 3337 | ? | 0 | 0 | CD2/counter<0> | NULL | NULL | CD2/counter<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD2/counter<0>.RSTF | 3340 | ? | 0 | 4096 | CD2/counter<0> | NULL | NULL | CD2/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD2/counter<0>.Q | 3341 | ? | 0 | 0 | CD2/counter<0> | NULL | NULL | CD2/counter<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD4/counter<0> | piano_COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD4/counter<0>.SI | CD4/counter<0> | 0 | 2 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD4/counter<0>.D1 | 3343 | ? | 0 | 4096 | CD4/counter<0> | NULL | NULL | CD4/counter<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD4/counter<0>.D2 | 3344 | ? | 0 | 4096 | CD4/counter<0> | NULL | NULL | CD4/counter<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD4/counter<0>.RSTF | 3345 | ? | 0 | 4096 | CD4/counter<0> | NULL | NULL | CD4/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | CD4/counter<0>.REG | CD4/counter<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD4/counter<0>.D | 3342 | ? | 0 | 0 | CD4/counter<0> | NULL | NULL | CD4/counter<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD4/counter<0>.RSTF | 3345 | ? | 0 | 4096 | CD4/counter<0> | NULL | NULL | CD4/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD4/counter<0>.Q | 3346 | ? | 0 | 0 | CD4/counter<0> | NULL | NULL | CD4/counter<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD1/counter<0> | piano_COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD1/counter<0>.SI | CD1/counter<0> | 0 | 2 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD1/counter<0>.D1 | 3348 | ? | 0 | 4096 | CD1/counter<0> | NULL | NULL | CD1/counter<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD1/counter<0>.D2 | 3349 | ? | 0 | 4096 | CD1/counter<0> | NULL | NULL | CD1/counter<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD1/counter<0>.RSTF | 3350 | ? | 0 | 4096 | CD1/counter<0> | NULL | NULL | CD1/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | CD1/counter<0>.REG | CD1/counter<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD1/counter<0>.D | 3347 | ? | 0 | 0 | CD1/counter<0> | NULL | NULL | CD1/counter<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD1/counter<0>.RSTF | 3350 | ? | 0 | 4096 | CD1/counter<0> | NULL | NULL | CD1/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD1/counter<0>.Q | 3351 | ? | 0 | 0 | CD1/counter<0> | NULL | NULL | CD1/counter<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD1/counter<2> | piano_COPY_0_COPY_0 | 2155877376 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD1/counter<2>.SI | CD1/counter<2> | 0 | 4 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD1/counter<2>.D1 | 3353 | ? | 0 | 4096 | CD1/counter<2> | NULL | NULL | CD1/counter<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD1/counter<2>.D2 | 3354 | ? | 0 | 4096 | CD1/counter<2> | NULL | NULL | CD1/counter<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | CD1/counter<0> | IV_TRUE | CD1/counter<1>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD1/counter<2>.RSTF | 3355 | ? | 0 | 4096 | CD1/counter<2> | NULL | NULL | CD1/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | CD1/counter<2>.REG | CD1/counter<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD1/counter<2>.D | 3352 | ? | 0 | 0 | CD1/counter<2> | NULL | NULL | CD1/counter<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD1/counter<2>.RSTF | 3355 | ? | 0 | 4096 | CD1/counter<2> | NULL | NULL | CD1/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD1/counter<2>.Q | 3356 | ? | 0 | 0 | CD1/counter<2> | NULL | NULL | CD1/counter<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | CD1/counter<3> | piano_COPY_0_COPY_0 | 2155877632 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD1/counter<3>.SI | CD1/counter<3> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD1/counter<3>.D1 | 3358 | ? | 0 | 4096 | CD1/counter<3> | NULL | NULL | CD1/counter<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD1/counter<3>.D2 | 3359 | ? | 0 | 4096 | CD1/counter<3> | NULL | NULL | CD1/counter<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | CD1/counter<0>
+SPPTERM | 1 | IV_FALSE | CD1/counter<2>
+SPPTERM | 1 | IV_FALSE | CD1/counter<1>
+SPPTERM | 4 | IV_FALSE | CD1/counter<3> | IV_TRUE | CD1/counter<5> | IV_TRUE | CD1/counter<4> | IV_FALSE | CD1/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD1/counter<3>.RSTF | 3360 | ? | 0 | 4096 | CD1/counter<3> | NULL | NULL | CD1/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | CD1/counter<3>.REG | CD1/counter<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD1/counter<3>.D | 3357 | ? | 0 | 0 | CD1/counter<3> | NULL | NULL | CD1/counter<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD1/counter<3>.RSTF | 3360 | ? | 0 | 4096 | CD1/counter<3> | NULL | NULL | CD1/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD1/counter<3>.Q | 3361 | ? | 0 | 0 | CD1/counter<3> | NULL | NULL | CD1/counter<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD1/counter<5> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD1/counter<5>.SI | CD1/counter<5> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD1/counter<5>.D1 | 3363 | ? | 0 | 4096 | CD1/counter<5> | NULL | NULL | CD1/counter<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD1/counter<5>.D2 | 3364 | ? | 0 | 4096 | CD1/counter<5> | NULL | NULL | CD1/counter<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | CD1/counter<0> | IV_TRUE | CD1/counter<2> | IV_TRUE | CD1/counter<3> | IV_TRUE | CD1/counter<1> | IV_TRUE | CD1/counter<4>
+SPPTERM | 6 | IV_TRUE | CD1/counter<0> | IV_TRUE | CD1/counter<2> | IV_TRUE | CD1/counter<5> | IV_TRUE | CD1/counter<1> | IV_TRUE | CD1/counter<4> | IV_FALSE | CD1/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD1/counter<5>.RSTF | 3365 | ? | 0 | 4096 | CD1/counter<5> | NULL | NULL | CD1/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | CD1/counter<5>.REG | CD1/counter<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD1/counter<5>.D | 3362 | ? | 0 | 0 | CD1/counter<5> | NULL | NULL | CD1/counter<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD1/counter<5>.RSTF | 3365 | ? | 0 | 4096 | CD1/counter<5> | NULL | NULL | CD1/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD1/counter<5>.Q | 3366 | ? | 0 | 0 | CD1/counter<5> | NULL | NULL | CD1/counter<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD2/counter<3> | piano_COPY_0_COPY_0 | 2155877376 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD2/counter<3>.SI | CD2/counter<3> | 0 | 5 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD2/counter<3>.D1 | 3368 | ? | 0 | 4096 | CD2/counter<3> | NULL | NULL | CD2/counter<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD2/counter<3>.D2 | 3369 | ? | 0 | 4096 | CD2/counter<3> | NULL | NULL | CD2/counter<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | CD2/counter<0> | IV_TRUE | CD2/counter<1> | IV_TRUE | CD2/counter<2>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD2/counter<3>.RSTF | 3370 | ? | 0 | 4096 | CD2/counter<3> | NULL | NULL | CD2/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | CD2/counter<3>.REG | CD2/counter<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD2/counter<3>.D | 3367 | ? | 0 | 0 | CD2/counter<3> | NULL | NULL | CD2/counter<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD2/counter<3>.RSTF | 3370 | ? | 0 | 4096 | CD2/counter<3> | NULL | NULL | CD2/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD2/counter<3>.Q | 3371 | ? | 0 | 0 | CD2/counter<3> | NULL | NULL | CD2/counter<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD2/counter<5> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD2/counter<5>.SI | CD2/counter<5> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD2/counter<5>.D1 | 3373 | ? | 0 | 4096 | CD2/counter<5> | NULL | NULL | CD2/counter<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD2/counter<5>.D2 | 3374 | ? | 0 | 4096 | CD2/counter<5> | NULL | NULL | CD2/counter<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | CD2/counter<0> | IV_TRUE | CD2/counter<3> | IV_TRUE | CD2/counter<1> | IV_TRUE | CD2/counter<2> | IV_TRUE | CD2/counter<4>
+SPPTERM | 7 | IV_TRUE | CD2/counter<0> | IV_FALSE | CD2/counter<3> | IV_TRUE | CD2/counter<5> | IV_FALSE | CD2/counter<1> | IV_FALSE | CD2/counter<2> | IV_TRUE | CD2/counter<4> | IV_FALSE | CD2/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD2/counter<5>.RSTF | 3375 | ? | 0 | 4096 | CD2/counter<5> | NULL | NULL | CD2/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | CD2/counter<5>.REG | CD2/counter<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD2/counter<5>.D | 3372 | ? | 0 | 0 | CD2/counter<5> | NULL | NULL | CD2/counter<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD2/counter<5>.RSTF | 3375 | ? | 0 | 4096 | CD2/counter<5> | NULL | NULL | CD2/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD2/counter<5>.Q | 3376 | ? | 0 | 0 | CD2/counter<5> | NULL | NULL | CD2/counter<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD3/counter<0> | piano_COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD3/counter<0>.SI | CD3/counter<0> | 0 | 2 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD3/counter<0>.D1 | 3378 | ? | 0 | 4096 | CD3/counter<0> | NULL | NULL | CD3/counter<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD3/counter<0>.D2 | 3379 | ? | 0 | 4096 | CD3/counter<0> | NULL | NULL | CD3/counter<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD3/counter<0>.RSTF | 3380 | ? | 0 | 4096 | CD3/counter<0> | NULL | NULL | CD3/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | CD3/counter<0>.REG | CD3/counter<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD3/counter<0>.D | 3377 | ? | 0 | 0 | CD3/counter<0> | NULL | NULL | CD3/counter<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD3/counter<0>.RSTF | 3380 | ? | 0 | 4096 | CD3/counter<0> | NULL | NULL | CD3/counter<0>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD3/counter<0>.Q | 3381 | ? | 0 | 0 | CD3/counter<0> | NULL | NULL | CD3/counter<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD3/counter<1> | piano_COPY_0_COPY_0 | 2155877376 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD3/counter<1>.SI | CD3/counter<1> | 0 | 3 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD3/counter<1>.D1 | 3383 | ? | 0 | 0 | CD3/counter<1> | NULL | NULL | CD3/counter<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD3/counter<1>.D2 | 3384 | ? | 0 | 4096 | CD3/counter<1> | NULL | NULL | CD3/counter<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | CD3/counter<0>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD3/counter<1>.RSTF | 3385 | ? | 0 | 4096 | CD3/counter<1> | NULL | NULL | CD3/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | CD3/counter<1>.REG | CD3/counter<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD3/counter<1>.D | 3382 | ? | 0 | 0 | CD3/counter<1> | NULL | NULL | CD3/counter<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD3/counter<1>.RSTF | 3385 | ? | 0 | 4096 | CD3/counter<1> | NULL | NULL | CD3/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD3/counter<1>.Q | 3386 | ? | 0 | 0 | CD3/counter<1> | NULL | NULL | CD3/counter<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | CD3/counter<2> | piano_COPY_0_COPY_0 | 2155877632 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD3/counter<2>.SI | CD3/counter<2> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD3/counter<2>.D1 | 3388 | ? | 0 | 4096 | CD3/counter<2> | NULL | NULL | CD3/counter<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD3/counter<2>.D2 | 3389 | ? | 0 | 4096 | CD3/counter<2> | NULL | NULL | CD3/counter<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | CD3/counter<0>
+SPPTERM | 1 | IV_FALSE | CD3/counter<1>
+SPPTERM | 5 | IV_FALSE | CD3/counter<2> | IV_TRUE | CD3/counter<3> | IV_FALSE | CD3/counter<4> | IV_TRUE | CD3/counter<5> | IV_FALSE | CD3/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD3/counter<2>.RSTF | 3390 | ? | 0 | 4096 | CD3/counter<2> | NULL | NULL | CD3/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | CD3/counter<2>.REG | CD3/counter<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD3/counter<2>.D | 3387 | ? | 0 | 0 | CD3/counter<2> | NULL | NULL | CD3/counter<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD3/counter<2>.RSTF | 3390 | ? | 0 | 4096 | CD3/counter<2> | NULL | NULL | CD3/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD3/counter<2>.Q | 3391 | ? | 0 | 0 | CD3/counter<2> | NULL | NULL | CD3/counter<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD3/counter<3> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD3/counter<3>.SI | CD3/counter<3> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD3/counter<3>.D1 | 3393 | ? | 0 | 4096 | CD3/counter<3> | NULL | NULL | CD3/counter<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD3/counter<3>.D2 | 3394 | ? | 0 | 4096 | CD3/counter<3> | NULL | NULL | CD3/counter<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | CD3/counter<0> | IV_TRUE | CD3/counter<1> | IV_TRUE | CD3/counter<2>
+SPPTERM | 6 | IV_TRUE | CD3/counter<0> | IV_TRUE | CD3/counter<1> | IV_TRUE | CD3/counter<3> | IV_FALSE | CD3/counter<4> | IV_TRUE | CD3/counter<5> | IV_FALSE | CD3/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD3/counter<3>.RSTF | 3395 | ? | 0 | 4096 | CD3/counter<3> | NULL | NULL | CD3/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | CD3/counter<3>.REG | CD3/counter<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD3/counter<3>.D | 3392 | ? | 0 | 0 | CD3/counter<3> | NULL | NULL | CD3/counter<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD3/counter<3>.RSTF | 3395 | ? | 0 | 4096 | CD3/counter<3> | NULL | NULL | CD3/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD3/counter<3>.Q | 3396 | ? | 0 | 0 | CD3/counter<3> | NULL | NULL | CD3/counter<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD3/counter<4> | piano_COPY_0_COPY_0 | 2155877376 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD3/counter<4>.SI | CD3/counter<4> | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD3/counter<4>.D1 | 3398 | ? | 0 | 4096 | CD3/counter<4> | NULL | NULL | CD3/counter<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD3/counter<4>.D2 | 3399 | ? | 0 | 4096 | CD3/counter<4> | NULL | NULL | CD3/counter<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | CD3/counter<0> | IV_TRUE | CD3/counter<1> | IV_TRUE | CD3/counter<2> | IV_TRUE | CD3/counter<3>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD3/counter<4>.RSTF | 3400 | ? | 0 | 4096 | CD3/counter<4> | NULL | NULL | CD3/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | CD3/counter<4>.REG | CD3/counter<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD3/counter<4>.D | 3397 | ? | 0 | 0 | CD3/counter<4> | NULL | NULL | CD3/counter<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD3/counter<4>.RSTF | 3400 | ? | 0 | 4096 | CD3/counter<4> | NULL | NULL | CD3/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD3/counter<4>.Q | 3401 | ? | 0 | 0 | CD3/counter<4> | NULL | NULL | CD3/counter<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD3/counter<5> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD3/counter<5>.SI | CD3/counter<5> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD3/counter<5>.D1 | 3403 | ? | 0 | 4096 | CD3/counter<5> | NULL | NULL | CD3/counter<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD3/counter<5>.D2 | 3404 | ? | 0 | 4096 | CD3/counter<5> | NULL | NULL | CD3/counter<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | CD3/counter<0> | IV_TRUE | CD3/counter<1> | IV_TRUE | CD3/counter<2> | IV_TRUE | CD3/counter<3> | IV_TRUE | CD3/counter<4>
+SPPTERM | 7 | IV_TRUE | CD3/counter<0> | IV_TRUE | CD3/counter<1> | IV_FALSE | CD3/counter<2> | IV_TRUE | CD3/counter<3> | IV_FALSE | CD3/counter<4> | IV_TRUE | CD3/counter<5> | IV_FALSE | CD3/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD3/counter<5>.RSTF | 3405 | ? | 0 | 4096 | CD3/counter<5> | NULL | NULL | CD3/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | CD3/counter<5>.REG | CD3/counter<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD3/counter<5>.D | 3402 | ? | 0 | 0 | CD3/counter<5> | NULL | NULL | CD3/counter<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD3/counter<5>.RSTF | 3405 | ? | 0 | 4096 | CD3/counter<5> | NULL | NULL | CD3/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD3/counter<5>.Q | 3406 | ? | 0 | 0 | CD3/counter<5> | NULL | NULL | CD3/counter<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD4/counter<2> | piano_COPY_0_COPY_0 | 2155877376 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD4/counter<2>.SI | CD4/counter<2> | 0 | 4 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD4/counter<2>.D1 | 3408 | ? | 0 | 4096 | CD4/counter<2> | NULL | NULL | CD4/counter<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD4/counter<2>.D2 | 3409 | ? | 0 | 4096 | CD4/counter<2> | NULL | NULL | CD4/counter<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | CD4/counter<0> | IV_TRUE | CD4/counter<1>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD4/counter<2>.RSTF | 3410 | ? | 0 | 4096 | CD4/counter<2> | NULL | NULL | CD4/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | CD4/counter<2>.REG | CD4/counter<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD4/counter<2>.D | 3407 | ? | 0 | 0 | CD4/counter<2> | NULL | NULL | CD4/counter<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD4/counter<2>.RSTF | 3410 | ? | 0 | 4096 | CD4/counter<2> | NULL | NULL | CD4/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD4/counter<2>.Q | 3411 | ? | 0 | 0 | CD4/counter<2> | NULL | NULL | CD4/counter<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD4/counter<3> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD4/counter<3>.SI | CD4/counter<3> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD4/counter<3>.D1 | 3413 | ? | 0 | 4096 | CD4/counter<3> | NULL | NULL | CD4/counter<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD4/counter<3>.D2 | 3414 | ? | 0 | 4096 | CD4/counter<3> | NULL | NULL | CD4/counter<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | CD4/counter<0> | IV_TRUE | CD4/counter<2> | IV_TRUE | CD4/counter<1>
+SPPTERM | 7 | IV_TRUE | CD4/counter<0> | IV_FALSE | CD4/counter<2> | IV_TRUE | CD4/counter<3> | IV_FALSE | CD4/counter<4> | IV_TRUE | CD4/counter<5> | IV_FALSE | CD4/counter<1> | IV_FALSE | CD4/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD4/counter<3>.RSTF | 3415 | ? | 0 | 4096 | CD4/counter<3> | NULL | NULL | CD4/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | CD4/counter<3>.REG | CD4/counter<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD4/counter<3>.D | 3412 | ? | 0 | 0 | CD4/counter<3> | NULL | NULL | CD4/counter<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD4/counter<3>.RSTF | 3415 | ? | 0 | 4096 | CD4/counter<3> | NULL | NULL | CD4/counter<3>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD4/counter<3>.Q | 3416 | ? | 0 | 0 | CD4/counter<3> | NULL | NULL | CD4/counter<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD4/counter<4> | piano_COPY_0_COPY_0 | 2155877376 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD4/counter<4>.SI | CD4/counter<4> | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD4/counter<4>.D1 | 3418 | ? | 0 | 4096 | CD4/counter<4> | NULL | NULL | CD4/counter<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD4/counter<4>.D2 | 3419 | ? | 0 | 4096 | CD4/counter<4> | NULL | NULL | CD4/counter<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | CD4/counter<0> | IV_TRUE | CD4/counter<2> | IV_TRUE | CD4/counter<3> | IV_TRUE | CD4/counter<1>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD4/counter<4>.RSTF | 3420 | ? | 0 | 4096 | CD4/counter<4> | NULL | NULL | CD4/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | CD4/counter<4>.REG | CD4/counter<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD4/counter<4>.D | 3417 | ? | 0 | 0 | CD4/counter<4> | NULL | NULL | CD4/counter<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD4/counter<4>.RSTF | 3420 | ? | 0 | 4096 | CD4/counter<4> | NULL | NULL | CD4/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD4/counter<4>.Q | 3421 | ? | 0 | 0 | CD4/counter<4> | NULL | NULL | CD4/counter<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD4/counter<5> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD4/counter<5>.SI | CD4/counter<5> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD4/counter<5>.D1 | 3423 | ? | 0 | 4096 | CD4/counter<5> | NULL | NULL | CD4/counter<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD4/counter<5>.D2 | 3424 | ? | 0 | 4096 | CD4/counter<5> | NULL | NULL | CD4/counter<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | CD4/counter<0> | IV_TRUE | CD4/counter<2> | IV_TRUE | CD4/counter<3> | IV_TRUE | CD4/counter<4> | IV_TRUE | CD4/counter<1>
+SPPTERM | 7 | IV_TRUE | CD4/counter<0> | IV_FALSE | CD4/counter<2> | IV_TRUE | CD4/counter<3> | IV_FALSE | CD4/counter<4> | IV_TRUE | CD4/counter<5> | IV_FALSE | CD4/counter<1> | IV_FALSE | CD4/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD4/counter<5>.RSTF | 3425 | ? | 0 | 4096 | CD4/counter<5> | NULL | NULL | CD4/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | CD4/counter<5>.REG | CD4/counter<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD4/counter<5>.D | 3422 | ? | 0 | 0 | CD4/counter<5> | NULL | NULL | CD4/counter<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD4/counter<5>.RSTF | 3425 | ? | 0 | 4096 | CD4/counter<5> | NULL | NULL | CD4/counter<5>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD4/counter<5>.Q | 3426 | ? | 0 | 0 | CD4/counter<5> | NULL | NULL | CD4/counter<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD1/counter<1> | piano_COPY_0_COPY_0 | 2155877376 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD1/counter<1>.SI | CD1/counter<1> | 0 | 3 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD1/counter<1>.D1 | 3428 | ? | 0 | 0 | CD1/counter<1> | NULL | NULL | CD1/counter<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD1/counter<1>.D2 | 3429 | ? | 0 | 4096 | CD1/counter<1> | NULL | NULL | CD1/counter<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | CD1/counter<0>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD1/counter<1>.RSTF | 3430 | ? | 0 | 4096 | CD1/counter<1> | NULL | NULL | CD1/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | CD1/counter<1>.REG | CD1/counter<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD1/counter<1>.D | 3427 | ? | 0 | 0 | CD1/counter<1> | NULL | NULL | CD1/counter<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD1/counter<1>.RSTF | 3430 | ? | 0 | 4096 | CD1/counter<1> | NULL | NULL | CD1/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD1/counter<1>.Q | 3431 | ? | 0 | 0 | CD1/counter<1> | NULL | NULL | CD1/counter<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD1/counter<4> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD1/counter<4>.SI | CD1/counter<4> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD1/counter<4>.D1 | 3433 | ? | 0 | 4096 | CD1/counter<4> | NULL | NULL | CD1/counter<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD1/counter<4>.D2 | 3434 | ? | 0 | 4096 | CD1/counter<4> | NULL | NULL | CD1/counter<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | CD1/counter<0> | IV_TRUE | CD1/counter<2> | IV_TRUE | CD1/counter<3> | IV_TRUE | CD1/counter<1>
+SPPTERM | 6 | IV_TRUE | CD1/counter<0> | IV_TRUE | CD1/counter<2> | IV_TRUE | CD1/counter<5> | IV_TRUE | CD1/counter<1> | IV_TRUE | CD1/counter<4> | IV_FALSE | CD1/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD1/counter<4>.RSTF | 3435 | ? | 0 | 4096 | CD1/counter<4> | NULL | NULL | CD1/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | CD1/counter<4>.REG | CD1/counter<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD1/counter<4>.D | 3432 | ? | 0 | 0 | CD1/counter<4> | NULL | NULL | CD1/counter<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD1/counter<4>.RSTF | 3435 | ? | 0 | 4096 | CD1/counter<4> | NULL | NULL | CD1/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD1/counter<4>.Q | 3436 | ? | 0 | 0 | CD1/counter<4> | NULL | NULL | CD1/counter<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | CD2/counter<1> | piano_COPY_0_COPY_0 | 2155877632 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD2/counter<1>.SI | CD2/counter<1> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD2/counter<1>.D1 | 3438 | ? | 0 | 4096 | CD2/counter<1> | NULL | NULL | CD2/counter<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD2/counter<1>.D2 | 3439 | ? | 0 | 4096 | CD2/counter<1> | NULL | NULL | CD2/counter<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | CD2/counter<0>
+SPPTERM | 6 | IV_FALSE | CD2/counter<3> | IV_TRUE | CD2/counter<5> | IV_FALSE | CD2/counter<1> | IV_FALSE | CD2/counter<2> | IV_TRUE | CD2/counter<4> | IV_FALSE | CD2/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD2/counter<1>.RSTF | 3440 | ? | 0 | 4096 | CD2/counter<1> | NULL | NULL | CD2/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | CD2/counter<1>.REG | CD2/counter<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD2/counter<1>.D | 3437 | ? | 0 | 0 | CD2/counter<1> | NULL | NULL | CD2/counter<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD2/counter<1>.RSTF | 3440 | ? | 0 | 4096 | CD2/counter<1> | NULL | NULL | CD2/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD2/counter<1>.Q | 3441 | ? | 0 | 0 | CD2/counter<1> | NULL | NULL | CD2/counter<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD2/counter<2> | piano_COPY_0_COPY_0 | 2155877376 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD2/counter<2>.SI | CD2/counter<2> | 0 | 4 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD2/counter<2>.D1 | 3443 | ? | 0 | 4096 | CD2/counter<2> | NULL | NULL | CD2/counter<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD2/counter<2>.D2 | 3444 | ? | 0 | 4096 | CD2/counter<2> | NULL | NULL | CD2/counter<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | CD2/counter<0> | IV_TRUE | CD2/counter<1>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD2/counter<2>.RSTF | 3445 | ? | 0 | 4096 | CD2/counter<2> | NULL | NULL | CD2/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | CD2/counter<2>.REG | CD2/counter<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD2/counter<2>.D | 3442 | ? | 0 | 0 | CD2/counter<2> | NULL | NULL | CD2/counter<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD2/counter<2>.RSTF | 3445 | ? | 0 | 4096 | CD2/counter<2> | NULL | NULL | CD2/counter<2>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD2/counter<2>.Q | 3446 | ? | 0 | 0 | CD2/counter<2> | NULL | NULL | CD2/counter<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD2/counter<4> | piano_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD2/counter<4>.SI | CD2/counter<4> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD2/counter<4>.D1 | 3448 | ? | 0 | 4096 | CD2/counter<4> | NULL | NULL | CD2/counter<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD2/counter<4>.D2 | 3449 | ? | 0 | 4096 | CD2/counter<4> | NULL | NULL | CD2/counter<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | CD2/counter<0> | IV_TRUE | CD2/counter<3> | IV_TRUE | CD2/counter<1> | IV_TRUE | CD2/counter<2>
+SPPTERM | 7 | IV_TRUE | CD2/counter<0> | IV_FALSE | CD2/counter<3> | IV_TRUE | CD2/counter<5> | IV_FALSE | CD2/counter<1> | IV_FALSE | CD2/counter<2> | IV_TRUE | CD2/counter<4> | IV_FALSE | CD2/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD2/counter<4>.RSTF | 3450 | ? | 0 | 4096 | CD2/counter<4> | NULL | NULL | CD2/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | CD2/counter<4>.REG | CD2/counter<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD2/counter<4>.D | 3447 | ? | 0 | 0 | CD2/counter<4> | NULL | NULL | CD2/counter<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD2/counter<4>.RSTF | 3450 | ? | 0 | 4096 | CD2/counter<4> | NULL | NULL | CD2/counter<4>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD2/counter<4>.Q | 3451 | ? | 0 | 0 | CD2/counter<4> | NULL | NULL | CD2/counter<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | CD4/counter<1> | piano_COPY_0_COPY_0 | 2155877632 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD4/counter<1>.SI | CD4/counter<1> | 0 | 9 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD4/counter<1>.D1 | 3453 | ? | 0 | 4096 | CD4/counter<1> | NULL | NULL | CD4/counter<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD4/counter<1>.D2 | 3454 | ? | 0 | 4096 | CD4/counter<1> | NULL | NULL | CD4/counter<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | CD4/counter<0>
+SPPTERM | 6 | IV_FALSE | CD4/counter<2> | IV_TRUE | CD4/counter<3> | IV_FALSE | CD4/counter<4> | IV_TRUE | CD4/counter<5> | IV_FALSE | CD4/counter<1> | IV_FALSE | CD4/counter<6>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD4/counter<1>.RSTF | 3455 | ? | 0 | 4096 | CD4/counter<1> | NULL | NULL | CD4/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | CD4/counter<1>.REG | CD4/counter<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD4/counter<1>.D | 3452 | ? | 0 | 0 | CD4/counter<1> | NULL | NULL | CD4/counter<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD4/counter<1>.RSTF | 3455 | ? | 0 | 4096 | CD4/counter<1> | NULL | NULL | CD4/counter<1>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD4/counter<1>.Q | 3456 | ? | 0 | 0 | CD4/counter<1> | NULL | NULL | CD4/counter<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD1/counter<6> | piano_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD1/counter<6> | 3284 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<6>.Q | CD1/counter<6> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD1/counter<6>.SI | CD1/counter<6> | 0 | 8 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<0> | 3262 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<0>.Q | CD1/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<2> | 3263 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<2>.Q | CD1/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<3> | 3264 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<3>.Q | CD1/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<5> | 3265 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<5>.Q | CD1/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<1> | 3278 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<1>.Q | CD1/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD1/counter<4> | 3279 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD1/counter<4>.Q | CD1/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD1/counter<6>.D1 | 3458 | ? | 0 | 4096 | CD1/counter<6> | NULL | NULL | CD1/counter<6>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD1/counter<6>.D2 | 3459 | ? | 0 | 4096 | CD1/counter<6> | NULL | NULL | CD1/counter<6>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | CD1/counter<0> | IV_TRUE | CD1/counter<2> | IV_TRUE | CD1/counter<3> | IV_TRUE | CD1/counter<5> | IV_TRUE | CD1/counter<1> | IV_TRUE | CD1/counter<4>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD1/counter<6>.RSTF | 3460 | ? | 0 | 4096 | CD1/counter<6> | NULL | NULL | CD1/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | CD1/counter<6>.REG | CD1/counter<6> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD1/counter<6>.D | 3457 | ? | 0 | 0 | CD1/counter<6> | NULL | NULL | CD1/counter<6>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD1/counter<6>.RSTF | 3460 | ? | 0 | 4096 | CD1/counter<6> | NULL | NULL | CD1/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD1/counter<6>.Q | 3461 | ? | 0 | 0 | CD1/counter<6> | NULL | NULL | CD1/counter<6>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD2/counter<6> | piano_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD2/counter<6> | 3285 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<6>.Q | CD2/counter<6> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD2/counter<6>.SI | CD2/counter<6> | 0 | 8 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<0> | 3260 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<0>.Q | CD2/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<3> | 3266 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<3>.Q | CD2/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<5> | 3267 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<5>.Q | CD2/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<1> | 3280 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<1>.Q | CD2/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<2> | 3281 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<2>.Q | CD2/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD2/counter<4> | 3282 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD2/counter<4>.Q | CD2/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD2/counter<6>.D1 | 3463 | ? | 0 | 4096 | CD2/counter<6> | NULL | NULL | CD2/counter<6>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD2/counter<6>.D2 | 3464 | ? | 0 | 4096 | CD2/counter<6> | NULL | NULL | CD2/counter<6>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | CD2/counter<0> | IV_TRUE | CD2/counter<3> | IV_TRUE | CD2/counter<5> | IV_TRUE | CD2/counter<1> | IV_TRUE | CD2/counter<2> | IV_TRUE | CD2/counter<4>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD2/counter<6>.RSTF | 3465 | ? | 0 | 4096 | CD2/counter<6> | NULL | NULL | CD2/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | CD2/counter<6>.REG | CD2/counter<6> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD2/counter<6>.D | 3462 | ? | 0 | 0 | CD2/counter<6> | NULL | NULL | CD2/counter<6>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD2/counter<6>.RSTF | 3465 | ? | 0 | 4096 | CD2/counter<6> | NULL | NULL | CD2/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD2/counter<6>.Q | 3466 | ? | 0 | 0 | CD2/counter<6> | NULL | NULL | CD2/counter<6>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD3/counter<6> | piano_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD3/counter<6> | 3286 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<6>.Q | CD3/counter<6> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD3/counter<6>.SI | CD3/counter<6> | 0 | 8 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<0> | 3268 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<0>.Q | CD3/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<1> | 3269 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<1>.Q | CD3/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<2> | 3270 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<2>.Q | CD3/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<3> | 3271 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<3>.Q | CD3/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<4> | 3272 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<4>.Q | CD3/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD3/counter<5> | 3273 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD3/counter<5>.Q | CD3/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD3/counter<6>.D1 | 3468 | ? | 0 | 4096 | CD3/counter<6> | NULL | NULL | CD3/counter<6>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD3/counter<6>.D2 | 3469 | ? | 0 | 4096 | CD3/counter<6> | NULL | NULL | CD3/counter<6>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | CD3/counter<0> | IV_TRUE | CD3/counter<1> | IV_TRUE | CD3/counter<2> | IV_TRUE | CD3/counter<3> | IV_TRUE | CD3/counter<4> | IV_TRUE | CD3/counter<5>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD3/counter<6>.RSTF | 3470 | ? | 0 | 4096 | CD3/counter<6> | NULL | NULL | CD3/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | CD3/counter<6>.REG | CD3/counter<6> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD3/counter<6>.D | 3467 | ? | 0 | 0 | CD3/counter<6> | NULL | NULL | CD3/counter<6>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD3/counter<6>.RSTF | 3470 | ? | 0 | 4096 | CD3/counter<6> | NULL | NULL | CD3/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD3/counter<6>.Q | 3471 | ? | 0 | 0 | CD3/counter<6> | NULL | NULL | CD3/counter<6>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | CD4/counter<6> | piano_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | CD4/counter<6> | 3287 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<6>.Q | CD4/counter<6> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | CD4/counter<6>.SI | CD4/counter<6> | 0 | 8 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<0> | 3261 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<0>.Q | CD4/counter<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<2> | 3274 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<2>.Q | CD4/counter<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<3> | 3275 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<3>.Q | CD4/counter<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<4> | 3276 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<4>.Q | CD4/counter<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<5> | 3277 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<5>.Q | CD4/counter<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CD4/counter<1> | 3283 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | CD4/counter<1>.Q | CD4/counter<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | CD4/counter<6>.D1 | 3473 | ? | 0 | 4096 | CD4/counter<6> | NULL | NULL | CD4/counter<6>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | CD4/counter<6>.D2 | 3474 | ? | 0 | 4096 | CD4/counter<6> | NULL | NULL | CD4/counter<6>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | CD4/counter<0> | IV_TRUE | CD4/counter<2> | IV_TRUE | CD4/counter<3> | IV_TRUE | CD4/counter<4> | IV_TRUE | CD4/counter<5> | IV_TRUE | CD4/counter<1>
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | CD4/counter<6>.RSTF | 3475 | ? | 0 | 4096 | CD4/counter<6> | NULL | NULL | CD4/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | CD4/counter<6>.REG | CD4/counter<6> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | CD4/counter<6>.D | 3472 | ? | 0 | 0 | CD4/counter<6> | NULL | NULL | CD4/counter<6>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | pianoclk_IBUF/FCLK | 3251 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | pianoclk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | CD4/counter<6>.RSTF | 3475 | ? | 0 | 4096 | CD4/counter<6> | NULL | NULL | CD4/counter<6>.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | CD4/counter<6>.Q | 3476 | ? | 0 | 0 | CD4/counter<6> | NULL | NULL | CD4/counter<6>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | autokeyout_0_OBUF | piano_COPY_0_COPY_0 | 2155872512 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | autokeyout_0_OBUF$Q | 3290 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_0_OBUF.Q | autokeyout_0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | autokeyout_0_OBUF.SI | autokeyout_0_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_0_IBUF | 3288 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_0_IBUF | 3289 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | autokeyout_0_OBUF.D1 | 3478 | ? | 0 | 4096 | autokeyout_0_OBUF | NULL | NULL | autokeyout_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | autokeyout_0_OBUF.D2 | 3479 | ? | 0 | 4096 | autokeyout_0_OBUF | NULL | NULL | autokeyout_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | key_0_IBUF | IV_FALSE | autokey_0_IBUF
+
+SRFF_INSTANCE | autokeyout_0_OBUF.REG | autokeyout_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | autokeyout_0_OBUF.D | 3477 | ? | 0 | 0 | autokeyout_0_OBUF | NULL | NULL | autokeyout_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | autokeyout_0_OBUF.Q | 3480 | ? | 0 | 0 | autokeyout_0_OBUF | NULL | NULL | autokeyout_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | autokeyout_1_OBUF | piano_COPY_0_COPY_0 | 2155872512 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | autokeyout_1_OBUF$Q | 3293 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_1_OBUF.Q | autokeyout_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | autokeyout_1_OBUF.SI | autokeyout_1_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_1_IBUF | 3291 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_1_IBUF | 3292 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | autokeyout_1_OBUF.D1 | 3482 | ? | 0 | 4096 | autokeyout_1_OBUF | NULL | NULL | autokeyout_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | autokeyout_1_OBUF.D2 | 3483 | ? | 0 | 4096 | autokeyout_1_OBUF | NULL | NULL | autokeyout_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | key_1_IBUF | IV_FALSE | autokey_1_IBUF
+
+SRFF_INSTANCE | autokeyout_1_OBUF.REG | autokeyout_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | autokeyout_1_OBUF.D | 3481 | ? | 0 | 0 | autokeyout_1_OBUF | NULL | NULL | autokeyout_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | autokeyout_1_OBUF.Q | 3484 | ? | 0 | 0 | autokeyout_1_OBUF | NULL | NULL | autokeyout_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | autokeyout_2_OBUF | piano_COPY_0_COPY_0 | 2155872512 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | autokeyout_2_OBUF$Q | 3296 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_2_OBUF.Q | autokeyout_2_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | autokeyout_2_OBUF.SI | autokeyout_2_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_2_IBUF | 3294 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_2_IBUF | 3295 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | autokeyout_2_OBUF.D1 | 3486 | ? | 0 | 4096 | autokeyout_2_OBUF | NULL | NULL | autokeyout_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | autokeyout_2_OBUF.D2 | 3487 | ? | 0 | 4096 | autokeyout_2_OBUF | NULL | NULL | autokeyout_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | key_2_IBUF | IV_FALSE | autokey_2_IBUF
+
+SRFF_INSTANCE | autokeyout_2_OBUF.REG | autokeyout_2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | autokeyout_2_OBUF.D | 3485 | ? | 0 | 0 | autokeyout_2_OBUF | NULL | NULL | autokeyout_2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | autokeyout_2_OBUF.Q | 3488 | ? | 0 | 0 | autokeyout_2_OBUF | NULL | NULL | autokeyout_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | autokeyout_3_OBUF | piano_COPY_0_COPY_0 | 2155872512 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | autokeyout_3_OBUF$Q | 3299 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_3_OBUF.Q | autokeyout_3_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | autokeyout_3_OBUF.SI | autokeyout_3_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | key_3_IBUF | 3297 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | key_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | autokey_3_IBUF | 3298 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokey_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | autokeyout_3_OBUF.D1 | 3490 | ? | 0 | 4096 | autokeyout_3_OBUF | NULL | NULL | autokeyout_3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | autokeyout_3_OBUF.D2 | 3491 | ? | 0 | 4096 | autokeyout_3_OBUF | NULL | NULL | autokeyout_3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | key_3_IBUF | IV_FALSE | autokey_3_IBUF
+
+SRFF_INSTANCE | autokeyout_3_OBUF.REG | autokeyout_3_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | autokeyout_3_OBUF.D | 3489 | ? | 0 | 0 | autokeyout_3_OBUF | NULL | NULL | autokeyout_3_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | autokeyout_3_OBUF.Q | 3492 | ? | 0 | 0 | autokeyout_3_OBUF | NULL | NULL | autokeyout_3_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | op<0> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | op_0_OBUF$Q | 3252 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_0_OBUF.Q | op_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | op<0> | 3300 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | op<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | op<1> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | op_1_OBUF$Q | 3254 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_1_OBUF.Q | op_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | op<1> | 3301 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | op<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | op<2> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | op_2_OBUF$Q | 3256 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_2_OBUF.Q | op_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | op<2> | 3302 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | op<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | op<3> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | op_3_OBUF$Q | 3258 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | op_3_OBUF.Q | op_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | op<3> | 3303 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | op<3> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | autokeyout<0> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | autokeyout_0_OBUF$Q | 3290 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_0_OBUF.Q | autokeyout_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | autokeyout<0> | 3304 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokeyout<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | autokeyout<1> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | autokeyout_1_OBUF$Q | 3293 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_1_OBUF.Q | autokeyout_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | autokeyout<1> | 3305 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokeyout<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | autokeyout<2> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | autokeyout_2_OBUF$Q | 3296 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_2_OBUF.Q | autokeyout_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | autokeyout<2> | 3306 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokeyout<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | autokeyout<3> | piano_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | autokeyout_3_OBUF$Q | 3299 | ? | 0 | 0 | piano_COPY_0_COPY_0 | NULL | autokeyout_3_OBUF.Q | autokeyout_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | autokeyout<3> | 3307 | PO | 0 | 0 | piano_COPY_0_COPY_0 | NULL | NULL | autokeyout<3> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | piano_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | op_1_OBUF | 1 | NULL | 0 | op<1> | 1 | 2 | 49152
+FBPIN | 2 | CD4/counter<0> | 1 | NULL | 0 | NULL | 0 | 3 | 49152
+FBPIN | 3 | CD3/counter<0> | 1 | pianoclk_IBUF | 0 | NULL | 0 | 5 | 57344
+FBPIN | 4 | op_0_OBUF | 1 | NULL | 0 | op<0> | 1 | 4 | 49152
+FBPIN | 5 | CD2/counter<0> | 1 | NULL | 0 | NULL | 0 | 6 | 57344
+FBPIN | 6 | CD1/counter<0> | 1 | NULL | 0 | NULL | 0 | 8 | 49152
+FBPIN | 7 | CD2/counter<6> | 1 | NULL | 0 | NULL | 0 | 7 | 57344
+FBPIN | 8 | CD2/counter<3> | 1 | NULL | 0 | NULL | 0 | 9 | 49152
+FBPIN | 9 | CD2/counter<2> | 1 | autokey_3_IBUF | 1 | NULL | 0 | 11 | 49152
+FBPIN | 10 | CD1/counter<6> | 1 | autokey_2_IBUF | 1 | NULL | 0 | 12 | 49152
+FBPIN | 11 | CD1/counter<2> | 1 | autokey_1_IBUF | 1 | NULL | 0 | 13 | 49152
+FBPIN | 12 | CD1/counter<1> | 1 | autokey_0_IBUF | 1 | NULL | 0 | 14 | 49152
+FBPIN | 13 | CD2/counter<5> | 1 | NULL | 0 | NULL | 0 | 18 | 49152
+FBPIN | 14 | CD2/counter<4> | 1 | NULL | 0 | NULL | 0 | 19 | 49152
+FBPIN | 15 | CD2/counter<1> | 1 | NULL | 0 | NULL | 0 | 20 | 49152
+FBPIN | 16 | CD1/counter<5> | 1 | key_1_IBUF | 1 | NULL | 0 | 22 | 49152
+FBPIN | 17 | CD1/counter<4> | 1 | key_0_IBUF | 1 | NULL | 0 | 24 | 49152
+FBPIN | 18 | CD1/counter<3> | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | piano_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | CD4/counter<6> | 1 | NULL | 0 | NULL | 0 | 1 | 49152
+FBPIN | 2 | op_2_OBUF | 1 | NULL | 0 | op<2> | 1 | 44 | 49152
+FBPIN | 3 | CD4/counter<4> | 1 | NULL | 0 | NULL | 0 | 42 | 53248
+FBPIN | 4 | op_3_OBUF | 1 | NULL | 0 | op<3> | 1 | 43 | 49152
+FBPIN | 5 | CD4/counter<2> | 1 | NULL | 0 | NULL | 0 | 40 | 53248
+FBPIN | 6 | CD3/counter<6> | 1 | NULL | 0 | NULL | 0 | 39 | 51200
+FBPIN | 7 | autokeyout_0_OBUF | 1 | NULL | 0 | autokeyout<0> | 1 | 38 | 49152
+FBPIN | 8 | autokeyout_1_OBUF | 1 | NULL | 0 | autokeyout<1> | 1 | 37 | 49152
+FBPIN | 9 | CD3/counter<4> | 1 | NULL | 0 | NULL | 0 | 36 | 49152
+FBPIN | 10 | autokeyout_2_OBUF | 1 | NULL | 0 | autokeyout<2> | 1 | 35 | 49152
+FBPIN | 11 | CD3/counter<1> | 1 | NULL | 0 | NULL | 0 | 34 | 49152
+FBPIN | 12 | autokeyout_3_OBUF | 1 | NULL | 0 | autokeyout<3> | 1 | 33 | 49152
+FBPIN | 13 | CD4/counter<5> | 1 | NULL | 0 | NULL | 0 | 29 | 49152
+FBPIN | 14 | CD4/counter<3> | 1 | key_2_IBUF | 1 | NULL | 0 | 28 | 49152
+FBPIN | 15 | CD4/counter<1> | 1 | NULL | 0 | NULL | 0 | 27 | 49152
+FBPIN | 16 | CD3/counter<5> | 1 | key_3_IBUF | 1 | NULL | 0 | 26 | 49152
+FBPIN | 17 | CD3/counter<3> | 1 | NULL | 0 | NULL | 0 | 25 | 49152
+FBPIN | 18 | CD3/counter<2> | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | piano_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | AUTOKEY<0:3> | 4 | 0 | 0 | autokey<0> | 0 | autokey<1> | 1 | autokey<2> | 2 | autokey<3> | 3
+BUSINFO | AUTOKEYOUT<0:3> | 4 | 0 | 1 | autokeyout<0> | 0 | autokeyout<1> | 1 | autokeyout<2> | 2 | autokeyout<3> | 3
+BUSINFO | KEY<0:3> | 4 | 0 | 0 | key<0> | 0 | key<1> | 1 | key<2> | 2 | key<3> | 3
+BUSINFO | OP<0:3> | 4 | 0 | 1 | op<0> | 0 | op<1> | 1 | op<2> | 2 | op<3> | 3
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | op_1_OBUF | NULL | 3 | op_0_OBUF | NULL | 4 | CD2/counter<0> | NULL | 5 | key<1> | 22 | 6 | CD2/counter<6> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 7 | CD2/counter<3> | NULL | 9 | CD1/counter<6> | NULL | 11 | CD1/counter<1> | NULL | 14 | CD2/counter<1> | NULL | 15 | key<3> | 26
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 16 | CD1/counter<4> | NULL | 17 | autokey<2> | 12 | 21 | CD1/counter<2> | NULL | 24 | CD1/counter<5> | NULL | 26 | CD2/counter<2> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 31 | autokey<0> | 14 | 32 | key<0> | 24 | 34 | autokey<1> | 13 | 35 | key<2> | 28 | 36 | CD2/counter<4> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 40 | autokey<3> | 11 | 45 | CD1/counter<0> | NULL | 46 | CD1/counter<3> | NULL | 51 | CD2/counter<5> | NULL
+
+FB_IMUX_INDEX | FOOBAR1_ | 0 | -1 | -1 | 3 | 4 | 59 | 6 | 7 | -1 | 9 | -1 | 11 | -1 | -1 | 14 | 51 | 16 | 71 | -1 | -1 | -1 | 10 | -1 | -1 | 15 | -1 | 8 | -1 | -1 | -1 | -1 | 67 | 55 | -1 | 69 | 47 | 13 | -1 | -1 | -1 | 70 | -1 | -1 | -1 | -1 | 5 | 17 | -1 | -1 | -1 | -1 | 12 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 0 | CD4/counter<6> | NULL | 1 | op_2_OBUF | NULL | 2 | CD3/counter<0> | NULL | 3 | op_3_OBUF | NULL | 4 | CD4/counter<2> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 5 | key<1> | 22 | 8 | CD3/counter<4> | NULL | 12 | CD4/counter<5> | NULL | 13 | CD4/counter<3> | NULL | 15 | key<3> | 26
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 17 | autokey<2> | 12 | 26 | CD3/counter<3> | NULL | 29 | CD4/counter<4> | NULL | 31 | autokey<0> | 14 | 32 | key<0> | 24
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 34 | autokey<1> | 13 | 35 | key<2> | 28 | 36 | CD4/counter<1> | NULL | 37 | CD4/counter<0> | NULL | 39 | CD3/counter<1> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 40 | autokey<3> | 11 | 43 | CD3/counter<5> | NULL | 45 | CD3/counter<2> | NULL | 47 | CD3/counter<6> | NULL
+
+FB_IMUX_INDEX | FOOBAR2_ | 18 | 19 | 2 | 21 | 22 | 59 | -1 | -1 | 26 | -1 | -1 | -1 | 30 | 31 | -1 | 51 | -1 | 71 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 34 | -1 | -1 | 20 | -1 | 67 | 55 | -1 | 69 | 47 | 32 | 1 | -1 | 28 | 70 | -1 | -1 | 33 | -1 | 35 | -1 | 23 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | pianoclk | 0 | 0

@@ -1,0 +1,212 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FTCPE_CD1/counter0: FTCPE port map (CD1/counter(0),'1',pianoclk,CD1/counter_CLR(0),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_CLR(0) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_CD1/counter1: FTCPE port map (CD1/counter(1),CD1/counter(0),pianoclk,CD1/counter_CLR(1),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_CLR(1) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_CD1/counter2: FTCPE port map (CD1/counter(2),CD1/counter_T(2),pianoclk,CD1/counter_CLR(2),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_T(2) <= (CD1/counter(0) AND CD1/counter(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_CLR(2) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_CD1/counter3: FTCPE port map (CD1/counter(3),CD1/counter_T(3),pianoclk,CD1/counter_CLR(3),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_T(3) <= ((NOT CD1/counter(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CD1/counter(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CD1/counter(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CD1/counter(3) AND CD1/counter(5) AND CD1/counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD1/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_CLR(3) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_CD1/counter4: FTCPE port map (CD1/counter(4),CD1/counter_T(4),pianoclk,CD1/counter_CLR(4),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_T(4) <= ((CD1/counter(0) AND CD1/counter(2) AND CD1/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD1/counter(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD1/counter(0) AND CD1/counter(2) AND CD1/counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD1/counter(1) AND CD1/counter(4) AND NOT CD1/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_CLR(4) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_CD1/counter5: FTCPE port map (CD1/counter(5),CD1/counter_T(5),pianoclk,CD1/counter_CLR(5),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_T(5) <= ((CD1/counter(0) AND CD1/counter(2) AND CD1/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD1/counter(1) AND CD1/counter(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD1/counter(0) AND CD1/counter(2) AND CD1/counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD1/counter(1) AND CD1/counter(4) AND NOT CD1/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_CLR(5) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_CD1/counter6: FTCPE port map (CD1/counter(6),CD1/counter_T(6),pianoclk,CD1/counter_CLR(6),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_T(6) <= (CD1/counter(0) AND CD1/counter(2) AND CD1/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD1/counter(5) AND CD1/counter(1) AND CD1/counter(4));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD1/counter_CLR(6) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_CD2/counter0: FTCPE port map (CD2/counter(0),'1',pianoclk,CD2/counter_CLR(0),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_CLR(0) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_CD2/counter1: FTCPE port map (CD2/counter(1),CD2/counter_T(1),pianoclk,CD2/counter_CLR(1),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_T(1) <= ((NOT CD2/counter(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CD2/counter(3) AND CD2/counter(5) AND NOT CD2/counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD2/counter(2) AND CD2/counter(4) AND NOT CD2/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_CLR(1) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_CD2/counter2: FTCPE port map (CD2/counter(2),CD2/counter_T(2),pianoclk,CD2/counter_CLR(2),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_T(2) <= (CD2/counter(0) AND CD2/counter(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_CLR(2) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_CD2/counter3: FTCPE port map (CD2/counter(3),CD2/counter_T(3),pianoclk,CD2/counter_CLR(3),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_T(3) <= (CD2/counter(0) AND CD2/counter(1) AND CD2/counter(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_CLR(3) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_CD2/counter4: FTCPE port map (CD2/counter(4),CD2/counter_T(4),pianoclk,CD2/counter_CLR(4),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_T(4) <= ((CD2/counter(0) AND CD2/counter(3) AND CD2/counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD2/counter(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD2/counter(0) AND NOT CD2/counter(3) AND CD2/counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND NOT CD2/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_CLR(4) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_CD2/counter5: FTCPE port map (CD2/counter(5),CD2/counter_T(5),pianoclk,CD2/counter_CLR(5),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_T(5) <= ((CD2/counter(0) AND CD2/counter(3) AND CD2/counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD2/counter(2) AND CD2/counter(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD2/counter(0) AND NOT CD2/counter(3) AND CD2/counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND NOT CD2/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_CLR(5) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_CD2/counter6: FTCPE port map (CD2/counter(6),CD2/counter_T(6),pianoclk,CD2/counter_CLR(6),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_T(6) <= (CD2/counter(0) AND CD2/counter(3) AND CD2/counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD2/counter(1) AND CD2/counter(2) AND CD2/counter(4));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD2/counter_CLR(6) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_CD3/counter0: FTCPE port map (CD3/counter(0),'1',pianoclk,CD3/counter_CLR(0),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_CLR(0) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_CD3/counter1: FTCPE port map (CD3/counter(1),CD3/counter(0),pianoclk,CD3/counter_CLR(1),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_CLR(1) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_CD3/counter2: FTCPE port map (CD3/counter(2),CD3/counter_T(2),pianoclk,CD3/counter_CLR(2),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_T(2) <= ((NOT CD3/counter(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CD3/counter(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CD3/counter(2) AND CD3/counter(3) AND NOT CD3/counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD3/counter(5) AND NOT CD3/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_CLR(2) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_CD3/counter3: FTCPE port map (CD3/counter(3),CD3/counter_T(3),pianoclk,CD3/counter_CLR(3),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_T(3) <= ((CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD3/counter(0) AND CD3/counter(1) AND CD3/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD3/counter(4) AND CD3/counter(5) AND NOT CD3/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_CLR(3) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_CD3/counter4: FTCPE port map (CD3/counter(4),CD3/counter_T(4),pianoclk,CD3/counter_CLR(4),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_T(4) <= (CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD3/counter(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_CLR(4) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_CD3/counter5: FTCPE port map (CD3/counter(5),CD3/counter_T(5),pianoclk,CD3/counter_CLR(5),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_T(5) <= ((CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD3/counter(3) AND CD3/counter(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD3/counter(0) AND CD3/counter(1) AND NOT CD3/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD3/counter(3) AND NOT CD3/counter(4) AND CD3/counter(5) AND NOT CD3/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_CLR(5) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_CD3/counter6: FTCPE port map (CD3/counter(6),CD3/counter_T(6),pianoclk,CD3/counter_CLR(6),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_T(6) <= (CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD3/counter(3) AND CD3/counter(4) AND CD3/counter(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD3/counter_CLR(6) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_CD4/counter0: FTCPE port map (CD4/counter(0),'1',pianoclk,CD4/counter_CLR(0),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_CLR(0) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+FTCPE_CD4/counter1: FTCPE port map (CD4/counter(1),CD4/counter_T(1),pianoclk,CD4/counter_CLR(1),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_T(1) <= ((NOT CD4/counter(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CD4/counter(2) AND CD4/counter(3) AND NOT CD4/counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD4/counter(5) AND NOT CD4/counter(1) AND NOT CD4/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_CLR(1) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+FTCPE_CD4/counter2: FTCPE port map (CD4/counter(2),CD4/counter_T(2),pianoclk,CD4/counter_CLR(2),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_T(2) <= (CD4/counter(0) AND CD4/counter(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_CLR(2) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+FTCPE_CD4/counter3: FTCPE port map (CD4/counter(3),CD4/counter_T(3),pianoclk,CD4/counter_CLR(3),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_T(3) <= ((CD4/counter(0) AND CD4/counter(2) AND CD4/counter(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD4/counter(0) AND NOT CD4/counter(2) AND CD4/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD4/counter(4) AND CD4/counter(5) AND NOT CD4/counter(1) AND NOT CD4/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_CLR(3) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+FTCPE_CD4/counter4: FTCPE port map (CD4/counter(4),CD4/counter_T(4),pianoclk,CD4/counter_CLR(4),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_T(4) <= (CD4/counter(0) AND CD4/counter(2) AND CD4/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD4/counter(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_CLR(4) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+FTCPE_CD4/counter5: FTCPE port map (CD4/counter(5),CD4/counter_T(5),pianoclk,CD4/counter_CLR(5),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_T(5) <= ((CD4/counter(0) AND CD4/counter(2) AND CD4/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD4/counter(4) AND CD4/counter(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CD4/counter(0) AND NOT CD4/counter(2) AND CD4/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD4/counter(4) AND CD4/counter(5) AND NOT CD4/counter(1) AND NOT CD4/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_CLR(5) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+FTCPE_CD4/counter6: FTCPE port map (CD4/counter(6),CD4/counter_T(6),pianoclk,CD4/counter_CLR(6),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_T(6) <= (CD4/counter(0) AND CD4/counter(2) AND CD4/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD4/counter(4) AND CD4/counter(5) AND CD4/counter(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CD4/counter_CLR(6) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+autokeyout(0) <= NOT ((NOT key(0) AND NOT autokey(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+autokeyout(1) <= NOT ((NOT key(1) AND NOT autokey(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+autokeyout(2) <= NOT ((NOT key(2) AND NOT autokey(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+autokeyout(3) <= NOT ((NOT key(3) AND NOT autokey(3)));
+</td></tr><tr><td>
+FTCPE_op0: FTCPE port map (op(0),op_T(0),pianoclk,op_CLR(0),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_T(0) <= ((op(0) AND CD1/counter(0) AND NOT CD1/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD1/counter(3) AND NOT CD1/counter(5) AND CD1/counter(1) AND CD1/counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD1/counter(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT op(0) AND CD1/counter(0) AND CD1/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD1/counter(3) AND CD1/counter(5) AND CD1/counter(1) AND CD1/counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD1/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_CLR(0) <= (NOT key(0) AND NOT autokey(0));
+</td></tr><tr><td>
+FTCPE_op1: FTCPE port map (op(1),op_T(1),pianoclk,op_CLR(1),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_T(1) <= ((op(1) AND NOT CD2/counter(0) AND CD2/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD2/counter(5) AND NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD2/counter(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT op(1) AND CD2/counter(0) AND NOT CD2/counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD2/counter(5) AND NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD2/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_CLR(1) <= (NOT key(1) AND NOT autokey(1));
+</td></tr><tr><td>
+FTCPE_op2: FTCPE port map (op(2),op_T(2),pianoclk,op_CLR(2),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_T(2) <= ((op(2) AND CD3/counter(0) AND NOT CD3/counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD3/counter(2) AND NOT CD3/counter(3) AND CD3/counter(4) AND NOT CD3/counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD3/counter(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT op(2) AND CD3/counter(0) AND CD3/counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD3/counter(2) AND CD3/counter(3) AND NOT CD3/counter(4) AND CD3/counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD3/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_CLR(2) <= (NOT key(2) AND NOT autokey(2));
+</td></tr><tr><td>
+FTCPE_op3: FTCPE port map (op(3),op_T(3),pianoclk,op_CLR(3),'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_T(3) <= ((op(3) AND NOT CD4/counter(0) AND CD4/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD4/counter(3) AND CD4/counter(4) AND NOT CD4/counter(5) AND NOT CD4/counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD4/counter(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT op(3) AND CD4/counter(0) AND NOT CD4/counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CD4/counter(3) AND NOT CD4/counter(4) AND CD4/counter(5) AND NOT CD4/counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CD4/counter(6)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;op_CLR(3) <= (NOT key(3) AND NOT autokey(3));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

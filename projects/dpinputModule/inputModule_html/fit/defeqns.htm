@@ -1,0 +1,130 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+$OpTx$FX_DC$16 <= ((keyinput(6) AND NOT keyprev(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(7) AND NOT keyprev(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+$OpTx$FX_DC$7 <= ((keyinput(2) AND NOT keyprev(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(3) AND NOT keyprev(4)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FDCPE_bttnevent: FDCPE port map (bttnevent,bttnevent_D,inputclk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bttnevent_D <= ((EXP12_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(1) AND NOT keyprev(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(2) AND NOT keyprev(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(0) AND NOT keyprev(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(5) AND NOT keyprev(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(7) AND NOT keyprev(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(3) AND NOT keyprev(4)));
+</td></tr><tr><td>
+FDCPE_keyprev0: FDCPE port map (keyprev(0),keyinput(7),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_keyprev1: FDCPE port map (keyprev(1),keyinput(6),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_keyprev2: FDCPE port map (keyprev(2),keyinput(5),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_keyprev3: FDCPE port map (keyprev(3),keyinput(4),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_keyprev4: FDCPE port map (keyprev(4),keyinput(3),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_keyprev5: FDCPE port map (keyprev(5),keyinput(2),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_keyprev6: FDCPE port map (keyprev(6),keyinput(1),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_keyprev7: FDCPE port map (keyprev(7),keyinput(0),inputclk,'0','0');
+</td></tr><tr><td>
+FDCPE_newinput0: FDCPE port map (newinput(0),newinput_D(0),inputclk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newinput_D(0) <= ((keyinput(1) AND keyprev(7) AND NOT keyprev(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND NOT keyinput(0) AND NOT keyinput(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT keyinput(5) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND NOT keyinput(0) AND NOT keyinput(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(2) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND NOT keyinput(0) AND NOT keyinput(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(3) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND NOT keyinput(0) AND keyprev(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(3) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND keyprev(7) AND NOT keyinput(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT keyinput(5) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND keyprev(7) AND NOT keyinput(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(2) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND keyprev(7) AND NOT keyinput(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(3) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(0) AND keyprev(7) AND keyprev(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(3) AND NOT $OpTx$FX_DC$16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(1) AND NOT keyinput(0) AND NOT keyprev(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(2) AND NOT keyinput(0) AND NOT keyprev(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(2) AND keyprev(7) AND NOT keyprev(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(3) AND NOT keyprev(4) AND NOT keyinput(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(3) AND NOT keyprev(4) AND keyprev(7)));
+</td></tr><tr><td>
+FDCPE_newinput1: FDCPE port map (newinput(1),newinput_D(1),inputclk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newinput_D(1) <= ((newinput_0.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyprev(7) AND keyinput(5) AND NOT keyprev(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT $OpTx$FX_DC$7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(6) AND NOT newinput(1) AND NOT keyinput(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT keyinput(7) AND NOT $OpTx$FX_DC$7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(6) AND NOT newinput(1) AND NOT keyinput(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(0) AND NOT $OpTx$FX_DC$7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(1) AND NOT keyinput(0) AND keyprev(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT keyinput(7) AND NOT $OpTx$FX_DC$7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT newinput(1) AND NOT keyinput(0) AND keyprev(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(0) AND NOT $OpTx$FX_DC$7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(1) AND NOT keyinput(0) AND NOT keyprev(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyinput(1) AND keyprev(7) AND NOT keyprev(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(0) AND keyinput(4) AND NOT keyprev(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT $OpTx$FX_DC$7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(0) AND keyinput(5) AND NOT keyprev(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT $OpTx$FX_DC$7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (keyprev(7) AND keyinput(4) AND NOT keyprev(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT $OpTx$FX_DC$7));
+</td></tr><tr><td>
+FDCPE_newinput2: FDCPE port map (newinput(2),newinput_D(2),inputclk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newinput_D(2) <= ((EXP7_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(6) AND newinput(2) AND NOT keyinput(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT keyinput(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(6) AND newinput(2) AND NOT keyinput(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(6) AND newinput(2) AND NOT keyinput(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (newinput(2) AND NOT keyinput(4) AND keyprev(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (newinput(2) AND keyprev(1) AND keyprev(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT keyinput(6) AND newinput(2) AND keyprev(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	keyprev(5)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+hprep6 -s IEEE1149 -n inputModule -i inputModule 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+hprep6 -s IEEE1149 -n inputModule -i inputModule 
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpinput.ucf -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpinput.ucf -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+hprep6 -s IEEE1149 -n inputModule -i inputModule 
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpinput.ucf -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+hprep6 -s IEEE1149 -n inputModule -i inputModule 
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpinput.ucf -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+hprep6 -s IEEE1149 -n inputModule -i inputModule 
+ngdbuild -intstyle ise -dd _ngo -uc dpinput.ucf -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+hprep6 -s IEEE1149 -n inputModule -i inputModule 
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpinput.ucf -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+xst -intstyle ise -ifn "C:/team1/dpinputModule/inputModule.xst" -ofn "C:/team1/dpinputModule/inputModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpinput.ucf -p xc9536xl-PC44-10 inputModule.ngc inputModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper inputModule.ngd 
+XSLTProcess inputModule_build.xml 
+tsim -intstyle ise inputModule inputModule.nga 
+hprep6 -s IEEE1149 -n inputModule -i inputModule 

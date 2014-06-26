@@ -1,0 +1,220 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FTCPE_ADDR0: FTCPE port map (ADDR(0),ADDR_T(0),CLK,NOT PLAY,'0',ADDR_CE(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_T(0) <= (ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND NOT ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(3) AND ADDR(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_CE(0) <= (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13));
+</td></tr><tr><td>
+FTCPE_ADDR1: FTCPE port map (ADDR(1),ADDR_T(1),CLK,NOT PLAY,'0',ADDR_CE(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_T(1) <= ((ADDR(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(5)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_CE(1) <= (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13));
+</td></tr><tr><td>
+FTCPE_ADDR2: FTCPE port map (ADDR(2),ADDR_T(2),CLK,NOT PLAY,'0',ADDR_CE(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_T(2) <= ((ADDR(1) AND ADDR(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(5)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_CE(2) <= (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13));
+</td></tr><tr><td>
+FTCPE_ADDR3: FTCPE port map (ADDR(3),ADDR_T(3),CLK,NOT PLAY,'0',ADDR_CE(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_T(3) <= ((ADDR(2) AND ADDR(1) AND ADDR(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(5)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_CE(3) <= (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13));
+</td></tr><tr><td>
+FTCPE_ADDR4: FTCPE port map (ADDR(4),ADDR_T(4),CLK,NOT PLAY,'0',ADDR_CE(4));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_T(4) <= (ADDR(2) AND ADDR(1) AND ADDR(0) AND ADDR(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_CE(4) <= (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13));
+</td></tr><tr><td>
+FTCPE_ADDR5: FTCPE port map (ADDR(5),ADDR_T(5),CLK,NOT PLAY,'0',ADDR_CE(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_T(5) <= ((ADDR(2) AND ADDR(1) AND ADDR(4) AND ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND NOT ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(3) AND ADDR(5)));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDR_CE(5) <= (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13));
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(0) <= ((PLAY AND ADDR(2) AND NOT ADDR(1) AND NOT ADDR(0) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND ADDR(4) AND NOT ADDR(0) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND ADDR(1) AND ADDR(4) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND NOT ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND NOT ADDR(1) AND NOT ADDR(4) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(1) <= ((PLAY AND ADDR(2) AND NOT ADDR(1) AND ADDR(0) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND ADDR(4) AND ADDR(0) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND NOT ADDR(4) AND ADDR(0) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(1) AND ADDR(4) AND ADDR(0) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(2) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(3) <= ((PLAY AND NOT ADDR(2) AND NOT ADDR(1) AND ADDR(4) AND NOT ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND NOT ADDR(1) AND ADDR(4) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(1) AND ADDR(4) AND NOT ADDR(0) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND NOT ADDR(1) AND NOT ADDR(4) AND ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND NOT ADDR(0) AND ADDR(3) AND NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(1) AND NOT ADDR(4) AND NOT ADDR(0) AND ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND NOT ADDR(4) AND NOT ADDR(0) AND NOT ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(5)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(4) <= ((PLAY AND ADDR(2) AND ADDR(4) AND ADDR(0) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND ADDR(1) AND ADDR(0) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND NOT ADDR(2) AND NOT ADDR(4) AND ADDR(0) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(3) AND ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND ADDR(1) AND NOT ADDR(4) AND NOT ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(3) AND NOT ADDR(5)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(5) <= ((PLAY AND ADDR(2) AND NOT ADDR(1) AND NOT ADDR(4) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND NOT ADDR(4) AND ADDR(0) AND ADDR(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT ADDR(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (PLAY AND ADDR(2) AND ADDR(1) AND ADDR(4) AND NOT ADDR(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ADDR(3) AND NOT ADDR(5)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(6) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+DATA(7) <= '0';
+</td></tr><tr><td>
+FTCPE_counter0: FTCPE port map (counter(0),'1',CLK,'0','0',PLAY);
+</td></tr><tr><td>
+FTCPE_counter1: FTCPE port map (counter(1),counter(0),CLK,'0','0',PLAY);
+</td></tr><tr><td>
+FTCPE_counter2: FTCPE port map (counter(2),counter_T(2),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(2) <= (counter(0) AND counter(1));
+</td></tr><tr><td>
+FTCPE_counter3: FTCPE port map (counter(3),counter_T(3),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(3) <= (counter(0) AND counter(1) AND counter(2));
+</td></tr><tr><td>
+FTCPE_counter4: FTCPE port map (counter(4),counter_T(4),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(4) <= ((NOT counter(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT counter(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT counter(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT counter(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (counter(10) AND NOT counter(11) AND NOT counter(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13)));
+</td></tr><tr><td>
+FTCPE_counter5: FTCPE port map (counter(5),counter_T(5),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(5) <= (counter(0) AND counter(1) AND counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(3) AND counter(4));
+</td></tr><tr><td>
+FTCPE_counter6: FTCPE port map (counter(6),counter_T(6),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(6) <= (counter(0) AND counter(1) AND counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(3) AND counter(4) AND counter(5));
+</td></tr><tr><td>
+FTCPE_counter7: FTCPE port map (counter(7),counter_T(7),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(7) <= (counter(0) AND counter(1) AND counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(3) AND counter(4) AND counter(5) AND counter(6));
+</td></tr><tr><td>
+FTCPE_counter8: FTCPE port map (counter(8),counter_T(8),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(8) <= ((counter(0) AND counter(1) AND counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(3) AND counter(4) AND counter(5) AND counter(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13)));
+</td></tr><tr><td>
+FTCPE_counter9: FTCPE port map (counter(9),counter_T(9),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(9) <= ((counter(0) AND counter(1) AND counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(3) AND counter(4) AND counter(5) AND counter(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(7) AND counter(8))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13)));
+</td></tr><tr><td>
+FTCPE_counter10: FTCPE port map (counter(10),counter_T(10),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(10) <= ((counter(0) AND counter(1) AND counter(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(3) AND counter(4) AND counter(5) AND counter(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(7) AND counter(8) AND counter(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13)));
+</td></tr><tr><td>
+FTCPE_counter11: FTCPE port map (counter(11),counter_T(11),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(11) <= (counter(0) AND counter(10) AND counter(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(2) AND counter(3) AND counter(4) AND counter(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(6) AND counter(7) AND counter(8) AND counter(9));
+</td></tr><tr><td>
+FTCPE_counter12: FTCPE port map (counter(12),counter_T(12),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(12) <= (counter(0) AND counter(10) AND counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(1) AND counter(2) AND counter(3) AND counter(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(5) AND counter(6) AND counter(7) AND counter(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(9));
+</td></tr><tr><td>
+FTCPE_counter13: FTCPE port map (counter(13),counter_T(13),CLK,'0','0',PLAY);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter_T(13) <= ((counter(0) AND counter(10) AND counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(4) AND counter(5) AND counter(6) AND counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (counter(0) AND counter(10) AND NOT counter(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(12) AND counter(1) AND counter(2) AND counter(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT counter(4) AND NOT counter(5) AND NOT counter(6) AND NOT counter(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	counter(8) AND counter(9) AND counter(13)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

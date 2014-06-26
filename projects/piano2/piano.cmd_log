@@ -1,0 +1,329 @@
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 
+xst -intstyle ise -ifn "C:/team1/piano3/piano.xst" -ofn "C:/team1/piano3/piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc piano3uc.ucf -p xc9536xl-PC44-10 piano.ngc piano.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper piano.ngd 
+XSLTProcess piano_build.xml 
+tsim -intstyle ise piano piano.nga 
+hprep6 -s IEEE1149 -n piano -i piano 

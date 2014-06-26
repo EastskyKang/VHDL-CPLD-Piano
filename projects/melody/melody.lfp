@@ -1,0 +1,11 @@
+# begin LFP file C:\team1\melody\melody.lfp
+designfile melody.ngd
+IO_GROUP "DATA"  ;
+NET "DATA<7>" IO_GROUP="DATA"  ;
+NET "DATA<6>" IO_GROUP="DATA"  ;
+NET "DATA<5>" IO_GROUP="DATA"  ;
+NET "DATA<4>" IO_GROUP="DATA"  ;
+NET "DATA<3>" IO_GROUP="DATA"  ;
+NET "DATA<2>" IO_GROUP="DATA"  ;
+NET "DATA<1>" IO_GROUP="DATA"  ;
+NET "DATA<0>" IO_GROUP="DATA"  ;

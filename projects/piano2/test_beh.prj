@@ -1,0 +1,3 @@
+vhdl work "CLKDivider.vhd"
+vhdl work "piano.vhd"
+vhdl work "test.vhd"

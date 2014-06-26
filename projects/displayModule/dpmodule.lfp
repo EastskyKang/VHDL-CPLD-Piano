@@ -1,0 +1,24 @@
+# begin LFP file C:\team1\displayModule\dpmodule.lfp
+designfile displayModule.ngd
+IO_GROUP "newinput"  ;
+IO_GROUP "dpoutput"  ;
+IO_GROUP "digit"  ;
+NET "newinput<2>" COLOR=15 IO_GROUP="newinput"  ;
+NET "newinput<1>" COLOR=15 IO_GROUP="newinput"  ;
+NET "newinput<0>" COLOR=15 IO_GROUP="newinput"  ;
+NET "dpoutput<6>" COLOR=15 IO_GROUP="dpoutput"  ;
+NET "dpoutput<5>" COLOR=15 IO_GROUP="dpoutput"  ;
+NET "dpoutput<4>" COLOR=15 IO_GROUP="dpoutput"  ;
+NET "dpoutput<3>" COLOR=15 IO_GROUP="dpoutput"  ;
+NET "dpoutput<2>" COLOR=15 IO_GROUP="dpoutput"  ;
+NET "dpoutput<1>" COLOR=15 IO_GROUP="dpoutput"  ;
+NET "dpoutput<0>" COLOR=15 IO_GROUP="dpoutput"  ;
+NET "digit<3>" COLOR=15 IO_GROUP="digit"  ;
+NET "digit<2>" COLOR=15 IO_GROUP="digit"  ;
+NET "digit<1>" COLOR=15 IO_GROUP="digit"  ;
+NET "digit<0>" COLOR=15 IO_GROUP="digit"  ;
+NET "clk" COLOR=15  ;
+NET "clear" COLOR=15  ;
+NET "bttnevent" COLOR=15  ;
+INST "dec" COLOR=6  ;
+INST "reg" COLOR=7  ;

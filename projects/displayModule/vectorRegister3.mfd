@@ -1,0 +1,164 @@
+MDF Database:  version 1.0
+MDF_INFO | vectorRegister3 | XC9536XL-10-PC44
+MACROCELL | 1 | 3 | Output2_0_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 3 | 1 | 15
+INPUTS | 4 | CLEAR  | Output3<0>  | ENABLE  | Output2<0>
+INPUTMC | 2 | 0 | 5 | 1 | 3
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output2<0>.D = !CLEAR & Output2<0> & !ENABLE
+	# !CLEAR & Output3<0> & ENABLE;
+   Output2<0>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 0 | 1 | Output2_1_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 0 | 1 | 0 | 16
+INPUTS | 4 | CLEAR  | Output2<1>  | ENABLE  | Output3<1>
+INPUTMC | 2 | 0 | 1 | 0 | 8
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output2<1>.D = !CLEAR & Output2<1> & !ENABLE
+	# !CLEAR & Output3<1> & ENABLE;
+   Output2<1>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 1 | 6 | Output2_2_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 6 | 1 | 0
+INPUTS | 4 | CLEAR  | Output2<2>  | ENABLE  | Output3<2>
+INPUTMC | 2 | 1 | 6 | 1 | 9
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output2<2>.D = !CLEAR & Output2<2> & !ENABLE
+	# !CLEAR & Output3<2> & ENABLE;
+   Output2<2>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 0 | 5 | Output3_0_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 3 | 0 | 5
+INPUTS | 4 | CLEAR  | Output3<0>  | ENABLE  | Output4<0>
+INPUTMC | 2 | 0 | 5 | 0 | 11
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output3<0>.D = !CLEAR & Output3<0> & !ENABLE
+	# !CLEAR & Output4<0> & ENABLE;
+   Output3<0>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 0 | 8 | Output3_1_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 0 | 1 | 0 | 8
+INPUTS | 4 | CLEAR  | Output3<1>  | ENABLE  | Output4<1>
+INPUTMC | 2 | 0 | 8 | 0 | 14
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output3<1>.D = !CLEAR & Output3<1> & !ENABLE
+	# !CLEAR & Output4<1> & ENABLE;
+   Output3<1>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 1 | 9 | Output3_2_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 6 | 1 | 9
+INPUTS | 4 | CLEAR  | Output3<2>  | ENABLE  | Output4<2>
+INPUTMC | 2 | 1 | 9 | 1 | 12
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output3<2>.D = !CLEAR & Output3<2> & !ENABLE
+	# !CLEAR & Output4<2> & ENABLE;
+   Output3<2>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 0 | 11 | Output4_0_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 0 | 5 | 0 | 11
+INPUTS | 4 | CLEAR  | Output4<0>  | ENABLE  | rin<0>
+INPUTMC | 1 | 0 | 11
+INPUTP | 3 | 23 | 44 | 45
+EQ | 3 | 
+   Output4<0>.D = !CLEAR & Output4<0> & !ENABLE
+	# !CLEAR & ENABLE & rin<0>;
+   Output4<0>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 0 | 14 | Output4_1_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 0 | 8 | 0 | 14
+INPUTS | 4 | CLEAR  | Output4<1>  | ENABLE  | rin<1>
+INPUTMC | 1 | 0 | 14
+INPUTP | 3 | 23 | 44 | 42
+EQ | 3 | 
+   Output4<1>.D = !CLEAR & Output4<1> & !ENABLE
+	# !CLEAR & ENABLE & rin<1>;
+   Output4<1>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 1 | 12 | Output4_2_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 9 | 1 | 12
+INPUTS | 4 | CLEAR  | Output4<2>  | ENABLE  | rin<2>
+INPUTMC | 1 | 1 | 12
+INPUTP | 3 | 23 | 44 | 41
+EQ | 3 | 
+   Output4<2>.D = !CLEAR & Output4<2> & !ENABLE
+	# !CLEAR & ENABLE & rin<2>;
+   Output4<2>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 1 | 15 | Output1_0_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 1 | 1 | 15
+INPUTS | 4 | CLEAR  | Output1<0>  | ENABLE  | Output2<0>
+INPUTMC | 2 | 1 | 15 | 1 | 3
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output1<0>.D = !CLEAR & Output2<0> & ENABLE
+	# !CLEAR & Output1<0> & !ENABLE;
+   Output1<0>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 0 | 16 | Output1_1_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 4 | CLEAR  | Output2<1>  | ENABLE  | Output1<1>
+INPUTMC | 2 | 0 | 1 | 0 | 16
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output1<1>.D = !CLEAR & Output2<1> & ENABLE
+	# !CLEAR & Output1<1> & !ENABLE;
+   Output1<1>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+MACROCELL | 1 | 0 | Output1_2_OBUF
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 1 | 1 | 0
+INPUTS | 4 | CLEAR  | Output2<2>  | ENABLE  | Output1<2>
+INPUTMC | 2 | 1 | 6 | 1 | 0
+INPUTP | 2 | 23 | 44
+EQ | 3 | 
+   Output1<2>.D = !CLEAR & Output2<2> & ENABLE
+	# !CLEAR & Output1<2> & !ENABLE;
+   Output1<2>.CLK = rclk;	// GCK
+GLOBALS | 1 | 2 | rclk
+
+PIN | CLEAR | 64 | 0 | N/A | 23 | 12 | 1 | 3 | 0 | 1 | 1 | 6 | 0 | 5 | 0 | 8 | 1 | 9 | 0 | 11 | 0 | 14 | 1 | 12 | 1 | 15 | 0 | 16 | 1 | 0
+PIN | rclk | 4096 | 0 | N/A | 10 | 12 | 1 | 3 | 0 | 1 | 1 | 6 | 0 | 5 | 0 | 8 | 1 | 9 | 0 | 11 | 0 | 14 | 1 | 12 | 1 | 15 | 0 | 16 | 1 | 0
+PIN | ENABLE | 64 | 0 | N/A | 44 | 12 | 1 | 3 | 0 | 1 | 1 | 6 | 0 | 5 | 0 | 8 | 1 | 9 | 0 | 11 | 0 | 14 | 1 | 12 | 1 | 15 | 0 | 16 | 1 | 0
+PIN | rin<0> | 64 | 0 | N/A | 45 | 1 | 0 | 11
+PIN | rin<1> | 64 | 0 | N/A | 42 | 1 | 0 | 14
+PIN | rin<2> | 64 | 0 | N/A | 41 | 1 | 1 | 12
+PIN | Output2<0> | 536871040 | 0 | N/A | 4
+PIN | Output2<1> | 536871040 | 0 | N/A | 8
+PIN | Output2<2> | 536871040 | 0 | N/A | 46
+PIN | Output3<0> | 536871040 | 0 | N/A | 13
+PIN | Output3<1> | 536871040 | 0 | N/A | 16
+PIN | Output3<2> | 536871040 | 0 | N/A | 43
+PIN | Output4<0> | 536871040 | 0 | N/A | 19
+PIN | Output4<1> | 536871040 | 0 | N/A | 25
+PIN | Output4<2> | 536871040 | 0 | N/A | 37
+PIN | Output1<0> | 536871040 | 0 | N/A | 33
+PIN | Output1<1> | 536871040 | 0 | N/A | 31
+PIN | Output1<2> | 536871040 | 0 | N/A | 6

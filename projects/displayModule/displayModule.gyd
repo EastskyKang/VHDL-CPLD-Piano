@@ -1,0 +1,35 @@
+Pin Freeze File:  version P.49d
+
+9536XL44PC XC9536XL-10-PC44
+bttnevent S:PIN19
+clear S:PIN18
+clk S:PIN6
+newinput<0> S:PIN13
+newinput<1> S:PIN11
+newinput<2> S:PIN9
+digit<0> S:PIN28
+digit<1> S:PIN29
+digit<2> S:PIN33
+digit<3> S:PIN35
+dpoutput<5> S:PIN43
+dpoutput<4> S:PIN44
+dpoutput<0> S:PIN4
+dpoutput<1> S:PIN3
+dpoutput<2> S:PIN2
+dpoutput<3> S:PIN1
+dpoutput<6> S:PIN37
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 dpoutput_2_OBUF dpoutput_1_OBUF
+PARTITION FB1_4 dpoutput_0_OBUF$BUF1
+PARTITION FB1_12 reg/n<1> reg/n<0> reg/temp_3_2 reg/temp_3_1
+		 reg/temp_3_0 reg/temp_2_2 reg/temp_2_1
+PARTITION FB2_1 dpoutput_3_OBUF dpoutput_0_OBUF$BUF0 reg/temp_2_0 dpoutput_0_OBUF
+		 reg/temp_1_2 reg/temp_1_1 reg/temp_1_0 dpoutput_6_OBUF
+		 reg/temp_0_2 digit_3_OBUF reg/temp_0_1 digit_2_OBUF
+		 digit_1_OBUF digit_0_OBUF reg/temp_0_0 code<2>
+		 code<1> code<0>
+

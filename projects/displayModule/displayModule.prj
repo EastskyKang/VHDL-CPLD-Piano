@@ -1,0 +1,3 @@
+vhdl work "vectorRegister.vhd"
+vhdl work "decoder.vhd"
+vhdl work "displayModule.vhd"

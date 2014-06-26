@@ -1,0 +1,255 @@
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display/displayModule.xst" -ofn "C:/team1/display/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+xst -intstyle ise -ifn "C:/team1/display2/displayModule.xst" -ofn "C:/team1/display2/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+xst -intstyle ise -ifn "C:/team1/display2/displayModule.xst" -ofn "C:/team1/display2/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+xst -intstyle ise -ifn "C:/team1/display2/displayModule.xst" -ofn "C:/team1/display2/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display2/displayModule.xst" -ofn "C:/team1/display2/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/display2/displayModule.xst" -ofn "C:/team1/display2/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/display2/displayModule.xst" -ofn "C:/team1/display2/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+taengine -intstyle ise -f displayModule -w --format html1 -l displayModule_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper displayModule.ngd 
+XSLTProcess displayModule_build.xml 
+tsim -intstyle ise displayModule displayModule.nga 
+hprep6 -s IEEE1149 -n displayModule -i displayModule 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+xst -intstyle ise -ifn "C:/team1/displayModule/displayModule.xst" -ofn "C:/team1/displayModule/displayModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc dpmodule.ucf -p xc9536xl-PC44-10 displayModule.ngc displayModule.ngd  

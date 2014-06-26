@@ -1,0 +1,17 @@
+# begin LFP file C:\team1\piano3\piano3uc.lfp
+designfile piano.ngd
+IO_GROUP "op"  ;
+IO_GROUP "key"  ;
+NET "pianoclk" COLOR=15  ;
+NET "op<3>" COLOR=15 IO_GROUP="op"  ;
+NET "op<2>" COLOR=15 IO_GROUP="op"  ;
+NET "op<1>" COLOR=15 IO_GROUP="op"  ;
+NET "op<0>" COLOR=15 IO_GROUP="op"  ;
+NET "key<3>" COLOR=15 IO_GROUP="key"  ;
+NET "key<2>" COLOR=15 IO_GROUP="key"  ;
+NET "key<1>" COLOR=15 IO_GROUP="key"  ;
+NET "key<0>" COLOR=15 IO_GROUP="key"  ;
+INST "CD4" COLOR=6  ;
+INST "CD3" COLOR=7  ;
+INST "CD2" COLOR=8  ;
+INST "CD1" COLOR=9  ;

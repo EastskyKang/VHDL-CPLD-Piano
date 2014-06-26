@@ -1,0 +1,5 @@
+set -tmpdir "C:/team1/display/xst/projnav.tmp"
+set -xsthdpdir "C:/team1/display/xst"
+elaborate
+-ifn inputModule.prj
+-ifmt mixed

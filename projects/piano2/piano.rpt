@@ -1,0 +1,529 @@
+ 
+cpldfit:  version P.49d                             Xilinx Inc.
+                                  Fitter Report
+Design Name: piano                               Date:  6-25-2014,  9:40AM
+Device Used: XC9536XL-10-PC44
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+36 /36  (100%) 83  /180  ( 46%) 48 /108 ( 44%)   32 /36  ( 89%) 17 /34  ( 50%)
+
+** Function Block Resources **
+
+Function    Mcells      FB Inps     Pterms      IO          
+Block       Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+FB1          18/18*      24/54       42/90       9/17
+FB2          18/18*      24/54       41/90       8/17
+             -----       -----       -----      -----    
+             36/36       48/108      83/180     17/34 
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+Signal 'pianoclk' mapped onto global clock net GCK1.
+Global output enable net(s) unused.
+Global set/reset net(s) unused.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    8           8    |  I/O              :    16      28
+Output        :    8           8    |  GCK/IO           :     1       3
+Bidirectional :    0           0    |  GTS/IO           :     0       2
+GCK           :    1           1    |  GSR/IO           :     0       1
+GTS           :    0           0    |
+GSR           :    0           0    |
+                 ----        ----
+        Total     17          17
+
+** Power Data **
+
+There are 36 macrocells in high performance mode (MCHP).
+There are 0 macrocells in low power mode (MCLP).
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'piano.ise'.
+INFO:Cpld - Inferring BUFG constraint for signal 'pianoclk' based upon the LOC
+   constraint 'P5'. It is recommended that you declare this BUFG explicitedly in
+   your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+*************************  Summary of Mapped Logic  ************************
+
+** 8 Outputs **
+
+Signal              Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
+Name                Pts   Inps          No.  Type    Use     Mode Rate State
+op<1>               3     10    FB1_1   2    I/O     O       STD  FAST RESET
+op<0>               3     10    FB1_4   4    I/O     O       STD  FAST RESET
+op<2>               3     10    FB2_2   44   I/O     O       STD  FAST RESET
+op<3>               3     10    FB2_4   43   I/O     O       STD  FAST RESET
+autokeyout<0>       1     2     FB2_7   38   I/O     O       STD  FAST 
+autokeyout<1>       1     2     FB2_8   37   I/O     O       STD  FAST 
+autokeyout<2>       1     2     FB2_10  35   I/O     O       STD  FAST 
+autokeyout<3>       1     2     FB2_12  33   I/O     O       STD  FAST 
+
+** 28 Buried Nodes **
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+CD4/counter<0>      1     2     FB1_2   STD  RESET
+CD3/counter<0>      1     2     FB1_3   STD  RESET
+CD2/counter<0>      1     2     FB1_5   STD  RESET
+CD1/counter<0>      1     2     FB1_6   STD  RESET
+CD2/counter<6>      2     8     FB1_7   STD  RESET
+CD2/counter<3>      2     5     FB1_8   STD  RESET
+CD2/counter<2>      2     4     FB1_9   STD  RESET
+CD1/counter<6>      2     8     FB1_10  STD  RESET
+CD1/counter<2>      2     4     FB1_11  STD  RESET
+CD1/counter<1>      2     3     FB1_12  STD  RESET
+CD2/counter<5>      3     9     FB1_13  STD  RESET
+CD2/counter<4>      3     9     FB1_14  STD  RESET
+CD2/counter<1>      3     9     FB1_15  STD  RESET
+CD1/counter<5>      3     9     FB1_16  STD  RESET
+CD1/counter<4>      3     9     FB1_17  STD  RESET
+CD1/counter<3>      5     9     FB1_18  STD  RESET
+CD4/counter<6>      2     8     FB2_1   STD  RESET
+CD4/counter<4>      2     6     FB2_3   STD  RESET
+CD4/counter<2>      2     4     FB2_5   STD  RESET
+CD3/counter<6>      2     8     FB2_6   STD  RESET
+CD3/counter<4>      2     6     FB2_9   STD  RESET
+CD3/counter<1>      2     3     FB2_11  STD  RESET
+CD4/counter<5>      3     9     FB2_13  STD  RESET
+CD4/counter<3>      3     9     FB2_14  STD  RESET
+CD4/counter<1>      3     9     FB2_15  STD  RESET
+CD3/counter<5>      3     9     FB2_16  STD  RESET
+CD3/counter<3>      3     9     FB2_17  STD  RESET
+CD3/counter<2>      4     9     FB2_18  STD  RESET
+
+** 9 Inputs **
+
+Signal              Loc     Pin  Pin     Pin     
+Name                        No.  Type    Use     
+pianoclk            FB1_3   5    GCK/I/O GCK
+autokey<3>          FB1_9   11   I/O     I
+autokey<2>          FB1_10  12   I/O     I
+autokey<1>          FB1_11  13   I/O     I
+autokey<0>          FB1_12  14   I/O     I
+key<1>              FB1_16  22   I/O     I
+key<0>              FB1_17  24   I/O     I
+key<2>              FB2_14  28   I/O     I
+key<3>              FB2_16  26   I/O     I
+
+Legend:
+Pin No. - ~ - User Assigned
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Imp Pt       - Product terms imported from other macrocells
+Exp Pt       - Product terms exported to other macrocells
+               in direction shown
+Unused Pt    - Unused local product terms remaining in macrocell
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input             GCK - Global Clock
+               O  - Output            GTS - Global Output Enable
+              (b) - Buried macrocell  GSR - Global Set/Reset
+X            - Signal used as input to the macrocell logic.
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+Number of function block inputs used/remaining:               24/30
+Number of signals used by logic mapping into function block:  24
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+op<1>                 3       0     0   2     FB1_1   2     I/O     O
+CD4/counter<0>        1       0     0   4     FB1_2   3     I/O     (b)
+CD3/counter<0>        1       0     0   4     FB1_3   5     GCK/I/O GCK
+op<0>                 3       0     0   2     FB1_4   4     I/O     O
+CD2/counter<0>        1       0     0   4     FB1_5   6     GCK/I/O (b)
+CD1/counter<0>        1       0     0   4     FB1_6   8     I/O     (b)
+CD2/counter<6>        2       0     0   3     FB1_7   7     GCK/I/O (b)
+CD2/counter<3>        2       0     0   3     FB1_8   9     I/O     (b)
+CD2/counter<2>        2       0     0   3     FB1_9   11    I/O     I
+CD1/counter<6>        2       0     0   3     FB1_10  12    I/O     I
+CD1/counter<2>        2       0     0   3     FB1_11  13    I/O     I
+CD1/counter<1>        2       0     0   3     FB1_12  14    I/O     I
+CD2/counter<5>        3       0     0   2     FB1_13  18    I/O     (b)
+CD2/counter<4>        3       0     0   2     FB1_14  19    I/O     (b)
+CD2/counter<1>        3       0     0   2     FB1_15  20    I/O     (b)
+CD1/counter<5>        3       0     0   2     FB1_16  22    I/O     I
+CD1/counter<4>        3       0     0   2     FB1_17  24    I/O     I
+CD1/counter<3>        5       0     0   0     FB1_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: CD1/counter<0>     9: CD2/counter<1>    17: autokey<2> 
+  2: CD1/counter<1>    10: CD2/counter<2>    18: autokey<3> 
+  3: CD1/counter<2>    11: CD2/counter<3>    19: key<0> 
+  4: CD1/counter<3>    12: CD2/counter<4>    20: key<1> 
+  5: CD1/counter<4>    13: CD2/counter<5>    21: key<2> 
+  6: CD1/counter<5>    14: CD2/counter<6>    22: key<3> 
+  7: CD1/counter<6>    15: autokey<0>        23: op<0> 
+  8: CD2/counter<0>    16: autokey<1>        24: op<1> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+op<1>                .......XXXXXXX.X...X...X................ 10
+CD4/counter<0>       .................X...X.................. 2
+CD3/counter<0>       ................X...X................... 2
+op<0>                XXXXXXX.......X...X...X................. 10
+CD2/counter<0>       ...............X...X.................... 2
+CD1/counter<0>       ..............X...X..................... 2
+CD2/counter<6>       .......XXXXXX..X...X.................... 8
+CD2/counter<3>       .......XXX.....X...X.................... 5
+CD2/counter<2>       .......XX......X...X.................... 4
+CD1/counter<6>       XXXXXX........X...X..................... 8
+CD1/counter<2>       XX............X...X..................... 4
+CD1/counter<1>       X.............X...X..................... 3
+CD2/counter<5>       .......XXXXXXX.X...X.................... 9
+CD2/counter<4>       .......XXXXXXX.X...X.................... 9
+CD2/counter<1>       .......XXXXXXX.X...X.................... 9
+CD1/counter<5>       XXXXXXX.......X...X..................... 9
+CD1/counter<4>       XXXXXXX.......X...X..................... 9
+CD1/counter<3>       XXXXXXX.......X...X..................... 9
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB2  ***********************************
+Number of function block inputs used/remaining:               24/30
+Number of signals used by logic mapping into function block:  24
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+CD4/counter<6>        2       0     0   3     FB2_1   1     I/O     (b)
+op<2>                 3       0     0   2     FB2_2   44    I/O     O
+CD4/counter<4>        2       0     0   3     FB2_3   42    GTS/I/O (b)
+op<3>                 3       0     0   2     FB2_4   43    I/O     O
+CD4/counter<2>        2       0     0   3     FB2_5   40    GTS/I/O (b)
+CD3/counter<6>        2       0     0   3     FB2_6   39    GSR/I/O (b)
+autokeyout<0>         1       0     0   4     FB2_7   38    I/O     O
+autokeyout<1>         1       0     0   4     FB2_8   37    I/O     O
+CD3/counter<4>        2       0     0   3     FB2_9   36    I/O     (b)
+autokeyout<2>         1       0     0   4     FB2_10  35    I/O     O
+CD3/counter<1>        2       0     0   3     FB2_11  34    I/O     (b)
+autokeyout<3>         1       0     0   4     FB2_12  33    I/O     O
+CD4/counter<5>        3       0     0   2     FB2_13  29    I/O     (b)
+CD4/counter<3>        3       0     0   2     FB2_14  28    I/O     I
+CD4/counter<1>        3       0     0   2     FB2_15  27    I/O     (b)
+CD3/counter<5>        3       0     0   2     FB2_16  26    I/O     I
+CD3/counter<3>        3       0     0   2     FB2_17  25    I/O     (b)
+CD3/counter<2>        4       0     0   1     FB2_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: CD3/counter<0>     9: CD4/counter<1>    17: autokey<2> 
+  2: CD3/counter<1>    10: CD4/counter<2>    18: autokey<3> 
+  3: CD3/counter<2>    11: CD4/counter<3>    19: key<0> 
+  4: CD3/counter<3>    12: CD4/counter<4>    20: key<1> 
+  5: CD3/counter<4>    13: CD4/counter<5>    21: key<2> 
+  6: CD3/counter<5>    14: CD4/counter<6>    22: key<3> 
+  7: CD3/counter<6>    15: autokey<0>        23: op<2> 
+  8: CD4/counter<0>    16: autokey<1>        24: op<3> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+CD4/counter<6>       .......XXXXXX....X...X.................. 8
+op<2>                XXXXXXX.........X...X.X................. 10
+CD4/counter<4>       .......XXXX......X...X.................. 6
+op<3>                .......XXXXXXX...X...X.X................ 10
+CD4/counter<2>       .......XX........X...X.................. 4
+CD3/counter<6>       XXXXXX..........X...X................... 8
+autokeyout<0>        ..............X...X..................... 2
+autokeyout<1>        ...............X...X.................... 2
+CD3/counter<4>       XXXX............X...X................... 6
+autokeyout<2>        ................X...X................... 2
+CD3/counter<1>       X...............X...X................... 3
+autokeyout<3>        .................X...X.................. 2
+CD4/counter<5>       .......XXXXXXX...X...X.................. 9
+CD4/counter<3>       .......XXXXXXX...X...X.................. 9
+CD4/counter<1>       .......XXXXXXX...X...X.................. 9
+CD3/counter<5>       XXXXXXX.........X...X................... 9
+CD3/counter<3>       XXXXXXX.........X...X................... 9
+CD3/counter<2>       XXXXXXX.........X...X................... 9
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+FTCPE_CD1/counter0: FTCPE port map (CD1/counter(0),'1',pianoclk,CD1/counter_CLR(0),'0');
+CD1/counter_CLR(0) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_CD1/counter1: FTCPE port map (CD1/counter(1),CD1/counter(0),pianoclk,CD1/counter_CLR(1),'0');
+CD1/counter_CLR(1) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_CD1/counter2: FTCPE port map (CD1/counter(2),CD1/counter_T(2),pianoclk,CD1/counter_CLR(2),'0');
+CD1/counter_T(2) <= (CD1/counter(0) AND CD1/counter(1));
+CD1/counter_CLR(2) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_CD1/counter3: FTCPE port map (CD1/counter(3),CD1/counter_T(3),pianoclk,CD1/counter_CLR(3),'0');
+CD1/counter_T(3) <= ((NOT CD1/counter(0))
+	OR (NOT CD1/counter(2))
+	OR (NOT CD1/counter(1))
+	OR (NOT CD1/counter(3) AND CD1/counter(5) AND CD1/counter(4) AND 
+	NOT CD1/counter(6)));
+CD1/counter_CLR(3) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_CD1/counter4: FTCPE port map (CD1/counter(4),CD1/counter_T(4),pianoclk,CD1/counter_CLR(4),'0');
+CD1/counter_T(4) <= ((CD1/counter(0) AND CD1/counter(2) AND CD1/counter(3) AND 
+	CD1/counter(1))
+	OR (CD1/counter(0) AND CD1/counter(2) AND CD1/counter(5) AND 
+	CD1/counter(1) AND CD1/counter(4) AND NOT CD1/counter(6)));
+CD1/counter_CLR(4) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_CD1/counter5: FTCPE port map (CD1/counter(5),CD1/counter_T(5),pianoclk,CD1/counter_CLR(5),'0');
+CD1/counter_T(5) <= ((CD1/counter(0) AND CD1/counter(2) AND CD1/counter(3) AND 
+	CD1/counter(1) AND CD1/counter(4))
+	OR (CD1/counter(0) AND CD1/counter(2) AND CD1/counter(5) AND 
+	CD1/counter(1) AND CD1/counter(4) AND NOT CD1/counter(6)));
+CD1/counter_CLR(5) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_CD1/counter6: FTCPE port map (CD1/counter(6),CD1/counter_T(6),pianoclk,CD1/counter_CLR(6),'0');
+CD1/counter_T(6) <= (CD1/counter(0) AND CD1/counter(2) AND CD1/counter(3) AND 
+	CD1/counter(5) AND CD1/counter(1) AND CD1/counter(4));
+CD1/counter_CLR(6) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_CD2/counter0: FTCPE port map (CD2/counter(0),'1',pianoclk,CD2/counter_CLR(0),'0');
+CD2/counter_CLR(0) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_CD2/counter1: FTCPE port map (CD2/counter(1),CD2/counter_T(1),pianoclk,CD2/counter_CLR(1),'0');
+CD2/counter_T(1) <= ((NOT CD2/counter(0))
+	OR (NOT CD2/counter(3) AND CD2/counter(5) AND NOT CD2/counter(1) AND 
+	NOT CD2/counter(2) AND CD2/counter(4) AND NOT CD2/counter(6)));
+CD2/counter_CLR(1) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_CD2/counter2: FTCPE port map (CD2/counter(2),CD2/counter_T(2),pianoclk,CD2/counter_CLR(2),'0');
+CD2/counter_T(2) <= (CD2/counter(0) AND CD2/counter(1));
+CD2/counter_CLR(2) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_CD2/counter3: FTCPE port map (CD2/counter(3),CD2/counter_T(3),pianoclk,CD2/counter_CLR(3),'0');
+CD2/counter_T(3) <= (CD2/counter(0) AND CD2/counter(1) AND CD2/counter(2));
+CD2/counter_CLR(3) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_CD2/counter4: FTCPE port map (CD2/counter(4),CD2/counter_T(4),pianoclk,CD2/counter_CLR(4),'0');
+CD2/counter_T(4) <= ((CD2/counter(0) AND CD2/counter(3) AND CD2/counter(1) AND 
+	CD2/counter(2))
+	OR (CD2/counter(0) AND NOT CD2/counter(3) AND CD2/counter(5) AND 
+	NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND NOT CD2/counter(6)));
+CD2/counter_CLR(4) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_CD2/counter5: FTCPE port map (CD2/counter(5),CD2/counter_T(5),pianoclk,CD2/counter_CLR(5),'0');
+CD2/counter_T(5) <= ((CD2/counter(0) AND CD2/counter(3) AND CD2/counter(1) AND 
+	CD2/counter(2) AND CD2/counter(4))
+	OR (CD2/counter(0) AND NOT CD2/counter(3) AND CD2/counter(5) AND 
+	NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND NOT CD2/counter(6)));
+CD2/counter_CLR(5) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_CD2/counter6: FTCPE port map (CD2/counter(6),CD2/counter_T(6),pianoclk,CD2/counter_CLR(6),'0');
+CD2/counter_T(6) <= (CD2/counter(0) AND CD2/counter(3) AND CD2/counter(5) AND 
+	CD2/counter(1) AND CD2/counter(2) AND CD2/counter(4));
+CD2/counter_CLR(6) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_CD3/counter0: FTCPE port map (CD3/counter(0),'1',pianoclk,CD3/counter_CLR(0),'0');
+CD3/counter_CLR(0) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_CD3/counter1: FTCPE port map (CD3/counter(1),CD3/counter(0),pianoclk,CD3/counter_CLR(1),'0');
+CD3/counter_CLR(1) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_CD3/counter2: FTCPE port map (CD3/counter(2),CD3/counter_T(2),pianoclk,CD3/counter_CLR(2),'0');
+CD3/counter_T(2) <= ((NOT CD3/counter(0))
+	OR (NOT CD3/counter(1))
+	OR (NOT CD3/counter(2) AND CD3/counter(3) AND NOT CD3/counter(4) AND 
+	CD3/counter(5) AND NOT CD3/counter(6)));
+CD3/counter_CLR(2) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_CD3/counter3: FTCPE port map (CD3/counter(3),CD3/counter_T(3),pianoclk,CD3/counter_CLR(3),'0');
+CD3/counter_T(3) <= ((CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2))
+	OR (CD3/counter(0) AND CD3/counter(1) AND CD3/counter(3) AND 
+	NOT CD3/counter(4) AND CD3/counter(5) AND NOT CD3/counter(6)));
+CD3/counter_CLR(3) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_CD3/counter4: FTCPE port map (CD3/counter(4),CD3/counter_T(4),pianoclk,CD3/counter_CLR(4),'0');
+CD3/counter_T(4) <= (CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2) AND 
+	CD3/counter(3));
+CD3/counter_CLR(4) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_CD3/counter5: FTCPE port map (CD3/counter(5),CD3/counter_T(5),pianoclk,CD3/counter_CLR(5),'0');
+CD3/counter_T(5) <= ((CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2) AND 
+	CD3/counter(3) AND CD3/counter(4))
+	OR (CD3/counter(0) AND CD3/counter(1) AND NOT CD3/counter(2) AND 
+	CD3/counter(3) AND NOT CD3/counter(4) AND CD3/counter(5) AND NOT CD3/counter(6)));
+CD3/counter_CLR(5) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_CD3/counter6: FTCPE port map (CD3/counter(6),CD3/counter_T(6),pianoclk,CD3/counter_CLR(6),'0');
+CD3/counter_T(6) <= (CD3/counter(0) AND CD3/counter(1) AND CD3/counter(2) AND 
+	CD3/counter(3) AND CD3/counter(4) AND CD3/counter(5));
+CD3/counter_CLR(6) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_CD4/counter0: FTCPE port map (CD4/counter(0),'1',pianoclk,CD4/counter_CLR(0),'0');
+CD4/counter_CLR(0) <= (NOT key(3) AND NOT autokey(3));
+
+FTCPE_CD4/counter1: FTCPE port map (CD4/counter(1),CD4/counter_T(1),pianoclk,CD4/counter_CLR(1),'0');
+CD4/counter_T(1) <= ((NOT CD4/counter(0))
+	OR (NOT CD4/counter(2) AND CD4/counter(3) AND NOT CD4/counter(4) AND 
+	CD4/counter(5) AND NOT CD4/counter(1) AND NOT CD4/counter(6)));
+CD4/counter_CLR(1) <= (NOT key(3) AND NOT autokey(3));
+
+FTCPE_CD4/counter2: FTCPE port map (CD4/counter(2),CD4/counter_T(2),pianoclk,CD4/counter_CLR(2),'0');
+CD4/counter_T(2) <= (CD4/counter(0) AND CD4/counter(1));
+CD4/counter_CLR(2) <= (NOT key(3) AND NOT autokey(3));
+
+FTCPE_CD4/counter3: FTCPE port map (CD4/counter(3),CD4/counter_T(3),pianoclk,CD4/counter_CLR(3),'0');
+CD4/counter_T(3) <= ((CD4/counter(0) AND CD4/counter(2) AND CD4/counter(1))
+	OR (CD4/counter(0) AND NOT CD4/counter(2) AND CD4/counter(3) AND 
+	NOT CD4/counter(4) AND CD4/counter(5) AND NOT CD4/counter(1) AND NOT CD4/counter(6)));
+CD4/counter_CLR(3) <= (NOT key(3) AND NOT autokey(3));
+
+FTCPE_CD4/counter4: FTCPE port map (CD4/counter(4),CD4/counter_T(4),pianoclk,CD4/counter_CLR(4),'0');
+CD4/counter_T(4) <= (CD4/counter(0) AND CD4/counter(2) AND CD4/counter(3) AND 
+	CD4/counter(1));
+CD4/counter_CLR(4) <= (NOT key(3) AND NOT autokey(3));
+
+FTCPE_CD4/counter5: FTCPE port map (CD4/counter(5),CD4/counter_T(5),pianoclk,CD4/counter_CLR(5),'0');
+CD4/counter_T(5) <= ((CD4/counter(0) AND CD4/counter(2) AND CD4/counter(3) AND 
+	CD4/counter(4) AND CD4/counter(1))
+	OR (CD4/counter(0) AND NOT CD4/counter(2) AND CD4/counter(3) AND 
+	NOT CD4/counter(4) AND CD4/counter(5) AND NOT CD4/counter(1) AND NOT CD4/counter(6)));
+CD4/counter_CLR(5) <= (NOT key(3) AND NOT autokey(3));
+
+FTCPE_CD4/counter6: FTCPE port map (CD4/counter(6),CD4/counter_T(6),pianoclk,CD4/counter_CLR(6),'0');
+CD4/counter_T(6) <= (CD4/counter(0) AND CD4/counter(2) AND CD4/counter(3) AND 
+	CD4/counter(4) AND CD4/counter(5) AND CD4/counter(1));
+CD4/counter_CLR(6) <= (NOT key(3) AND NOT autokey(3));
+
+
+autokeyout(0) <= NOT ((NOT key(0) AND NOT autokey(0)));
+
+
+autokeyout(1) <= NOT ((NOT key(1) AND NOT autokey(1)));
+
+
+autokeyout(2) <= NOT ((NOT key(2) AND NOT autokey(2)));
+
+
+autokeyout(3) <= NOT ((NOT key(3) AND NOT autokey(3)));
+
+FTCPE_op0: FTCPE port map (op(0),op_T(0),pianoclk,op_CLR(0),'0');
+op_T(0) <= ((op(0) AND CD1/counter(0) AND NOT CD1/counter(2) AND 
+	CD1/counter(3) AND NOT CD1/counter(5) AND CD1/counter(1) AND CD1/counter(4) AND 
+	NOT CD1/counter(6))
+	OR (NOT op(0) AND CD1/counter(0) AND CD1/counter(2) AND 
+	NOT CD1/counter(3) AND CD1/counter(5) AND CD1/counter(1) AND CD1/counter(4) AND 
+	NOT CD1/counter(6)));
+op_CLR(0) <= (NOT key(0) AND NOT autokey(0));
+
+FTCPE_op1: FTCPE port map (op(1),op_T(1),pianoclk,op_CLR(1),'0');
+op_T(1) <= ((op(1) AND NOT CD2/counter(0) AND CD2/counter(3) AND 
+	NOT CD2/counter(5) AND NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND 
+	NOT CD2/counter(6))
+	OR (NOT op(1) AND CD2/counter(0) AND NOT CD2/counter(3) AND 
+	CD2/counter(5) AND NOT CD2/counter(1) AND NOT CD2/counter(2) AND CD2/counter(4) AND 
+	NOT CD2/counter(6)));
+op_CLR(1) <= (NOT key(1) AND NOT autokey(1));
+
+FTCPE_op2: FTCPE port map (op(2),op_T(2),pianoclk,op_CLR(2),'0');
+op_T(2) <= ((op(2) AND CD3/counter(0) AND NOT CD3/counter(1) AND 
+	CD3/counter(2) AND NOT CD3/counter(3) AND CD3/counter(4) AND NOT CD3/counter(5) AND 
+	NOT CD3/counter(6))
+	OR (NOT op(2) AND CD3/counter(0) AND CD3/counter(1) AND 
+	NOT CD3/counter(2) AND CD3/counter(3) AND NOT CD3/counter(4) AND CD3/counter(5) AND 
+	NOT CD3/counter(6)));
+op_CLR(2) <= (NOT key(2) AND NOT autokey(2));
+
+FTCPE_op3: FTCPE port map (op(3),op_T(3),pianoclk,op_CLR(3),'0');
+op_T(3) <= ((op(3) AND NOT CD4/counter(0) AND CD4/counter(2) AND 
+	NOT CD4/counter(3) AND CD4/counter(4) AND NOT CD4/counter(5) AND NOT CD4/counter(1) AND 
+	NOT CD4/counter(6))
+	OR (NOT op(3) AND CD4/counter(0) AND NOT CD4/counter(2) AND 
+	CD4/counter(3) AND NOT CD4/counter(4) AND CD4/counter(5) AND NOT CD4/counter(1) AND 
+	NOT CD4/counter(6)));
+op_CLR(3) <= (NOT key(3) AND NOT autokey(3));
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+******************************  Device Pin Out *****************************
+
+Device : XC9536XL-10-PC44
+
+
+   --------------------------------  
+  /6  5  4  3  2  1  44 43 42 41 40 \
+ | 7                             39 | 
+ | 8                             38 | 
+ | 9                             37 | 
+ | 10                            36 | 
+ | 11       XC9536XL-10-PC44     35 | 
+ | 12                            34 | 
+ | 13                            33 | 
+ | 14                            32 | 
+ | 15                            31 | 
+ | 16                            30 | 
+ | 17                            29 | 
+ \ 18 19 20 21 22 23 24 25 26 27 28 /
+   --------------------------------  
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 KPR                              23 GND                           
+  2 op<1>                            24 key<0>                        
+  3 KPR                              25 KPR                           
+  4 op<0>                            26 key<3>                        
+  5 pianoclk                         27 KPR                           
+  6 KPR                              28 key<2>                        
+  7 KPR                              29 KPR                           
+  8 KPR                              30 TDO                           
+  9 KPR                              31 GND                           
+ 10 GND                              32 VCC                           
+ 11 autokey<3>                       33 autokeyout<3>                 
+ 12 autokey<2>                       34 KPR                           
+ 13 autokey<1>                       35 autokeyout<2>                 
+ 14 autokey<0>                       36 KPR                           
+ 15 TDI                              37 autokeyout<1>                 
+ 16 TMS                              38 autokeyout<0>                 
+ 17 TCK                              39 KPR                           
+ 18 KPR                              40 KPR                           
+ 19 KPR                              41 VCC                           
+ 20 KPR                              42 KPR                           
+ 21 VCC                              43 op<3>                         
+ 22 key<1>                           44 op<2>                         
+
+
+Legend :  NC  = Not Connected, unbonded pin
+         PGND = Unused I/O configured as additional Ground pin
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         KPR  = Unused I/O with weak keeper (leave unconnected)
+         VCC  = Dedicated Power Pin
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc9536xl-10-PC44
+Optimization Method                         : SPEED
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Power Mode                                  : STD
+Ground on Unused IOs                        : OFF
+Set I/O Pin Termination                     : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Input Limit                                 : 54
+Pterm Limit                                 : 25

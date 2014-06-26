@@ -1,0 +1,5 @@
+set -tmpdir "C:/team1/display2/xst/projnav.tmp"
+set -xsthdpdir "C:/team1/display2/xst"
+elaborate
+-ifn vectorRegister.prj
+-ifmt mixed

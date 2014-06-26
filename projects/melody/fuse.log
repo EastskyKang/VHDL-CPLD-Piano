@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/team1/melody/test_isim_beh.exe -prj C:/team1/melody/test_beh.prj work.test 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/team1/melody/melody.vhd" into library work
+Parsing VHDL file "C:/team1/melody/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity melody [melody_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/team1/melody/test_isim_beh.exe
+Fuse Memory Usage: 30140 KB
+Fuse CPU Usage: 482 ms

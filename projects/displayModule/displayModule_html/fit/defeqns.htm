@@ -1,0 +1,127 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FDCPE_code0: FDCPE port map (code(0),code_D(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code_D(0) <= ((reg/temp_1_2 AND NOT reg/n(1) AND reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_2_2 AND reg/n(1) AND NOT reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_3_2 AND reg/n(1) AND reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_0_2 AND NOT reg/n(1) AND NOT reg/n(0)));
+</td></tr><tr><td>
+FDCPE_code1: FDCPE port map (code(1),code_D(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code_D(1) <= ((reg/temp_1_1 AND NOT reg/n(1) AND reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_2_1 AND reg/n(1) AND NOT reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_3_1 AND reg/n(1) AND reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_0_1 AND NOT reg/n(1) AND NOT reg/n(0)));
+</td></tr><tr><td>
+FDCPE_code2: FDCPE port map (code(2),code_D(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code_D(2) <= ((reg/temp_1_0 AND NOT reg/n(1) AND reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_2_0 AND reg/n(1) AND NOT reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_3_0 AND reg/n(1) AND reg/n(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_0_0 AND NOT reg/n(1) AND NOT reg/n(0)));
+</td></tr><tr><td>
+FDCPE_digit0: FDCPE port map (digit(0),digit_D(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digit_D(0) <= (NOT reg/n(1) AND NOT reg/n(0));
+</td></tr><tr><td>
+FDCPE_digit1: FDCPE port map (digit(1),digit_D(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digit_D(1) <= (NOT reg/n(1) AND reg/n(0));
+</td></tr><tr><td>
+FDCPE_digit2: FDCPE port map (digit(2),digit_D(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digit_D(2) <= (reg/n(1) AND NOT reg/n(0));
+</td></tr><tr><td>
+FDCPE_digit3: FDCPE port map (digit(3),digit_D(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digit_D(3) <= (reg/n(1) AND reg/n(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+dpoutput(0) <= NOT ((NOT code(1) AND NOT code(2) AND NOT code(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+dpoutput(1) <= ((NOT code(1) AND code(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (code(1) AND NOT code(2) AND code(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+dpoutput(2) <= NOT (((code(1) AND code(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT code(2) AND NOT code(0))));
+</td></tr><tr><td>
+</td></tr><tr><td>
+dpoutput(3) <= NOT (((code(1) AND code(2) AND NOT code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT code(1) AND code(2) AND code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT code(1) AND NOT code(2) AND NOT code(0))));
+</td></tr><tr><td>
+</td></tr><tr><td>
+dpoutput(4) <= NOT ((NOT code(1) AND NOT code(2) AND NOT code(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+dpoutput(5) <= NOT ((NOT code(1) AND NOT code(2) AND NOT code(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+dpoutput(6) <= NOT (((NOT code(1) AND NOT code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (code(1) AND code(2) AND code(0))));
+</td></tr><tr><td>
+FTCPE_reg/n0: FTCPE port map (reg/n(0),'1',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_reg/n1: FTCPE port map (reg/n(1),reg/n(0),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_reg/temp_0_0: FDCPE port map (reg/temp_0_0,reg/temp_0_0_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_0_0_D <= ((reg/temp_1_0 AND NOT clear AND bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_0_0 AND NOT clear AND NOT bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_0_1: FDCPE port map (reg/temp_0_1,reg/temp_0_1_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_0_1_D <= ((reg/temp_1_1 AND NOT clear AND bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_0_1 AND NOT clear AND NOT bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_0_2: FDCPE port map (reg/temp_0_2,reg/temp_0_2_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_0_2_D <= ((reg/temp_1_2 AND NOT clear AND bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_0_2 AND NOT clear AND NOT bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_1_0: FDCPE port map (reg/temp_1_0,reg/temp_1_0_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_1_0_D <= ((reg/temp_1_0 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_2_0 AND NOT clear AND bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_1_1: FDCPE port map (reg/temp_1_1,reg/temp_1_1_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_1_1_D <= ((reg/temp_1_1 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_2_1 AND NOT clear AND bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_1_2: FDCPE port map (reg/temp_1_2,reg/temp_1_2_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_1_2_D <= ((reg/temp_1_2 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_2_2 AND NOT clear AND bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_2_0: FDCPE port map (reg/temp_2_0,reg/temp_2_0_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_2_0_D <= ((reg/temp_2_0 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_3_0 AND NOT clear AND bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_2_1: FDCPE port map (reg/temp_2_1,reg/temp_2_1_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_2_1_D <= ((reg/temp_2_1 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_3_1 AND NOT clear AND bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_2_2: FDCPE port map (reg/temp_2_2,reg/temp_2_2_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_2_2_D <= ((reg/temp_2_2 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (reg/temp_3_2 AND NOT clear AND bttnevent));
+</td></tr><tr><td>
+FDCPE_reg/temp_3_0: FDCPE port map (reg/temp_3_0,reg/temp_3_0_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_3_0_D <= ((reg/temp_3_0 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT clear AND bttnevent AND newinput(2)));
+</td></tr><tr><td>
+FDCPE_reg/temp_3_1: FDCPE port map (reg/temp_3_1,reg/temp_3_1_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_3_1_D <= ((reg/temp_3_1 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT clear AND bttnevent AND newinput(1)));
+</td></tr><tr><td>
+FDCPE_reg/temp_3_2: FDCPE port map (reg/temp_3_2,reg/temp_3_2_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reg/temp_3_2_D <= ((reg/temp_3_2 AND NOT clear AND NOT bttnevent)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT clear AND bttnevent AND newinput(0)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

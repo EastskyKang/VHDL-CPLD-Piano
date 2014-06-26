@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "C:/team1/display/vectorRegister3.xst" -ofn "C:/team1/display/vectorRegister3.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 vectorRegister3.ngc vectorRegister3.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper vectorRegister3.ngd 
+XSLTProcess vectorRegister3_build.xml 
+tsim -intstyle ise vectorRegister3 vectorRegister3.nga 
+hprep6 -s IEEE1149 -n vectorRegister3 -i vectorRegister3 
+xst -intstyle ise -ifn "C:/team1/display/vectorRegister3.xst" -ofn "C:/team1/display/vectorRegister3.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 vectorRegister3.ngc vectorRegister3.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper vectorRegister3.ngd 
+XSLTProcess vectorRegister3_build.xml 
+tsim -intstyle ise vectorRegister3 vectorRegister3.nga 
+hprep6 -s IEEE1149 -n vectorRegister3 -i vectorRegister3 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+xst -intstyle ise -ifn "C:/team1/display/vectorRegister3.xst" -ofn "C:/team1/display/vectorRegister3.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 vectorRegister3.ngc vectorRegister3.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper vectorRegister3.ngd 
+XSLTProcess vectorRegister3_build.xml 
+tsim -intstyle ise vectorRegister3 vectorRegister3.nga 
+hprep6 -s IEEE1149 -n vectorRegister3 -i vectorRegister3 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 
+XSLTProcess vectorRegister3_build.xml 

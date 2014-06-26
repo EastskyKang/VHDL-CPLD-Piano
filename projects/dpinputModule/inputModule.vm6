@@ -1,0 +1,1152 @@
+NDS Database:  version P.49d
+
+NDS_INFO | xc9500xl | 9536XL44PC | XC9536XL-10-PC44
+
+DEVICE | 9536XL | 9536XL44PC | 
+
+NETWORK | inputModule | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_6_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<6> | 1293 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | inputclk_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | inputclk | 1294 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_4_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<4> | 1299 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_2_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<2> | 1296 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_0_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<0> | 1298 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_1_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<1> | 1295 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_3_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<3> | 1297 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_5_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<5> | 1300 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | keyinput_7_IBUF | inputModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | keyinput<7> | 1301 | PI | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | newinput_0 | inputModule_COPY_0_COPY_0 | 2155873280 | 12 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.UIM | 1266 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_1.UIM | 1268 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_1.Q | newinput_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$7.UIM | 1291 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$7.Q | $OpTx$FX_DC$7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 1373 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | newinput_0 | 1265 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | newinput_0.UIM | 1266 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | newinput_0.EXP | 1374 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.EXP | newinput_0 | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | newinput_0.SI | newinput_0 | 0 | 11 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.UIM | 1266 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_1.UIM | 1268 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_1.Q | newinput_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$7.UIM | 1291 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$7.Q | $OpTx$FX_DC$7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 1373 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | newinput_0.D1 | 1303 | ? | 0 | 4096 | newinput_0 | NULL | NULL | newinput_0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | newinput_0.D2 | 1304 | ? | 0 | 4096 | newinput_0 | NULL | NULL | newinput_0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP8_.EXP
+SPPTERM | 4 | IV_FALSE | keyinput_6_IBUF | IV_TRUE | newinput_0.UIM | IV_TRUE | keyprev<3> | IV_TRUE | keyprev<5>
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | newinput_0.EXP | 1363 | ? | 0 | 0 | newinput_0 | NULL | NULL | newinput_0.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_FALSE | newinput_1.UIM | IV_TRUE | keyprev<7> | IV_FALSE | keyinput_7_IBUF | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_FALSE | newinput_1.UIM | IV_TRUE | keyprev<7> | IV_TRUE | keyprev<0> | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 5 | IV_FALSE | newinput_1.UIM | IV_TRUE | keyprev<7> | IV_TRUE | keyprev<1> | IV_FALSE | keyinput_7_IBUF | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 5 | IV_FALSE | newinput_1.UIM | IV_TRUE | keyprev<7> | IV_TRUE | keyprev<1> | IV_TRUE | keyprev<0> | IV_FALSE | $OpTx$FX_DC$7.UIM
+
+SRFF_INSTANCE | newinput_0.REG | newinput_0 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | newinput_0.D | 1302 | ? | 0 | 0 | newinput_0 | NULL | NULL | newinput_0.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | newinput_0.Q | 1305 | ? | 0 | 0 | newinput_0 | NULL | NULL | newinput_0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+OptxMapped | newinput_1 | inputModule_COPY_0_COPY_0 | 2155873536 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$7.UIM | 1291 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$7.Q | $OpTx$FX_DC$7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 1375 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | newinput_1 | 1267 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_1.Q | newinput_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | newinput_1.UIM | 1268 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_1.Q | newinput_1 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | newinput_1.SI | newinput_1 | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$7.UIM | 1291 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$7.Q | $OpTx$FX_DC$7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 1375 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | newinput_1.D1 | 1307 | ? | 0 | 4096 | newinput_1 | NULL | NULL | newinput_1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | newinput_1.D2 | 1308 | ? | 0 | 4096 | newinput_1 | NULL | NULL | newinput_1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP9_.EXP
+SPPTERM | 3 | IV_TRUE | keyinput_1_IBUF | IV_FALSE | keyinput_0_IBUF | IV_FALSE | keyprev<6>
+SPPTERM | 3 | IV_TRUE | keyinput_1_IBUF | IV_TRUE | keyprev<7> | IV_FALSE | keyprev<6>
+SPPTERM | 4 | IV_FALSE | keyinput_0_IBUF | IV_TRUE | keyinput_4_IBUF | IV_FALSE | keyprev<3> | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 4 | IV_FALSE | keyinput_0_IBUF | IV_TRUE | keyinput_5_IBUF | IV_FALSE | keyprev<2> | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 4 | IV_TRUE | keyprev<7> | IV_TRUE | keyinput_4_IBUF | IV_FALSE | keyprev<3> | IV_FALSE | $OpTx$FX_DC$7.UIM
+
+SRFF_INSTANCE | newinput_1.REG | newinput_1 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | newinput_1.D | 1306 | ? | 0 | 0 | newinput_1 | NULL | NULL | newinput_1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | newinput_1.Q | 1309 | ? | 0 | 0 | newinput_1 | NULL | NULL | newinput_1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+OptxMapped | newinput_2 | inputModule_COPY_0_COPY_0 | 2155873536 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP10_.EXP | 1376 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bttnevent_OBUF.EXP | 1377 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | bttnevent_OBUF.EXP | bttnevent_OBUF | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | newinput_2 | 1269 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_2.Q | newinput_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | newinput_2.UIM | 1270 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_2.Q | newinput_2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | newinput_2.SI | newinput_2 | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP10_.EXP | 1376 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | bttnevent_OBUF.EXP | 1377 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | bttnevent_OBUF.EXP | bttnevent_OBUF | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | newinput_2.D1 | 1311 | ? | 0 | 4096 | newinput_2 | NULL | NULL | newinput_2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | newinput_2.D2 | 1312 | ? | 0 | 4096 | newinput_2 | NULL | NULL | newinput_2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP10_.EXP
+SPPTERM | 1 | IV_TRUE | bttnevent_OBUF.EXP
+SPPTERM | 3 | IV_TRUE | keyinput_1_IBUF | IV_FALSE | keyinput_0_IBUF | IV_FALSE | keyprev<6>
+SPPTERM | 3 | IV_TRUE | keyinput_2_IBUF | IV_FALSE | keyinput_0_IBUF | IV_FALSE | keyprev<5>
+SPPTERM | 3 | IV_TRUE | keyinput_2_IBUF | IV_TRUE | keyprev<7> | IV_FALSE | keyprev<5>
+SPPTERM | 3 | IV_TRUE | keyinput_3_IBUF | IV_FALSE | keyprev<4> | IV_FALSE | keyinput_0_IBUF
+SPPTERM | 3 | IV_TRUE | keyinput_3_IBUF | IV_FALSE | keyprev<4> | IV_TRUE | keyprev<7>
+
+SRFF_INSTANCE | newinput_2.REG | newinput_2 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | newinput_2.D | 1310 | ? | 0 | 0 | newinput_2 | NULL | NULL | newinput_2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | newinput_2.Q | 1313 | ? | 0 | 0 | newinput_2 | NULL | NULL | newinput_2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<4> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<4>.SI | keyprev<4> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<4>.D1 | 1315 | ? | 0 | 4096 | keyprev<4> | NULL | NULL | keyprev<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<4>.D2 | 1316 | ? | 0 | 4096 | keyprev<4> | NULL | NULL | keyprev<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_3_IBUF
+
+SRFF_INSTANCE | keyprev<4>.REG | keyprev<4> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<4>.D | 1314 | ? | 0 | 0 | keyprev<4> | NULL | NULL | keyprev<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<4>.Q | 1317 | ? | 0 | 0 | keyprev<4> | NULL | NULL | keyprev<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<7> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<7>.SI | keyprev<7> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<7>.D1 | 1319 | ? | 0 | 4096 | keyprev<7> | NULL | NULL | keyprev<7>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<7>.D2 | 1320 | ? | 0 | 4096 | keyprev<7> | NULL | NULL | keyprev<7>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_0_IBUF
+
+SRFF_INSTANCE | keyprev<7>.REG | keyprev<7> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<7>.D | 1318 | ? | 0 | 0 | keyprev<7> | NULL | NULL | keyprev<7>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<7>.Q | 1321 | ? | 0 | 0 | keyprev<7> | NULL | NULL | keyprev<7>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<2> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<2>.SI | keyprev<2> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<2>.D1 | 1323 | ? | 0 | 4096 | keyprev<2> | NULL | NULL | keyprev<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<2>.D2 | 1324 | ? | 0 | 4096 | keyprev<2> | NULL | NULL | keyprev<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_5_IBUF
+
+SRFF_INSTANCE | keyprev<2>.REG | keyprev<2> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<2>.D | 1322 | ? | 0 | 0 | keyprev<2> | NULL | NULL | keyprev<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<2>.Q | 1325 | ? | 0 | 0 | keyprev<2> | NULL | NULL | keyprev<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<1> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<1>.SI | keyprev<1> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<1>.D1 | 1327 | ? | 0 | 4096 | keyprev<1> | NULL | NULL | keyprev<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<1>.D2 | 1328 | ? | 0 | 4096 | keyprev<1> | NULL | NULL | keyprev<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_6_IBUF
+
+SRFF_INSTANCE | keyprev<1>.REG | keyprev<1> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<1>.D | 1326 | ? | 0 | 0 | keyprev<1> | NULL | NULL | keyprev<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<1>.Q | 1329 | ? | 0 | 0 | keyprev<1> | NULL | NULL | keyprev<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<0> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<0>.SI | keyprev<0> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<0>.D1 | 1331 | ? | 0 | 4096 | keyprev<0> | NULL | NULL | keyprev<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<0>.D2 | 1332 | ? | 0 | 4096 | keyprev<0> | NULL | NULL | keyprev<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_7_IBUF
+
+SRFF_INSTANCE | keyprev<0>.REG | keyprev<0> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<0>.D | 1330 | ? | 0 | 0 | keyprev<0> | NULL | NULL | keyprev<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<0>.Q | 1333 | ? | 0 | 0 | keyprev<0> | NULL | NULL | keyprev<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<3> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<3>.SI | keyprev<3> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<3>.D1 | 1335 | ? | 0 | 4096 | keyprev<3> | NULL | NULL | keyprev<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<3>.D2 | 1336 | ? | 0 | 4096 | keyprev<3> | NULL | NULL | keyprev<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_4_IBUF
+
+SRFF_INSTANCE | keyprev<3>.REG | keyprev<3> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<3>.D | 1334 | ? | 0 | 0 | keyprev<3> | NULL | NULL | keyprev<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<3>.Q | 1337 | ? | 0 | 0 | keyprev<3> | NULL | NULL | keyprev<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<5> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<5>.SI | keyprev<5> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<5>.D1 | 1339 | ? | 0 | 4096 | keyprev<5> | NULL | NULL | keyprev<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<5>.D2 | 1340 | ? | 0 | 4096 | keyprev<5> | NULL | NULL | keyprev<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_2_IBUF
+
+SRFF_INSTANCE | keyprev<5>.REG | keyprev<5> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<5>.D | 1338 | ? | 0 | 0 | keyprev<5> | NULL | NULL | keyprev<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<5>.Q | 1341 | ? | 0 | 0 | keyprev<5> | NULL | NULL | keyprev<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | keyprev<6> | inputModule_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | keyprev<6>.SI | keyprev<6> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | keyprev<6>.D1 | 1343 | ? | 0 | 4096 | keyprev<6> | NULL | NULL | keyprev<6>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | keyprev<6>.D2 | 1344 | ? | 0 | 4096 | keyprev<6> | NULL | NULL | keyprev<6>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | keyinput_1_IBUF
+
+SRFF_INSTANCE | keyprev<6>.REG | keyprev<6> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | keyprev<6>.D | 1342 | ? | 0 | 0 | keyprev<6> | NULL | NULL | keyprev<6>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | keyprev<6>.Q | 1345 | ? | 0 | 0 | keyprev<6> | NULL | NULL | keyprev<6>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | bttnevent_OBUF | inputModule_COPY_0_COPY_0 | 2155873280 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_2.UIM | 1270 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_2.Q | newinput_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$16.UIM | 1292 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$16.Q | $OpTx$FX_DC$16 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP11_.EXP | 1378 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | bttnevent_OBUF | 1286 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | bttnevent_OBUF.Q | bttnevent_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | bttnevent_OBUF.EXP | 1377 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | bttnevent_OBUF.EXP | bttnevent_OBUF | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | bttnevent_OBUF.SI | bttnevent_OBUF | 0 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_2.UIM | 1270 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_2.Q | newinput_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$16.UIM | 1292 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$16.Q | $OpTx$FX_DC$16 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP11_.EXP | 1378 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | bttnevent_OBUF.D1 | 1347 | ? | 0 | 4096 | bttnevent_OBUF | NULL | NULL | bttnevent_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | bttnevent_OBUF.D2 | 1348 | ? | 0 | 4096 | bttnevent_OBUF | NULL | NULL | bttnevent_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP11_.EXP
+SPPTERM | 2 | IV_TRUE | keyinput_3_IBUF | IV_FALSE | keyprev<4>
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | bttnevent_OBUF.EXP | 1366 | ? | 0 | 0 | bttnevent_OBUF | NULL | NULL | bttnevent_OBUF.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_TRUE | keyprev<7> | IV_FALSE | keyinput_4_IBUF | IV_FALSE | keyinput_5_IBUF | IV_FALSE | $OpTx$FX_DC$16.UIM
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_TRUE | keyprev<7> | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyprev<2> | IV_FALSE | $OpTx$FX_DC$16.UIM
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_TRUE | keyprev<7> | IV_FALSE | keyinput_5_IBUF | IV_TRUE | keyprev<3> | IV_FALSE | $OpTx$FX_DC$16.UIM
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_TRUE | keyprev<7> | IV_TRUE | keyprev<2> | IV_TRUE | keyprev<3> | IV_FALSE | $OpTx$FX_DC$16.UIM
+
+SRFF_INSTANCE | bttnevent_OBUF.REG | bttnevent_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | bttnevent_OBUF.D | 1346 | ? | 0 | 0 | bttnevent_OBUF | NULL | NULL | bttnevent_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | inputclk_IBUF/FCLK | 1264 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | inputclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | bttnevent_OBUF.Q | 1349 | ? | 0 | 0 | bttnevent_OBUF | NULL | NULL | bttnevent_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | newinput<2> | inputModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | newinput_0 | 1265 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | newinput<2> | 1287 | PO | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | newinput<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | newinput<1> | inputModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | newinput_1 | 1267 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_1.Q | newinput_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | newinput<1> | 1288 | PO | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | newinput<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | newinput<0> | inputModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | newinput_2 | 1269 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_2.Q | newinput_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | newinput<0> | 1289 | PO | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | newinput<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | bttnevent | inputModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | bttnevent_OBUF | 1286 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | bttnevent_OBUF.Q | bttnevent_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | bttnevent | 1290 | PO | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | bttnevent | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | SoftPfbk | $OpTx$FX_DC$7 | inputModule_COPY_0_COPY_0 | 2181038080 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | $OpTx$FX_DC$7.UIM | 1291 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$7.Q | $OpTx$FX_DC$7 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | $OpTx$FX_DC$7.SI | $OpTx$FX_DC$7 | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | $OpTx$FX_DC$7.D1 | 1351 | ? | 0 | 4096 | $OpTx$FX_DC$7 | NULL | NULL | $OpTx$FX_DC$7.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | $OpTx$FX_DC$7.D2 | 1352 | ? | 0 | 4096 | $OpTx$FX_DC$7 | NULL | NULL | $OpTx$FX_DC$7.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | keyinput_2_IBUF | IV_FALSE | keyprev<5>
+SPPTERM | 2 | IV_TRUE | keyinput_3_IBUF | IV_FALSE | keyprev<4>
+
+SRFF_INSTANCE | $OpTx$FX_DC$7.REG | $OpTx$FX_DC$7 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | $OpTx$FX_DC$7.D | 1350 | ? | 0 | 0 | $OpTx$FX_DC$7 | NULL | NULL | $OpTx$FX_DC$7.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | $OpTx$FX_DC$7.Q | 1353 | ? | 0 | 0 | $OpTx$FX_DC$7 | NULL | NULL | $OpTx$FX_DC$7.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | $OpTx$FX_DC$16 | inputModule_COPY_0_COPY_0 | 2181038080 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | $OpTx$FX_DC$16.UIM | 1292 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$16.Q | $OpTx$FX_DC$16 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | $OpTx$FX_DC$16.SI | $OpTx$FX_DC$16 | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | $OpTx$FX_DC$16.D1 | 1355 | ? | 0 | 4096 | $OpTx$FX_DC$16 | NULL | NULL | $OpTx$FX_DC$16.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | $OpTx$FX_DC$16.D2 | 1356 | ? | 0 | 4096 | $OpTx$FX_DC$16 | NULL | NULL | $OpTx$FX_DC$16.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | keyinput_6_IBUF | IV_FALSE | keyprev<1>
+SPPTERM | 2 | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0>
+
+SRFF_INSTANCE | $OpTx$FX_DC$16.REG | $OpTx$FX_DC$16 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | $OpTx$FX_DC$16.D | 1354 | ? | 0 | 0 | $OpTx$FX_DC$16 | NULL | NULL | $OpTx$FX_DC$16.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | $OpTx$FX_DC$16.Q | 1357 | ? | 0 | 0 | $OpTx$FX_DC$16 | NULL | NULL | $OpTx$FX_DC$16.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | EXP4_ | inputModule_COPY_0_COPY_0 | 2147483648 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP4_.EXP | 1369 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP4_.SI | EXP4_ | 0 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP4_.EXP | 1358 | ? | 0 | 0 | EXP4_ | NULL | NULL | EXP4_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_FALSE | keyinput_2_IBUF | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyprev<1> | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0>
+SPPTERM | 5 | IV_FALSE | keyinput_2_IBUF | IV_TRUE | keyprev<1> | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0> | IV_TRUE | keyprev<3>
+SPPTERM | 5 | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyprev<1> | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0> | IV_TRUE | keyprev<5>
+
+MACROCELL_INSTANCE | NULL | EXP5_ | inputModule_COPY_0_COPY_0 | 2147483648 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP4_.EXP | 1369 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP5_.EXP | 1370 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP5_.EXP | EXP5_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP5_.SI | EXP5_ | 0 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP4_.EXP | 1369 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP5_.EXP | 1359 | ? | 0 | 0 | EXP5_ | NULL | NULL | EXP5_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP4_.EXP
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_FALSE | keyinput_2_IBUF | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0>
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_FALSE | keyinput_2_IBUF | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0> | IV_TRUE | keyprev<3>
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0> | IV_TRUE | keyprev<5>
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0> | IV_TRUE | keyprev<3> | IV_TRUE | keyprev<5>
+SPPTERM | 5 | IV_TRUE | keyprev<1> | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0> | IV_TRUE | keyprev<3> | IV_TRUE | keyprev<5>
+
+MACROCELL_INSTANCE | NULL | EXP6_ | inputModule_COPY_0_COPY_0 | 2147483648 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP5_.EXP | 1370 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP5_.EXP | EXP5_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP6_.EXP | 1371 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP6_.SI | EXP6_ | 0 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP5_.EXP | 1370 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP5_.EXP | EXP5_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP6_.EXP | 1360 | ? | 0 | 0 | EXP6_ | NULL | NULL | EXP6_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP5_.EXP
+SPPTERM | 3 | IV_FALSE | keyinput_2_IBUF | IV_TRUE | keyinput_3_IBUF | IV_FALSE | keyprev<4>
+SPPTERM | 4 | IV_FALSE | keyinput_2_IBUF | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyinput_5_IBUF | IV_FALSE | keyprev<2>
+SPPTERM | 4 | IV_FALSE | keyinput_2_IBUF | IV_TRUE | keyinput_5_IBUF | IV_FALSE | keyprev<2> | IV_TRUE | keyprev<3>
+SPPTERM | 4 | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyinput_5_IBUF | IV_FALSE | keyprev<2> | IV_TRUE | keyprev<5>
+SPPTERM | 4 | IV_TRUE | keyinput_5_IBUF | IV_FALSE | keyprev<2> | IV_TRUE | keyprev<3> | IV_TRUE | keyprev<5>
+
+MACROCELL_INSTANCE | NULL | EXP7_ | inputModule_COPY_0_COPY_0 | 2147483648 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.UIM | 1266 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 1371 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP7_.EXP | 1372 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP7_.SI | EXP7_ | 0 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_3_IBUF | 1273 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<4> | 1274 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<4>.Q | keyprev<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.UIM | 1266 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 1371 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP7_.EXP | 1361 | ? | 0 | 0 | EXP7_ | NULL | NULL | EXP7_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP6_.EXP
+SPPTERM | 2 | IV_TRUE | keyinput_1_IBUF | IV_FALSE | keyprev<6>
+SPPTERM | 2 | IV_TRUE | keyinput_0_IBUF | IV_FALSE | keyprev<7>
+SPPTERM | 3 | IV_TRUE | keyinput_3_IBUF | IV_FALSE | keyprev<4> | IV_TRUE | keyprev<5>
+SPPTERM | 4 | IV_TRUE | newinput_0.UIM | IV_FALSE | keyinput_2_IBUF | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyprev<1>
+SPPTERM | 4 | IV_TRUE | newinput_0.UIM | IV_FALSE | keyinput_2_IBUF | IV_TRUE | keyprev<1> | IV_TRUE | keyprev<3>
+
+MACROCELL_INSTANCE | NULL | EXP8_ | inputModule_COPY_0_COPY_0 | 2147483648 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.UIM | 1266 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 1372 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP8_.EXP | 1373 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP8_.SI | EXP8_ | 0 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.UIM | 1266 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.Q | newinput_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 1372 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP8_.EXP | 1362 | ? | 0 | 0 | EXP8_ | NULL | NULL | EXP8_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP7_.EXP
+SPPTERM | 4 | IV_FALSE | keyinput_6_IBUF | IV_TRUE | newinput_0.UIM | IV_FALSE | keyinput_2_IBUF | IV_FALSE | keyinput_4_IBUF
+SPPTERM | 4 | IV_FALSE | keyinput_6_IBUF | IV_TRUE | newinput_0.UIM | IV_FALSE | keyinput_2_IBUF | IV_TRUE | keyprev<3>
+SPPTERM | 4 | IV_FALSE | keyinput_6_IBUF | IV_TRUE | newinput_0.UIM | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyprev<5>
+SPPTERM | 4 | IV_TRUE | newinput_0.UIM | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyprev<1> | IV_TRUE | keyprev<5>
+SPPTERM | 4 | IV_TRUE | newinput_0.UIM | IV_TRUE | keyprev<1> | IV_TRUE | keyprev<3> | IV_TRUE | keyprev<5>
+
+MACROCELL_INSTANCE | NULL | EXP9_ | inputModule_COPY_0_COPY_0 | 2147483648 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$7.UIM | 1291 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$7.Q | $OpTx$FX_DC$7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_1.UIM | 1268 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_1.Q | newinput_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.EXP | 1374 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.EXP | newinput_0 | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP9_.EXP | 1375 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP9_.SI | EXP9_ | 0 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$7.UIM | 1291 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$7.Q | $OpTx$FX_DC$7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_1.UIM | 1268 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_1.Q | newinput_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_0.EXP | 1374 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_0.EXP | newinput_0 | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP9_.EXP | 1364 | ? | 0 | 0 | EXP9_ | NULL | NULL | EXP9_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | newinput_0.EXP
+SPPTERM | 4 | IV_TRUE | keyprev<7> | IV_TRUE | keyinput_5_IBUF | IV_FALSE | keyprev<2> | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_FALSE | newinput_1.UIM | IV_FALSE | keyinput_0_IBUF | IV_FALSE | keyinput_7_IBUF | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 5 | IV_FALSE | keyinput_6_IBUF | IV_FALSE | newinput_1.UIM | IV_FALSE | keyinput_0_IBUF | IV_TRUE | keyprev<0> | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 5 | IV_FALSE | newinput_1.UIM | IV_FALSE | keyinput_0_IBUF | IV_TRUE | keyprev<1> | IV_FALSE | keyinput_7_IBUF | IV_FALSE | $OpTx$FX_DC$7.UIM
+SPPTERM | 5 | IV_FALSE | newinput_1.UIM | IV_FALSE | keyinput_0_IBUF | IV_TRUE | keyprev<1> | IV_TRUE | keyprev<0> | IV_FALSE | $OpTx$FX_DC$7.UIM
+
+MACROCELL_INSTANCE | NULL | EXP10_ | inputModule_COPY_0_COPY_0 | 2147483648 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_2.UIM | 1270 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_2.Q | newinput_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$16.UIM | 1292 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$16.Q | $OpTx$FX_DC$16 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP10_.EXP | 1376 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP10_.SI | EXP10_ | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | newinput_2.UIM | 1270 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | newinput_2.Q | newinput_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_DC$16.UIM | 1292 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | $OpTx$FX_DC$16.Q | $OpTx$FX_DC$16 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP10_.EXP | 1365 | ? | 0 | 0 | EXP10_ | NULL | NULL | EXP10_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 3 | IV_TRUE | keyinput_1_IBUF | IV_TRUE | keyprev<7> | IV_FALSE | keyprev<6>
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_FALSE | keyinput_0_IBUF | IV_FALSE | keyinput_4_IBUF | IV_FALSE | keyinput_5_IBUF | IV_FALSE | $OpTx$FX_DC$16.UIM
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_FALSE | keyinput_0_IBUF | IV_FALSE | keyinput_4_IBUF | IV_TRUE | keyprev<2> | IV_FALSE | $OpTx$FX_DC$16.UIM
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_FALSE | keyinput_0_IBUF | IV_FALSE | keyinput_5_IBUF | IV_TRUE | keyprev<3> | IV_FALSE | $OpTx$FX_DC$16.UIM
+SPPTERM | 5 | IV_FALSE | newinput_2.UIM | IV_FALSE | keyinput_0_IBUF | IV_TRUE | keyprev<2> | IV_TRUE | keyprev<3> | IV_FALSE | $OpTx$FX_DC$16.UIM
+
+MACROCELL_INSTANCE | NULL | EXP11_ | inputModule_COPY_0_COPY_0 | 2147483648 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP12_.EXP | 1379 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP11_.EXP | 1378 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP11_.SI | EXP11_ | 0 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_1_IBUF | 1271 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<6> | 1285 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<6>.Q | keyprev<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_2_IBUF | 1272 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<5> | 1284 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<5>.Q | keyprev<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_0_IBUF | 1275 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<7> | 1276 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<7>.Q | keyprev<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_5_IBUF | 1278 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<2> | 1279 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<2>.Q | keyprev<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_7_IBUF | 1281 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<0> | 1282 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<0>.Q | keyprev<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP12_.EXP | 1379 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP11_.EXP | 1367 | ? | 0 | 0 | EXP11_ | NULL | NULL | EXP11_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP12_.EXP
+SPPTERM | 2 | IV_TRUE | keyinput_1_IBUF | IV_FALSE | keyprev<6>
+SPPTERM | 2 | IV_TRUE | keyinput_2_IBUF | IV_FALSE | keyprev<5>
+SPPTERM | 2 | IV_TRUE | keyinput_0_IBUF | IV_FALSE | keyprev<7>
+SPPTERM | 2 | IV_TRUE | keyinput_5_IBUF | IV_FALSE | keyprev<2>
+SPPTERM | 2 | IV_TRUE | keyinput_7_IBUF | IV_FALSE | keyprev<0>
+
+MACROCELL_INSTANCE | NULL | EXP12_ | inputModule_COPY_0_COPY_0 | 2147483648 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP12_.EXP | 1379 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP12_.SI | EXP12_ | 0 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_6_IBUF | 1263 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<1> | 1280 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<1>.Q | keyprev<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyinput_4_IBUF | 1277 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | NULL | keyinput_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | keyprev<3> | 1283 | ? | 0 | 0 | inputModule_COPY_0_COPY_0 | NULL | keyprev<3>.Q | keyprev<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP12_.EXP | 1368 | ? | 0 | 0 | EXP12_ | NULL | NULL | EXP12_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 2 | IV_TRUE | keyinput_6_IBUF | IV_FALSE | keyprev<1>
+SPPTERM | 2 | IV_TRUE | keyinput_4_IBUF | IV_FALSE | keyprev<3>
+
+FB_INSTANCE | FOOBAR1_ | inputModule_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | NULL | 0 | keyinput_3_IBUF | 1 | NULL | 0 | 3 | 49152
+FBPIN | 4 | NULL | 0 | keyinput_2_IBUF | 1 | NULL | 0 | 4 | 49152
+FBPIN | 5 | NULL | 0 | inputclk_IBUF | 0 | NULL | 0 | 6 | 57344
+FBPIN | 6 | NULL | 0 | keyinput_1_IBUF | 1 | NULL | 0 | 8 | 49152
+FBPIN | 8 | NULL | 0 | keyinput_0_IBUF | 1 | NULL | 0 | 9 | 49152
+FBPIN | 9 | keyprev<7> | 1 | NULL | 0 | NULL | 0 | 11 | 49152
+FBPIN | 10 | keyprev<6> | 1 | NULL | 0 | NULL | 0 | 12 | 49152
+FBPIN | 11 | keyprev<5> | 1 | NULL | 0 | NULL | 0 | 13 | 49152
+FBPIN | 12 | keyprev<4> | 1 | NULL | 0 | NULL | 0 | 14 | 49152
+FBPIN | 13 | keyprev<3> | 1 | keyinput_4_IBUF | 1 | NULL | 0 | 18 | 49152
+FBPIN | 14 | keyprev<2> | 1 | NULL | 0 | NULL | 0 | 19 | 49152
+FBPIN | 15 | keyprev<1> | 1 | NULL | 0 | NULL | 0 | 20 | 49152
+FBPIN | 16 | keyprev<0> | 1 | NULL | 0 | NULL | 0 | 22 | 49152
+FBPIN | 17 | $OpTx$FX_DC$7 | 1 | keyinput_5_IBUF | 1 | NULL | 0 | 24 | 49152
+FBPIN | 18 | $OpTx$FX_DC$16 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | inputModule_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 3 | EXP4_ | 1 | NULL | 0 | NULL | 0 | 42 | 53248
+FBPIN | 4 | EXP5_ | 1 | NULL | 0 | NULL | 0 | 43 | 49152
+FBPIN | 5 | EXP6_ | 1 | NULL | 0 | NULL | 0 | 40 | 53248
+FBPIN | 6 | EXP7_ | 1 | NULL | 0 | NULL | 0 | 39 | 51200
+FBPIN | 7 | EXP8_ | 1 | NULL | 0 | NULL | 0 | 38 | 49152
+FBPIN | 8 | newinput_0 | 1 | NULL | 0 | newinput<2> | 1 | 37 | 49152
+FBPIN | 9 | EXP9_ | 1 | NULL | 0 | NULL | 0 | 36 | 49152
+FBPIN | 10 | newinput_1 | 1 | NULL | 0 | newinput<1> | 1 | 35 | 49152
+FBPIN | 11 | EXP10_ | 1 | NULL | 0 | NULL | 0 | 34 | 49152
+FBPIN | 12 | newinput_2 | 1 | NULL | 0 | newinput<0> | 1 | 33 | 49152
+FBPIN | 13 | bttnevent_OBUF | 1 | NULL | 0 | bttnevent | 1 | 29 | 49152
+FBPIN | 14 | EXP11_ | 1 | keyinput_7_IBUF | 1 | NULL | 0 | 28 | 49152
+FBPIN | 15 | EXP12_ | 1 | NULL | 0 | NULL | 0 | 27 | 49152
+FBPIN | 16 | NULL | 0 | keyinput_6_IBUF | 1 | NULL | 0 | 26 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | inputModule_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | KEYINPUT<0:7> | 8 | 0 | 0 | keyinput<0> | 0 | keyinput<1> | 1 | keyinput<2> | 2 | keyinput<3> | 3 | keyinput<4> | 4 | keyinput<5> | 5 | keyinput<6> | 6 | keyinput<7> | 7
+BUSINFO | NEWINPUT<0:2> | 3 | 0 | 1 | newinput<0> | 0 | newinput<1> | 1 | newinput<2> | 2
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | keyinput<5> | 24 | 2 | keyinput<3> | 3 | 4 | keyinput<2> | 4 | 11 | keyinput<4> | 18 | 14 | keyprev<1> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 15 | keyprev<0> | NULL | 19 | keyinput<0> | 9 | 21 | keyprev<5> | NULL | 27 | keyprev<4> | NULL | 35 | keyinput<7> | 28
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 41 | keyinput<6> | 26 | 45 | keyinput<1> | 8
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 55 | 56 | -1 | 58 | -1 | -1 | -1 | -1 | -1 | -1 | 65 | -1 | -1 | 14 | 15 | -1 | -1 | -1 | 68 | -1 | 10 | -1 | -1 | -1 | -1 | -1 | 11 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 47 | -1 | -1 | -1 | -1 | -1 | 51 | -1 | -1 | -1 | 66 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 1 | keyinput<5> | 24 | 2 | keyinput<3> | 3 | 4 | keyinput<2> | 4 | 7 | newinput_0.UIM | NULL | 8 | keyprev<7> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 9 | keyprev<6> | NULL | 11 | keyinput<4> | 18 | 12 | keyprev<3> | NULL | 14 | keyprev<1> | NULL | 15 | keyprev<0> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 17 | $OpTx$FX_DC$16.UIM | NULL | 18 | newinput_2.UIM | NULL | 19 | keyinput<0> | 9 | 20 | newinput_1.UIM | NULL | 21 | keyprev<5> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 27 | keyprev<4> | NULL | 31 | $OpTx$FX_DC$7.UIM | NULL | 35 | keyinput<7> | 28 | 36 | keyprev<2> | NULL | 41 | keyinput<6> | 26
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 45 | keyinput<1> | 8
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | 55 | 56 | -1 | 58 | -1 | -1 | 25 | 8 | 9 | -1 | 65 | 12 | -1 | 14 | 15 | -1 | 17 | 29 | 68 | 27 | 10 | -1 | -1 | -1 | -1 | -1 | 11 | -1 | -1 | -1 | 16 | -1 | -1 | -1 | 47 | 13 | -1 | -1 | -1 | -1 | 51 | -1 | -1 | -1 | 66 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | inputclk | 1 | 1

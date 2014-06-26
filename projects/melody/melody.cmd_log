@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/team1/melody/melody.xst" -ofn "C:/team1/melody/melody.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 melody.ngc melody.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper melody.ngd 
+XSLTProcess melody_build.xml 
+tsim -intstyle ise melody melody.nga 
+hprep6 -s IEEE1149 -n melody -i melody 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 melody.ngc melody.ngd  
+xst -intstyle ise -ifn "C:/team1/melody/melody.xst" -ofn "C:/team1/melody/melody.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-PC44-10 melody.ngc melody.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper melody.ngd 
+XSLTProcess melody_build.xml 
+tsim -intstyle ise melody melody.nga 
+hprep6 -s IEEE1149 -n melody -i melody 
+xst -intstyle ise -ifn "C:/team1/melody/melody.xst" -ofn "C:/team1/melody/melody.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc melody.ucf -p xc9536xl-PC44-10 melody.ngc melody.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper melody.ngd 
+XSLTProcess melody_build.xml 
+tsim -intstyle ise melody melody.nga 
+hprep6 -s IEEE1149 -n melody -i melody 
+xst -intstyle ise -ifn "C:/team1/melody/melody.xst" -ofn "C:/team1/melody/melody.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc melody.ucf -p xc9536xl-PC44-10 melody.ngc melody.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper melody.ngd 
+XSLTProcess melody_build.xml 
+tsim -intstyle ise melody melody.nga 
+hprep6 -s IEEE1149 -n melody -i melody 
+xst -intstyle ise -ifn "C:/team1/melody/melody.xst" -ofn "C:/team1/melody/melody.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc melody.ucf -p xc9536xl-PC44-10 melody.ngc melody.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper melody.ngd 
+XSLTProcess melody_build.xml 
+tsim -intstyle ise melody melody.nga 
+hprep6 -s IEEE1149 -n melody -i melody 

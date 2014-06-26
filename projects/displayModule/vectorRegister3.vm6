@@ -1,0 +1,651 @@
+NDS Database:  version P.49d
+
+NDS_INFO | xc9500xl | 9536XL44PC | XC9536XL-10-PC44
+
+DEVICE | 9536XL | 9536XL44PC | 
+
+NETWORK | vectorRegister3 | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | CLEAR_IBUF | vectorRegister3_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | CLEAR | 1267 | PI | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | rclk_IBUF | vectorRegister3_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rclk | 1268 | PI | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | ENABLE_IBUF | vectorRegister3_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | ENABLE | 1269 | PI | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output2_0_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_0_OBUF | 1234 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_0_OBUF.Q | Output3_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_0_OBUF | 1228 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_0_OBUF.Q | Output2_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output2_0_OBUF$Q | 1227 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_0_OBUF.Q | Output2_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output2_0_OBUF | 1228 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_0_OBUF.Q | Output2_0_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output2_0_OBUF.SI | Output2_0_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_0_OBUF | 1234 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_0_OBUF.Q | Output3_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_0_OBUF | 1228 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_0_OBUF.Q | Output2_0_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output2_0_OBUF.D1 | 1274 | ? | 0 | 4096 | Output2_0_OBUF | NULL | NULL | Output2_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output2_0_OBUF.D2 | 1275 | ? | 0 | 4096 | Output2_0_OBUF | NULL | NULL | Output2_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output2_0_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output3_0_OBUF | IV_TRUE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output2_0_OBUF.REG | Output2_0_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output2_0_OBUF.D | 1273 | ? | 0 | 0 | Output2_0_OBUF | NULL | NULL | Output2_0_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output2_0_OBUF.Q | 1276 | ? | 0 | 0 | Output2_0_OBUF | NULL | NULL | Output2_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output2_1_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_1_OBUF | 1230 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_1_OBUF.Q | Output2_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_1_OBUF | 1236 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_1_OBUF.Q | Output3_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output2_1_OBUF$Q | 1229 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_1_OBUF.Q | Output2_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output2_1_OBUF | 1230 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_1_OBUF.Q | Output2_1_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output2_1_OBUF.SI | Output2_1_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_1_OBUF | 1230 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_1_OBUF.Q | Output2_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_1_OBUF | 1236 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_1_OBUF.Q | Output3_1_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output2_1_OBUF.D1 | 1278 | ? | 0 | 4096 | Output2_1_OBUF | NULL | NULL | Output2_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output2_1_OBUF.D2 | 1279 | ? | 0 | 4096 | Output2_1_OBUF | NULL | NULL | Output2_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output2_1_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output3_1_OBUF | IV_TRUE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output2_1_OBUF.REG | Output2_1_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output2_1_OBUF.D | 1277 | ? | 0 | 0 | Output2_1_OBUF | NULL | NULL | Output2_1_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output2_1_OBUF.Q | 1280 | ? | 0 | 0 | Output2_1_OBUF | NULL | NULL | Output2_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output2_2_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_2_OBUF | 1232 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_2_OBUF.Q | Output2_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_2_OBUF | 1238 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_2_OBUF.Q | Output3_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output2_2_OBUF$Q | 1231 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_2_OBUF.Q | Output2_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output2_2_OBUF | 1232 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_2_OBUF.Q | Output2_2_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output2_2_OBUF.SI | Output2_2_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_2_OBUF | 1232 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_2_OBUF.Q | Output2_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_2_OBUF | 1238 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_2_OBUF.Q | Output3_2_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output2_2_OBUF.D1 | 1282 | ? | 0 | 4096 | Output2_2_OBUF | NULL | NULL | Output2_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output2_2_OBUF.D2 | 1283 | ? | 0 | 4096 | Output2_2_OBUF | NULL | NULL | Output2_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output2_2_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output3_2_OBUF | IV_TRUE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output2_2_OBUF.REG | Output2_2_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output2_2_OBUF.D | 1281 | ? | 0 | 0 | Output2_2_OBUF | NULL | NULL | Output2_2_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output2_2_OBUF.Q | 1284 | ? | 0 | 0 | Output2_2_OBUF | NULL | NULL | Output2_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output3_0_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_0_OBUF | 1234 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_0_OBUF.Q | Output3_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_0_OBUF | 1240 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_0_OBUF.Q | Output4_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output3_0_OBUF$Q | 1233 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_0_OBUF.Q | Output3_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output3_0_OBUF | 1234 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_0_OBUF.Q | Output3_0_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output3_0_OBUF.SI | Output3_0_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_0_OBUF | 1234 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_0_OBUF.Q | Output3_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_0_OBUF | 1240 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_0_OBUF.Q | Output4_0_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output3_0_OBUF.D1 | 1286 | ? | 0 | 4096 | Output3_0_OBUF | NULL | NULL | Output3_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output3_0_OBUF.D2 | 1287 | ? | 0 | 4096 | Output3_0_OBUF | NULL | NULL | Output3_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output3_0_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output4_0_OBUF | IV_TRUE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output3_0_OBUF.REG | Output3_0_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output3_0_OBUF.D | 1285 | ? | 0 | 0 | Output3_0_OBUF | NULL | NULL | Output3_0_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output3_0_OBUF.Q | 1288 | ? | 0 | 0 | Output3_0_OBUF | NULL | NULL | Output3_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output3_1_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_1_OBUF | 1236 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_1_OBUF.Q | Output3_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_1_OBUF | 1242 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_1_OBUF.Q | Output4_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output3_1_OBUF$Q | 1235 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_1_OBUF.Q | Output3_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output3_1_OBUF | 1236 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_1_OBUF.Q | Output3_1_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output3_1_OBUF.SI | Output3_1_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_1_OBUF | 1236 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_1_OBUF.Q | Output3_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_1_OBUF | 1242 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_1_OBUF.Q | Output4_1_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output3_1_OBUF.D1 | 1290 | ? | 0 | 4096 | Output3_1_OBUF | NULL | NULL | Output3_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output3_1_OBUF.D2 | 1291 | ? | 0 | 4096 | Output3_1_OBUF | NULL | NULL | Output3_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output3_1_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output4_1_OBUF | IV_TRUE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output3_1_OBUF.REG | Output3_1_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output3_1_OBUF.D | 1289 | ? | 0 | 0 | Output3_1_OBUF | NULL | NULL | Output3_1_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output3_1_OBUF.Q | 1292 | ? | 0 | 0 | Output3_1_OBUF | NULL | NULL | Output3_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output3_2_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_2_OBUF | 1238 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_2_OBUF.Q | Output3_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_2_OBUF | 1244 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_2_OBUF.Q | Output4_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output3_2_OBUF$Q | 1237 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_2_OBUF.Q | Output3_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output3_2_OBUF | 1238 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_2_OBUF.Q | Output3_2_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output3_2_OBUF.SI | Output3_2_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output3_2_OBUF | 1238 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_2_OBUF.Q | Output3_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_2_OBUF | 1244 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_2_OBUF.Q | Output4_2_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output3_2_OBUF.D1 | 1294 | ? | 0 | 4096 | Output3_2_OBUF | NULL | NULL | Output3_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output3_2_OBUF.D2 | 1295 | ? | 0 | 4096 | Output3_2_OBUF | NULL | NULL | Output3_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output3_2_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output4_2_OBUF | IV_TRUE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output3_2_OBUF.REG | Output3_2_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output3_2_OBUF.D | 1293 | ? | 0 | 0 | Output3_2_OBUF | NULL | NULL | Output3_2_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output3_2_OBUF.Q | 1296 | ? | 0 | 0 | Output3_2_OBUF | NULL | NULL | Output3_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | rin_0_IBUF | vectorRegister3_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rin<0> | 1270 | PI | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rin_0_IBUF | 1252 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_0_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output4_0_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_0_OBUF | 1240 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_0_OBUF.Q | Output4_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rin_0_IBUF | 1252 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output4_0_OBUF$Q | 1239 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_0_OBUF.Q | Output4_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output4_0_OBUF | 1240 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_0_OBUF.Q | Output4_0_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output4_0_OBUF.SI | Output4_0_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_0_OBUF | 1240 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_0_OBUF.Q | Output4_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rin_0_IBUF | 1252 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output4_0_OBUF.D1 | 1298 | ? | 0 | 4096 | Output4_0_OBUF | NULL | NULL | Output4_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output4_0_OBUF.D2 | 1299 | ? | 0 | 4096 | Output4_0_OBUF | NULL | NULL | Output4_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output4_0_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | ENABLE_IBUF | IV_TRUE | rin_0_IBUF
+
+SRFF_INSTANCE | Output4_0_OBUF.REG | Output4_0_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output4_0_OBUF.D | 1297 | ? | 0 | 0 | Output4_0_OBUF | NULL | NULL | Output4_0_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output4_0_OBUF.Q | 1300 | ? | 0 | 0 | Output4_0_OBUF | NULL | NULL | Output4_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | rin_1_IBUF | vectorRegister3_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rin<1> | 1271 | PI | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rin_1_IBUF | 1253 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_1_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output4_1_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_1_OBUF | 1242 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_1_OBUF.Q | Output4_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rin_1_IBUF | 1253 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output4_1_OBUF$Q | 1241 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_1_OBUF.Q | Output4_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output4_1_OBUF | 1242 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_1_OBUF.Q | Output4_1_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output4_1_OBUF.SI | Output4_1_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_1_OBUF | 1242 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_1_OBUF.Q | Output4_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rin_1_IBUF | 1253 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output4_1_OBUF.D1 | 1302 | ? | 0 | 4096 | Output4_1_OBUF | NULL | NULL | Output4_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output4_1_OBUF.D2 | 1303 | ? | 0 | 4096 | Output4_1_OBUF | NULL | NULL | Output4_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output4_1_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | ENABLE_IBUF | IV_TRUE | rin_1_IBUF
+
+SRFF_INSTANCE | Output4_1_OBUF.REG | Output4_1_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output4_1_OBUF.D | 1301 | ? | 0 | 0 | Output4_1_OBUF | NULL | NULL | Output4_1_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output4_1_OBUF.Q | 1304 | ? | 0 | 0 | Output4_1_OBUF | NULL | NULL | Output4_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | rin_2_IBUF | vectorRegister3_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rin<2> | 1272 | PI | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rin_2_IBUF | 1254 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_2_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output4_2_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_2_OBUF | 1244 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_2_OBUF.Q | Output4_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rin_2_IBUF | 1254 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output4_2_OBUF$Q | 1243 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_2_OBUF.Q | Output4_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output4_2_OBUF | 1244 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_2_OBUF.Q | Output4_2_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output4_2_OBUF.SI | Output4_2_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output4_2_OBUF | 1244 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_2_OBUF.Q | Output4_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rin_2_IBUF | 1254 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rin_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output4_2_OBUF.D1 | 1306 | ? | 0 | 4096 | Output4_2_OBUF | NULL | NULL | Output4_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output4_2_OBUF.D2 | 1307 | ? | 0 | 4096 | Output4_2_OBUF | NULL | NULL | Output4_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output4_2_OBUF | IV_FALSE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | ENABLE_IBUF | IV_TRUE | rin_2_IBUF
+
+SRFF_INSTANCE | Output4_2_OBUF.REG | Output4_2_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output4_2_OBUF.D | 1305 | ? | 0 | 0 | Output4_2_OBUF | NULL | NULL | Output4_2_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output4_2_OBUF.Q | 1308 | ? | 0 | 0 | Output4_2_OBUF | NULL | NULL | Output4_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output1_0_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output1_0_OBUF | 1246 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_0_OBUF.Q | Output1_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_0_OBUF | 1228 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_0_OBUF.Q | Output2_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output1_0_OBUF$Q | 1245 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_0_OBUF.Q | Output1_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output1_0_OBUF | 1246 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_0_OBUF.Q | Output1_0_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output1_0_OBUF.SI | Output1_0_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output1_0_OBUF | 1246 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_0_OBUF.Q | Output1_0_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_0_OBUF | 1228 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_0_OBUF.Q | Output2_0_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output1_0_OBUF.D1 | 1310 | ? | 0 | 4096 | Output1_0_OBUF | NULL | NULL | Output1_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output1_0_OBUF.D2 | 1311 | ? | 0 | 4096 | Output1_0_OBUF | NULL | NULL | Output1_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output2_0_OBUF | IV_TRUE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output1_0_OBUF | IV_FALSE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output1_0_OBUF.REG | Output1_0_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output1_0_OBUF.D | 1309 | ? | 0 | 0 | Output1_0_OBUF | NULL | NULL | Output1_0_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output1_0_OBUF.Q | 1312 | ? | 0 | 0 | Output1_0_OBUF | NULL | NULL | Output1_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output1_1_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_1_OBUF | 1230 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_1_OBUF.Q | Output2_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output1_1_OBUF | 1248 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_1_OBUF.Q | Output1_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output1_1_OBUF$Q | 1247 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_1_OBUF.Q | Output1_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output1_1_OBUF | 1248 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_1_OBUF.Q | Output1_1_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output1_1_OBUF.SI | Output1_1_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_1_OBUF | 1230 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_1_OBUF.Q | Output2_1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output1_1_OBUF | 1248 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_1_OBUF.Q | Output1_1_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output1_1_OBUF.D1 | 1314 | ? | 0 | 4096 | Output1_1_OBUF | NULL | NULL | Output1_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output1_1_OBUF.D2 | 1315 | ? | 0 | 4096 | Output1_1_OBUF | NULL | NULL | Output1_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output2_1_OBUF | IV_TRUE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output1_1_OBUF | IV_FALSE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output1_1_OBUF.REG | Output1_1_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output1_1_OBUF.D | 1313 | ? | 0 | 0 | Output1_1_OBUF | NULL | NULL | Output1_1_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output1_1_OBUF.Q | 1316 | ? | 0 | 0 | Output1_1_OBUF | NULL | NULL | Output1_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Output1_2_OBUF | vectorRegister3_COPY_0_COPY_0 | 2155873280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_2_OBUF | 1232 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_2_OBUF.Q | Output2_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output1_2_OBUF | 1250 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_2_OBUF.Q | Output1_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Output1_2_OBUF$Q | 1249 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_2_OBUF.Q | Output1_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Output1_2_OBUF | 1250 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_2_OBUF.Q | Output1_2_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Output1_2_OBUF.SI | Output1_2_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLEAR_IBUF | 1225 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | CLEAR_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output2_2_OBUF | 1232 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_2_OBUF.Q | Output2_2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ENABLE_IBUF | 1251 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | ENABLE_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Output1_2_OBUF | 1250 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_2_OBUF.Q | Output1_2_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Output1_2_OBUF.D1 | 1318 | ? | 0 | 4096 | Output1_2_OBUF | NULL | NULL | Output1_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Output1_2_OBUF.D2 | 1319 | ? | 0 | 4096 | Output1_2_OBUF | NULL | NULL | Output1_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output2_2_OBUF | IV_TRUE | ENABLE_IBUF
+SPPTERM | 3 | IV_FALSE | CLEAR_IBUF | IV_TRUE | Output1_2_OBUF | IV_FALSE | ENABLE_IBUF
+
+SRFF_INSTANCE | Output1_2_OBUF.REG | Output1_2_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Output1_2_OBUF.D | 1317 | ? | 0 | 0 | Output1_2_OBUF | NULL | NULL | Output1_2_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1226 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | rclk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Output1_2_OBUF.Q | 1320 | ? | 0 | 0 | Output1_2_OBUF | NULL | NULL | Output1_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Output2<0> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output2_0_OBUF$Q | 1227 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_0_OBUF.Q | Output2_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output2<0> | 1255 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output2<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output2<1> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output2_1_OBUF$Q | 1229 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_1_OBUF.Q | Output2_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output2<1> | 1256 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output2<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output2<2> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output2_2_OBUF$Q | 1231 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output2_2_OBUF.Q | Output2_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output2<2> | 1257 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output2<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output3<0> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output3_0_OBUF$Q | 1233 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_0_OBUF.Q | Output3_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output3<0> | 1258 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output3<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output3<1> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output3_1_OBUF$Q | 1235 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_1_OBUF.Q | Output3_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output3<1> | 1259 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output3<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output3<2> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output3_2_OBUF$Q | 1237 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output3_2_OBUF.Q | Output3_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output3<2> | 1260 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output3<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output4<0> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output4_0_OBUF$Q | 1239 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_0_OBUF.Q | Output4_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output4<0> | 1261 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output4<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output4<1> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output4_1_OBUF$Q | 1241 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_1_OBUF.Q | Output4_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output4<1> | 1262 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output4<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output4<2> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output4_2_OBUF$Q | 1243 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output4_2_OBUF.Q | Output4_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output4<2> | 1263 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output4<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output1<0> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output1_0_OBUF$Q | 1245 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_0_OBUF.Q | Output1_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output1<0> | 1264 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output1<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output1<1> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output1_1_OBUF$Q | 1247 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_1_OBUF.Q | Output1_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output1<1> | 1265 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output1<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Output1<2> | vectorRegister3_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Output1_2_OBUF$Q | 1249 | ? | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | Output1_2_OBUF.Q | Output1_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Output1<2> | 1266 | PO | 0 | 0 | vectorRegister3_COPY_0_COPY_0 | NULL | NULL | Output1<2> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | vectorRegister3_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | Output2_1_OBUF | 1 | NULL | 0 | Output2<1> | 1 | 3 | 49152
+FBPIN | 3 | NULL | 0 | rclk_IBUF | 1 | NULL | 0 | 5 | 57344
+FBPIN | 6 | Output3_0_OBUF | 1 | NULL | 0 | Output3<0> | 1 | 8 | 49152
+FBPIN | 9 | Output3_1_OBUF | 1 | NULL | 0 | Output3<1> | 1 | 11 | 49152
+FBPIN | 12 | Output4_0_OBUF | 1 | NULL | 0 | Output4<0> | 1 | 14 | 49152
+FBPIN | 13 | NULL | 0 | CLEAR_IBUF | 1 | NULL | 0 | 18 | 49152
+FBPIN | 15 | Output4_1_OBUF | 1 | NULL | 0 | Output4<1> | 1 | 20 | 49152
+FBPIN | 17 | Output1_1_OBUF | 1 | NULL | 0 | Output1<1> | 1 | 24 | 49152
+
+FB_INSTANCE | FOOBAR2_ | vectorRegister3_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | Output1_2_OBUF | 1 | NULL | 0 | Output1<2> | 1 | 1 | 49152
+FBPIN | 4 | Output2_0_OBUF | 1 | NULL | 0 | Output2<0> | 1 | 43 | 49152
+FBPIN | 7 | Output2_2_OBUF | 1 | NULL | 0 | Output2<2> | 1 | 38 | 49152
+FBPIN | 8 | NULL | 0 | rin_0_IBUF | 1 | NULL | 0 | 37 | 49152
+FBPIN | 9 | NULL | 0 | ENABLE_IBUF | 1 | NULL | 0 | 36 | 49152
+FBPIN | 10 | Output3_2_OBUF | 1 | NULL | 0 | Output3<2> | 1 | 35 | 49152
+FBPIN | 11 | NULL | 0 | rin_1_IBUF | 1 | NULL | 0 | 34 | 49152
+FBPIN | 12 | NULL | 0 | rin_2_IBUF | 1 | NULL | 0 | 33 | 49152
+FBPIN | 13 | Output4_2_OBUF | 1 | NULL | 0 | Output4<2> | 1 | 29 | 49152
+FBPIN | 16 | Output1_0_OBUF | 1 | NULL | 0 | Output1<0> | 1 | 26 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | vectorRegister3_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | OUTPUT1<2:0> | 3 | 0 | 1 | Output1<0> | 2 | Output1<1> | 1 | Output1<2> | 0
+BUSINFO | OUTPUT2<2:0> | 3 | 0 | 1 | Output2<0> | 2 | Output2<1> | 1 | Output2<2> | 0
+BUSINFO | OUTPUT3<2:0> | 3 | 0 | 1 | Output3<0> | 2 | Output3<1> | 1 | Output3<2> | 0
+BUSINFO | OUTPUT4<2:0> | 3 | 0 | 1 | Output4<0> | 2 | Output4<1> | 1 | Output4<2> | 0
+BUSINFO | RIN<2:0> | 3 | 0 | 0 | rin<0> | 2 | rin<1> | 1 | rin<2> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | Output2_1_OBUF | NULL | 2 | rin<0> | 37 | 3 | rin<1> | 34 | 11 | Output4_0_OBUF | NULL | 16 | Output1_1_OBUF | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 26 | Output3_1_OBUF | NULL | 41 | CLEAR | 18 | 45 | Output3_0_OBUF | NULL | 48 | Output4_1_OBUF | NULL | 50 | ENABLE | 36
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 1 | 38 | 39 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 11 | -1 | -1 | -1 | -1 | 16 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 8 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 65 | -1 | -1 | -1 | 5 | -1 | -1 | 14 | -1 | 36 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 3 | Output2_0_OBUF | NULL | 9 | Output3_2_OBUF | NULL | 12 | Output4_2_OBUF | NULL | 31 | Output1_2_OBUF | NULL | 32 | Output2_2_OBUF | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 36 | rin<2> | 33 | 41 | CLEAR | 18 | 43 | Output1_0_OBUF | NULL | 45 | Output3_0_OBUF | NULL | 50 | ENABLE | 36
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | 21 | -1 | -1 | -1 | -1 | -1 | 27 | -1 | -1 | 30 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 18 | 24 | -1 | -1 | -1 | 41 | -1 | -1 | -1 | -1 | 65 | -1 | 33 | -1 | 5 | -1 | -1 | -1 | -1 | 36 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | rclk | 0 | 0

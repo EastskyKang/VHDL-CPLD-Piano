@@ -1,0 +1,15 @@
+# begin LFP file C:\team1\dpinputModule\dpinput.lfp
+designfile inputModule.ngd
+IO_GROUP "newinput"  ;
+IO_GROUP "keyinput"  ;
+NET "newinput<2>" IO_GROUP="newinput"  ;
+NET "newinput<1>" IO_GROUP="newinput"  ;
+NET "newinput<0>" IO_GROUP="newinput"  ;
+NET "keyinput<7>" IO_GROUP="keyinput"  ;
+NET "keyinput<6>" IO_GROUP="keyinput"  ;
+NET "keyinput<5>" IO_GROUP="keyinput"  ;
+NET "keyinput<4>" IO_GROUP="keyinput"  ;
+NET "keyinput<3>" IO_GROUP="keyinput"  ;
+NET "keyinput<2>" IO_GROUP="keyinput"  ;
+NET "keyinput<1>" IO_GROUP="keyinput"  ;
+NET "keyinput<0>" IO_GROUP="keyinput"  ;
