@@ -1,4 +1,4 @@
-VHDL_Piano_Using_Xilinx_CPLD
+VHDL CPLD Piano
 ============================
 
 SNU Logic Design Lab 2014 Spring Final Project. 
